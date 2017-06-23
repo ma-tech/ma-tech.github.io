@@ -1,0 +1,118 @@
+var group__WlzValuesFilters =
+[
+    [ "WlzCannyDeriche.c", "libWlz_2WlzCannyDeriche_8c.html", null ],
+    [ "WlzConvolve.c", "WlzConvolve_8c.html", null ],
+    [ "WlzFilterNObjValues.c", "WlzFilterNObjValues_8c.html", null ],
+    [ "WlzGauss.c", "libWlz_2WlzGauss_8c.html", null ],
+    [ "WlzGaussNoise.c", "libWlz_2WlzGaussNoise_8c.html", null ],
+    [ "WlzGreyCrossing.c", "libWlz_2WlzGreyCrossing_8c.html", null ],
+    [ "WlzGreyGradient.c", "libWlz_2WlzGreyGradient_8c.html", null ],
+    [ "WlzGreyNormalise.c", "libWlz_2WlzGreyNormalise_8c.html", null ],
+    [ "WlzGreyRange.c", "libWlz_2WlzGreyRange_8c.html", null ],
+    [ "WlzGreySetRange.c", "libWlz_2WlzGreySetRange_8c.html", null ],
+    [ "WlzGreySetRangeLut.c", "WlzGreySetRangeLut_8c.html", null ],
+    [ "WlzGreyVariance.c", "WlzGreyVariance_8c.html", null ],
+    [ "WlzLUT.c", "WlzLUT_8c.html", null ],
+    [ "WlzRank.c", "WlzRank_8c.html", null ],
+    [ "WlzSepFilter.c", "WlzSepFilter_8c.html", null ],
+    [ "WlzSepTrans.c", "WlzSepTrans_8c.html", null ],
+    [ "WlzValuesFromCoords.c", "libWlz_2WlzValuesFromCoords_8c.html", null ],
+    [ "WlzWindow.c", "libWlz_2WlzWindow_8c.html", null ],
+    [ "_WlzGreyVarianceWSp", "struct__WlzGreyVarianceWSp.html", [
+      [ "size", "struct__WlzGreyVarianceWSp.html#acbb264413261ab7b4a540ac738d36ff0", null ],
+      [ "gType", "struct__WlzGreyVarianceWSp.html#afc3406633c4e3325fda3396ce870d7f8", null ],
+      [ "scale", "struct__WlzGreyVarianceWSp.html#a201aad0179ae76f83c8b6dce89870ca1", null ]
+    ] ],
+    [ "_WlzConvolution", "struct__WlzConvolution.html", [
+      [ "type", "struct__WlzConvolution.html#ad57091dd49ba435d87313c8840525cd9", null ],
+      [ "linkcount", "struct__WlzConvolution.html#a4849cb0ebbf3536320b2dd4fcb095998", null ],
+      [ "xsize", "struct__WlzConvolution.html#a0bf69399ebf523d0e424afb44d3a6024", null ],
+      [ "ysize", "struct__WlzConvolution.html#a80aa62519787cef550ed9969efb646d7", null ],
+      [ "cv", "struct__WlzConvolution.html#a022b246bc3ca38bb6d5dc4636b273532", null ],
+      [ "divscale", "struct__WlzConvolution.html#a2edaa8b316d6cbf6c1f7855e3f802e6e", null ],
+      [ "offset", "struct__WlzConvolution.html#a06c36c1caa7149c740105ed0b8506360", null ],
+      [ "modflag", "struct__WlzConvolution.html#a4aca8a5ee3adb7e8a6958cdeda5f4ece", null ]
+    ] ],
+    [ "_WlzRsvFilter", "struct__WlzRsvFilter.html", [
+      [ "name", "struct__WlzRsvFilter.html#acb83e6dfd7f14786bbed53da4ef593a7", null ],
+      [ "a", "struct__WlzRsvFilter.html#a5097f0220716806e633047a6c4c73c45", null ],
+      [ "b", "struct__WlzRsvFilter.html#a810e0196412afb07407657b0d4145177", null ],
+      [ "c", "struct__WlzRsvFilter.html#a532ee2830c445f4f56706e388a799b3a", null ]
+    ] ],
+    [ "_WlzSeqParWSpace", "struct__WlzSeqParWSpace.html", [
+      [ "adrptr", "struct__WlzSeqParWSpace.html#a6b9598734bd08471edbd685c09ee33d2", null ],
+      [ "kdelta", "struct__WlzSeqParWSpace.html#a5b317e4ece210e2d56ebeaa7569410de", null ],
+      [ "ldelta", "struct__WlzSeqParWSpace.html#a0308d5c20c1f16df7f16976ee51d56d1", null ],
+      [ "brdrsz", "struct__WlzSeqParWSpace.html#a0d8a117bc5a5dcd9bbe1052dcf180950", null ]
+    ] ],
+    [ "_Wlz1DConvMask", "struct__Wlz1DConvMask.html", [
+      [ "mask_size", "struct__Wlz1DConvMask.html#a629b13dc3740c062da2cd3d04a7e74fd", null ],
+      [ "mask_values", "struct__Wlz1DConvMask.html#a50295f4e144d2c0e1dc227f25514eef9", null ],
+      [ "norm_factor", "struct__Wlz1DConvMask.html#a4937bc45a83cf02f804ca3d438592c68", null ]
+    ] ],
+    [ "_WlzSepTransWSpace", "struct__WlzSepTransWSpace.html", [
+      [ "inbuf", "struct__WlzSepTransWSpace.html#a1cf6739762bac4ac5e3235ffb9bf1e72", null ],
+      [ "outbuf", "struct__WlzSepTransWSpace.html#a578cf91758ba05e1f89e1dcc6f8be118", null ],
+      [ "len", "struct__WlzSepTransWSpace.html#a7d0bf9de00cdbdd06964450e01c8129b", null ],
+      [ "bckgrnd", "struct__WlzSepTransWSpace.html#a41058cf44eb3f6bbfdf6be39bf71a870", null ]
+    ] ],
+    [ "_WlzWindowFnType", "group__WlzValuesFilters.html#gaa7f3ee2567463bf69652a236f0646bb4", [
+      [ "WLZ_WINDOWFN_NONE", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4a382c63f6f2e5817b1af6d5ad3075c170", null ],
+      [ "WLZ_WINDOWFN_BLACKMAN", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4af5742ef5f24fbb8061d7ce8ad179c536", null ],
+      [ "WLZ_WINDOWFN_HAMMING", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4a8f6c468f52f1e032a6f51af71bafc926", null ],
+      [ "WLZ_WINDOWFN_HANNING", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4a4f26a879741381708ea091d59be54acd", null ],
+      [ "WLZ_WINDOWFN_PARZEN", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4a35e28b1242583115dae8d0ac15c017a9", null ],
+      [ "WLZ_WINDOWFN_RECTANGLE", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4a22f351718ed921958a1ba774c808d9a6", null ],
+      [ "WLZ_WINDOWFN_WELCH", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4abfe4a94d5904bdc8f0555337033aa147", null ],
+      [ "WLZ_WINDOWFN_UNSPECIFIED", "WlzType_8h.html#gaa7f3ee2567463bf69652a236f0646bb4ab542b27a4cd4f79c0bedee9248ef4ccc", null ]
+    ] ],
+    [ "_WlzRsvFilterActionMask", "group__WlzValuesFilters.html#ga6c6db76ae895f2bdd157840da31e98a7", [
+      [ "WLZ_RSVFILTER_ACTION_NONE", "WlzType_8h.html#ga6c6db76ae895f2bdd157840da31e98a7a50804a26729118e36ac75cbf3bba2984", null ],
+      [ "WLZ_RSVFILTER_ACTION_X", "WlzType_8h.html#ga6c6db76ae895f2bdd157840da31e98a7a8d9ba0903f3ccc1156efde28759dc328", null ],
+      [ "WLZ_RSVFILTER_ACTION_Y", "WlzType_8h.html#ga6c6db76ae895f2bdd157840da31e98a7a9d764ebe042986a4cfb05c19ccb12f68", null ],
+      [ "WLZ_RSVFILTER_ACTION_Z", "WlzType_8h.html#ga6c6db76ae895f2bdd157840da31e98a7a75f4dfc5764d7d2c7bcf1ac3c9af18c3", null ]
+    ] ],
+    [ "_WlzRsvFilterName", "group__WlzValuesFilters.html#gabaaf216bf5d6ae14e6bebe5eb8313cae", [
+      [ "WLZ_RSVFILTER_NAME_NONE", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caeafb88828b6c671f776449c1ece57cd4a1", null ],
+      [ "WLZ_RSVFILTER_NAME_DERICHE_0", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caea4b90a7745de2ba4351143772557e9280", null ],
+      [ "WLZ_RSVFILTER_NAME_DERICHE_1", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caea576df435df6c2305c3373634f2c4f978", null ],
+      [ "WLZ_RSVFILTER_NAME_DERICHE_2", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caeacccc5e854d05f72a9ccd7ba0c69d78e3", null ],
+      [ "WLZ_RSVFILTER_NAME_GAUSS_0", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caea2e31f60ccfe2143938678f0265866a52", null ],
+      [ "WLZ_RSVFILTER_NAME_GAUSS_1", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caea2795e4b2bdbdd17d96b7d2e3793f6e15", null ],
+      [ "WLZ_RSVFILTER_NAME_GAUSS_2", "WlzType_8h.html#gabaaf216bf5d6ae14e6bebe5eb8313caea2690ebccbd781e881da6e4964e2dd236", null ]
+    ] ],
+    [ "WlzCannyDeriche", "group__WlzValuesFilters.html#ga12bcae34977106062224e28ae07262db", null ],
+    [ "WlzConvolveSeqParFn", "group__WlzValuesFilters.html#ga963311512153382a5b15b5beff3fac9b", null ],
+    [ "WlzConvolveObj", "group__WlzValuesFilters.html#ga6444a097baf7068a4566710d1c5c9753", null ],
+    [ "WlzConvolutionSum", "group__WlzValuesFilters.html#gacd3159564c2ee70e052ac7ad9c5804f1", null ],
+    [ "WlzConvolutionNormalise", "group__WlzValuesFilters.html#ga59b5b666d01a97e44e6d34551decd2e7", null ],
+    [ "WlzFilterNObjValues", "group__WlzValuesFilters.html#ga05bfc0a5948a596b835cc57435f126f7", null ],
+    [ "WlzGauss2", "group__WlzValuesFilters.html#gaeb756c4bcee2b3f636903c3f150b0144", null ],
+    [ "Wlz1DConv", "group__WlzValuesFilters.html#ga80920ec75ad1f6a2926d8a12dec80283", null ],
+    [ "WlzGaussNoise", "group__WlzValuesFilters.html#gaf4c93d89abe16be40bd103756a5f3f51", null ],
+    [ "WlzGreyCrossingSeqParFn", "group__WlzValuesFilters.html#gafebc946db4140dfe36e8df7f77c16593", null ],
+    [ "WlzGreyCrossing", "group__WlzValuesFilters.html#ga5157184ed681f7195fe13afba11aafec", null ],
+    [ "WlzGreyGradient", "group__WlzValuesFilters.html#ga43b50fb07400719b8d2cbfef534cf028", null ],
+    [ "WlzGreyNormalise", "group__WlzValuesFilters.html#ga3acc4ce2d998b8aa553a51f18fa8d225", null ],
+    [ "WlzGreyRange", "group__WlzValuesFilters.html#ga59c47a239907bf5e731e6a4968f04a71", null ],
+    [ "WlzGreySetRange", "group__WlzValuesFilters.html#ga86a48a21621caafee0b7fa9d2b9b9293", null ],
+    [ "WlzGreyVariance", "group__WlzValuesFilters.html#gad052107b83d33127b9e8b2176d6d8d1e", null ],
+    [ "WlzMakeLUTObject", "group__WlzValuesFilters.html#gad2c345292b397e5f20f9addbae2acf90", null ],
+    [ "WlzMakeLUTDomain", "group__WlzValuesFilters.html#ga2248dcc7ae756e7f1e70a30b1392a721", null ],
+    [ "WlzMakeLUTValues", "group__WlzValuesFilters.html#ga94d0b306dd90d25f620f5f0b06cc81d1", null ],
+    [ "WlzFreeLUTValues", "group__WlzValuesFilters.html#ga5439500195892c341ea32629521d1fb0", null ],
+    [ "WlzLUTGreyTransformNew", "group__WlzValuesFilters.html#gac6926ae023a41a82e0a3f1e980230b5b", null ],
+    [ "WlzLUTGreyTransformSet", "group__WlzValuesFilters.html#gaa8b8bd6e469189f628785fa4573df45d", null ],
+    [ "WlzLUTMergeToRGBA", "group__WlzValuesFilters.html#gaddd920ff7fcfa49287a691a69ec18226", null ],
+    [ "WlzLUTTransformObj", "group__WlzValuesFilters.html#gabdcf9c9cff1a6e5b9b3c72a6d5e85751", null ],
+    [ "WlzLUTTransformPixelValue", "group__WlzValuesFilters.html#ga8bcb5eed5aa58a555a40d604cf77233a", null ],
+    [ "WlzLUTTransformGreyValues", "group__WlzValuesFilters.html#ga0cf612c5729bba0aa543dc3d9089bded", null ],
+    [ "WlzRankFilter", "group__WlzValuesFilters.html#ga5565052c1dc1158ff827e03e16eab302", null ],
+    [ "WlzGaussFilter", "group__WlzValuesFilters.html#gaf0de1e1c9c093fabf0bc95d5593daa9e", null ],
+    [ "WlzSepFilter", "group__WlzValuesFilters.html#ga38c5af8ca46866efc34dc9af0b78e307", null ],
+    [ "WlzSepTrans", "group__WlzValuesFilters.html#ga85c493260bbb31abac61eb5d6ea3b2fa", null ],
+    [ "WlzValuesFromCoords", "group__WlzValuesFilters.html#gaede0ebbb197bd203082a4193a700e061", null ],
+    [ "WlzWindow", "group__WlzValuesFilters.html#ga36069c8266659128b1ba192aa1d33b46", null ],
+    [ "WlzWindowFnName", "group__WlzValuesFilters.html#ga3a287e207946bfe36a89c6f177ea0f4b", null ],
+    [ "WlzWindowFnValue", "group__WlzValuesFilters.html#gab0cda0222027d38a2a80a6b1426be288", null ]
+];

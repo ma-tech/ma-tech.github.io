@@ -1,0 +1,46 @@
+var group__WlzConvexHull =
+[
+    [ "WlzConvexHull.c", "libWlz_2WlzConvexHull_8c.html", null ],
+    [ "WlzConvexHull3D.c", "WlzConvexHull3D_8c.html", null ],
+    [ "WlzConvexHullClarkson.c", "WlzConvexHullClarkson_8c.html", null ],
+    [ "WlzMwrAngle.c", "WlzMwrAngle_8c.html", null ],
+    [ "_WlzConvHullDomain2", "struct__WlzConvHullDomain2.html", [
+      [ "type", "struct__WlzConvHullDomain2.html#a8cb607c36be37c7c4977f6d46074b473", null ],
+      [ "linkcount", "struct__WlzConvHullDomain2.html#ad860a55cf1146b0fb8098aa7ef9873f4", null ],
+      [ "freeptr", "struct__WlzConvHullDomain2.html#abcf29f6d6c0be59de1c0a51b750d27dd", null ],
+      [ "nVertices", "struct__WlzConvHullDomain2.html#a44d37112af8f423b7639ff52345a8b58", null ],
+      [ "maxVertices", "struct__WlzConvHullDomain2.html#a833da7c06d6e8750f5aa2f9ff0a6f555", null ],
+      [ "vtxType", "struct__WlzConvHullDomain2.html#aedfa09260477c2ca07925c22b3a6aae7", null ],
+      [ "centroid", "struct__WlzConvHullDomain2.html#a475c916aacc0673b57c014991dea77c1", null ],
+      [ "vertices", "struct__WlzConvHullDomain2.html#a1f12bb42fca0430f27ee87b9ac5689df", null ]
+    ] ],
+    [ "_WlzConvHullDomain3", "struct__WlzConvHullDomain3.html", [
+      [ "type", "struct__WlzConvHullDomain3.html#abca4398686162c6742f473133d2fb79f", null ],
+      [ "linkcount", "struct__WlzConvHullDomain3.html#a0c0eaccf0f5d19bf5b217ab2148b2acb", null ],
+      [ "freeptr", "struct__WlzConvHullDomain3.html#a6b3367c5e734b45a867c8567914f954e", null ],
+      [ "nVertices", "struct__WlzConvHullDomain3.html#a46f911aa1c9575bca679133eb4c97ad4", null ],
+      [ "maxVertices", "struct__WlzConvHullDomain3.html#aada53615619954b1df85fcd5b87915dc", null ],
+      [ "nFaces", "struct__WlzConvHullDomain3.html#aec5ff87688e17259eebc4494b5583fe6", null ],
+      [ "maxFaces", "struct__WlzConvHullDomain3.html#ab70832b3536ce06da4a43ed8b5f78ba7", null ],
+      [ "vtxType", "struct__WlzConvHullDomain3.html#a53cd5171862abc646b738513bd73665e", null ],
+      [ "centroid", "struct__WlzConvHullDomain3.html#a97392b6a31b42467181d0f701cb212ab", null ],
+      [ "vertices", "struct__WlzConvHullDomain3.html#ab2912c8328b71e2530b50f2bab2b97fd", null ],
+      [ "faces", "struct__WlzConvHullDomain3.html#aa4813344acef848e4c35cc080174c76d", null ]
+    ] ],
+    [ "WlzMakeConvexHullDomain2", "group__WlzConvexHull.html#ga9da1f188cf1fee5038edb6531118c574", null ],
+    [ "WlzMakeConvexHullDomain3", "group__WlzConvexHull.html#gabdabe740e64c0c1b3177593015799628", null ],
+    [ "WlzFreeConvexHullDomain2", "group__WlzConvexHull.html#ga85a08cfe934d22f0b504a97b98f324cc", null ],
+    [ "WlzFreeConvexHullDomain3", "group__WlzConvexHull.html#gab6f234cb378904d7bbaefa9fc8664a97", null ],
+    [ "WlzConvexHullCopy2", "group__WlzConvexHull.html#gaf3ae5241a95529b4117a0c524f49c5d6", null ],
+    [ "WlzConvexHullCopy3", "group__WlzConvexHull.html#ga4c69dc099c3fddbc1379760b76803e7d", null ],
+    [ "WlzConvexHullToObj", "group__WlzConvexHull.html#ga61fc9983f7f6521c4d03a48d32ae7996", null ],
+    [ "WlzObjToConvexHull", "group__WlzConvexHull.html#gafe2a6f11324cbafdf0fe77af00e5fed8", null ],
+    [ "WlzObjToConvexPolygon", "group__WlzConvexHull.html#ga9fd0771d3839e32205d43f9558f81abf", null ],
+    [ "WlzConvexHullVtxD2ToI2", "group__WlzConvexHull.html#ga84b43601976a7b2666bae5978c276562", null ],
+    [ "WlzConvexHullVtxD3ToI3", "group__WlzConvexHull.html#ga264cdec303189f97d84e259e5a23dc63", null ],
+    [ "WlzConvexHullFromVtx3", "group__WlzConvexHull.html#ga8a0ad4d9ec0e78895f26ac7bc28e8ad8", null ],
+    [ "WlzConvexHullFromVtx2", "group__WlzConvexHull.html#ga089941190e9405aa27bf6d281d4ac4b8", null ],
+    [ "WlzConvHullClarkson2I", "group__WlzConvexHull.html#ga9ad7b2f00b783fbc5ddd00870d298a2b", null ],
+    [ "WlzConvHullClarkson2D", "group__WlzConvexHull.html#gaedc2e3482e023b8b87a9031a17891c3a", null ],
+    [ "WlzMwrAngle", "group__WlzConvexHull.html#gae1c1677b943a4b2bdd8d108004a302b2", null ]
+];

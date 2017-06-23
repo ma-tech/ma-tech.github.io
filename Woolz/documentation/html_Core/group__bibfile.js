@@ -1,0 +1,27 @@
+var group__bibfile =
+[
+    [ "bibFile.h", "bibFile_8h.html", null ],
+    [ "bibFileAlloc.c", "bibFileAlloc_8c.html", null ],
+    [ "bibFileIO.c", "bibFileIO_8c.html", null ],
+    [ "bibFileParse.c", "bibFileParse_8c.html", null ],
+    [ "BibFileRecordFree", "group__bibfile.html#gae94c212051440fd9b2dca9f56056e116", null ],
+    [ "BibFileFieldFree", "group__bibfile.html#gaf49ebdde20ebaac1b8aeea26fd25ddf3", null ],
+    [ "BibFileRecordMake", "group__bibfile.html#gad93f971c09c30d9d41b86a1980ca7394", null ],
+    [ "BibFileFieldMake", "group__bibfile.html#ga0d191b501ec668e182eb8ad09463d2dd", null ],
+    [ "BibFileFieldMakeVa", "group__bibfile.html#ga8836286400fcb44f400f493ee7b0ea8e", null ],
+    [ "BibFileFieldJoin", "group__bibfile.html#gad2d0423487730a8f04000625cc647a18", null ],
+    [ "BibFileRecordRead", "group__bibfile.html#ga99317a9145a06f422b5eeda41a17a822", null ],
+    [ "BibFileRecordWrite", "group__bibfile.html#gac0c68e097f66d3f6e9e1c53be66a98b9", null ],
+    [ "BibFileRecordError", "group__bibfile.html#gaf00c0cacb2bde3c0bc62dc2cca5cad89", null ],
+    [ "BibFileFieldRead", "group__bibfile.html#ga621e154cdf7ca488cc74bb24286d10eb", null ],
+    [ "BibFileFieldWrite", "group__bibfile.html#ga7efc36824db5d02c3a0d3daea8da0d0c", null ],
+    [ "BibFileFieldError", "group__bibfile.html#gac790ef87893a32bd119cdbd1c00a649f", null ],
+    [ "BibFileStrRead", "group__bibfile.html#ga24ec1bcd38ad3662c6ee7a9d1d430379", null ],
+    [ "BibFileCharMatch", "group__bibfile.html#gac3813b0ab99fb85ea09b6b1388411553", null ],
+    [ "BibFileCharUnread", "group__bibfile.html#ga117c07a577e85e72c20a1b62c7cfa94f", null ],
+    [ "BibFileCharRegEx", "group__bibfile.html#ga04b091efa4f47d78035a5c94b5d12e69", null ],
+    [ "BibFileSkipSpaces", "group__bibfile.html#ga7a76dead907cc362ed50d580df8f107d", null ],
+    [ "BibFileEscapeRestrictedChar", "group__bibfile.html#ga8148542165c9eb2cb789b3aa9c87c051", null ],
+    [ "BibFileUnEscapeRestrictedChar", "group__bibfile.html#gaaa9dede23399a97d0199a24b68661cfb", null ],
+    [ "BibFileFieldParseFmt", "group__bibfile.html#gafa550ec6fbad60154a3977ec18352825", null ]
+];

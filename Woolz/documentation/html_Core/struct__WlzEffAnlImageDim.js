@@ -1,0 +1,25 @@
+var struct__WlzEffAnlImageDim =
+[
+    [ "dim", "struct__WlzEffAnlImageDim.html#a67d7a8df945cfed8c875cb2481be4486", null ],
+    [ "unused8", "struct__WlzEffAnlImageDim.html#a202aa667a394375c41c618b2c480dd85", null ],
+    [ "unused9", "struct__WlzEffAnlImageDim.html#a0bf04b95e50ab449abf565f8cac151c4", null ],
+    [ "unused10", "struct__WlzEffAnlImageDim.html#a1b391318807278efdd22989b36c72343", null ],
+    [ "unused11", "struct__WlzEffAnlImageDim.html#a9dd5c653441ae5e28a93ed675c05523e", null ],
+    [ "unused12", "struct__WlzEffAnlImageDim.html#afdaa171292e7bd1308eea71529b87d83", null ],
+    [ "unused13", "struct__WlzEffAnlImageDim.html#a7190ad801cdaff2a1581699a5eaf1f67", null ],
+    [ "unused14", "struct__WlzEffAnlImageDim.html#a114d6a8b6e519e454c179528c242e1b7", null ],
+    [ "dataType", "struct__WlzEffAnlImageDim.html#a3e7b0e70af3eb8e1e2820e11c561421c", null ],
+    [ "bitPix", "struct__WlzEffAnlImageDim.html#a1ea742d44d688faf7b5e7ee104d0f53e", null ],
+    [ "dimUn0", "struct__WlzEffAnlImageDim.html#af62352423eb8fb597224e4ec81a2f96f", null ],
+    [ "pixdim", "struct__WlzEffAnlImageDim.html#a3925ee6a06e1ba7a29719bd8a113cbac", null ],
+    [ "voxOffset", "struct__WlzEffAnlImageDim.html#a97ecfb6ebcec02e2257db051a67d72af", null ],
+    [ "fUnused1", "struct__WlzEffAnlImageDim.html#a4e2b390f095143ed8f0474f9b32f3819", null ],
+    [ "fUnused2", "struct__WlzEffAnlImageDim.html#a15955721cbddcd87925716d05f9fc256", null ],
+    [ "fUnused3", "struct__WlzEffAnlImageDim.html#a35773d907c2e94360a92c371868d4c3a", null ],
+    [ "calMax", "struct__WlzEffAnlImageDim.html#a4315fddec83e995551e4a0e11c638e7f", null ],
+    [ "calMin", "struct__WlzEffAnlImageDim.html#a248a4e69565351b80e99ce662b0bcb5e", null ],
+    [ "compressed", "struct__WlzEffAnlImageDim.html#af32d7faab4bfede7e67d3abac520734f", null ],
+    [ "verified", "struct__WlzEffAnlImageDim.html#ae43803de3caf374f35ebfa8ff561d319", null ],
+    [ "glMax", "struct__WlzEffAnlImageDim.html#a8794868875f6f738f2d6b4248503c540", null ],
+    [ "glMin", "struct__WlzEffAnlImageDim.html#a27dab5d7673db58911f3a4321b2d9f3a", null ]
+];

@@ -1,0 +1,677 @@
+var group__WlzType =
+[
+    [ "_WlzLVertex2", "struct__WlzLVertex2.html", [
+      [ "vtY", "struct__WlzLVertex2.html#aa92de02547974d8f97afe3aa6ccac0d7", null ],
+      [ "vtX", "struct__WlzLVertex2.html#a18bef24a802a2a77b019c430b89906bc", null ]
+    ] ],
+    [ "_WlzIVertex2", "struct__WlzIVertex2.html", [
+      [ "vtY", "struct__WlzIVertex2.html#a329f8d4beb861bd56fa70f62eab8d3d7", null ],
+      [ "vtX", "struct__WlzIVertex2.html#a7489aa37eea5fc2c0cd985f28ffb7049", null ]
+    ] ],
+    [ "_WlzFVertex2", "struct__WlzFVertex2.html", [
+      [ "vtY", "struct__WlzFVertex2.html#ad3d4d82259f148923a18bda3b2ba44f8", null ],
+      [ "vtX", "struct__WlzFVertex2.html#ac20e1f5d1e05d2d1a3a5b7d5ab07128a", null ]
+    ] ],
+    [ "_WlzDVertex2", "struct__WlzDVertex2.html", [
+      [ "vtY", "struct__WlzDVertex2.html#af746c29d18bf112dabe3dca2327505a4", null ],
+      [ "vtX", "struct__WlzDVertex2.html#abe9c2ddc9631a6c60e54402858cdb0e5", null ]
+    ] ],
+    [ "_WlzLVertex3", "struct__WlzLVertex3.html", [
+      [ "vtX", "struct__WlzLVertex3.html#a90aa1e71054a7bb054d7012824dea208", null ],
+      [ "vtY", "struct__WlzLVertex3.html#a552f58ce8dc7edabaf1593ef58e9e7d2", null ],
+      [ "vtZ", "struct__WlzLVertex3.html#ab6abc57c67795726a331c025059d8dab", null ]
+    ] ],
+    [ "_WlzIVertex3", "struct__WlzIVertex3.html", [
+      [ "vtX", "struct__WlzIVertex3.html#a6ba9533a1662fccfb46a9547c2e1ac50", null ],
+      [ "vtY", "struct__WlzIVertex3.html#ab4b57086e81248534a2d595a485f37b5", null ],
+      [ "vtZ", "struct__WlzIVertex3.html#a6852af253155f4e95c5940c9e724d51c", null ]
+    ] ],
+    [ "_WlzFVertex3", "struct__WlzFVertex3.html", [
+      [ "vtX", "struct__WlzFVertex3.html#aa0c486d5ebce06c36c2727678cd6201e", null ],
+      [ "vtY", "struct__WlzFVertex3.html#a712c7c0b2b1a8f6ded1cb8baa2ec13a3", null ],
+      [ "vtZ", "struct__WlzFVertex3.html#a0cc03c474d521990e7e6a1188f2554bd", null ]
+    ] ],
+    [ "_WlzDVertex3", "struct__WlzDVertex3.html", [
+      [ "vtX", "struct__WlzDVertex3.html#a4ffd3a5b96f7b91ed1b1cabaff188f4c", null ],
+      [ "vtY", "struct__WlzDVertex3.html#a7de9c61bbb573bfa26e7234deaafb1ff", null ],
+      [ "vtZ", "struct__WlzDVertex3.html#ab170729e19c6d4743abae01f1738d4f0", null ]
+    ] ],
+    [ "_WlzVertexP", "union__WlzVertexP.html", [
+      [ "v", "union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7", null ],
+      [ "i2", "union__WlzVertexP.html#ace590acafa95e1c1eca6fe5eb82dacfc", null ],
+      [ "l2", "union__WlzVertexP.html#a23b611323ac71da9d81f4c2be5031b76", null ],
+      [ "f2", "union__WlzVertexP.html#a8a3683fb6d4248dcc67bc3d6806908ac", null ],
+      [ "d2", "union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0", null ],
+      [ "i3", "union__WlzVertexP.html#a715c7f5307a93af23e33ab1bc2901a43", null ],
+      [ "l3", "union__WlzVertexP.html#ae3c8af93e8cdc90c3ab0302feb03f823", null ],
+      [ "f3", "union__WlzVertexP.html#a76bd5ff67985b0ff7a79d310eec78335", null ],
+      [ "d3", "union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48", null ]
+    ] ],
+    [ "_WlzVertex", "union__WlzVertex.html", [
+      [ "i2", "union__WlzVertex.html#ab7969d2ea82ae20697853e40b0e384b6", null ],
+      [ "l2", "union__WlzVertex.html#a1cf28cfd90ea0f5432cacc0748d2fb40", null ],
+      [ "f2", "union__WlzVertex.html#af3ccc7c6a709e0bce82fad7fc398a137", null ],
+      [ "d2", "union__WlzVertex.html#ae4244692727ec8b6297bc9791611dc18", null ],
+      [ "i3", "union__WlzVertex.html#a0072384a1533ffd870f882a353150c6a", null ],
+      [ "l3", "union__WlzVertex.html#a8d209a353ebe862bd9b6527c7783a604", null ],
+      [ "f3", "union__WlzVertex.html#ad13faefebf2194e967a0c959677f6524", null ],
+      [ "d3", "union__WlzVertex.html#a7e46278977e778b95b33b8a18e1cda29", null ]
+    ] ],
+    [ "_WlzIBox2", "struct__WlzIBox2.html", [
+      [ "xMin", "struct__WlzIBox2.html#afce93785da7dac2657fe9e5f0f77496a", null ],
+      [ "yMin", "struct__WlzIBox2.html#adf3ad0e147a43755e525101e095d6087", null ],
+      [ "xMax", "struct__WlzIBox2.html#a3b330a83dfcdaa21d8150146399a3bd1", null ],
+      [ "yMax", "struct__WlzIBox2.html#aedbc4ffcd70c4d96b33c18005454de04", null ]
+    ] ],
+    [ "_WlzDBox2", "struct__WlzDBox2.html", [
+      [ "xMin", "struct__WlzDBox2.html#a4e7b6a58f0f1b3ac1e781b0178893ed1", null ],
+      [ "yMin", "struct__WlzDBox2.html#ad101c3916cc61d3e7125bda33abf46af", null ],
+      [ "xMax", "struct__WlzDBox2.html#ae6ead65d564cf7b760489721b7c4b262", null ],
+      [ "yMax", "struct__WlzDBox2.html#a0789fb32d28e55d3eb252e923021a86f", null ]
+    ] ],
+    [ "_WlzFBox2", "struct__WlzFBox2.html", [
+      [ "xMin", "struct__WlzFBox2.html#a10d01aeb1d1e67370e5746eb13fb95dd", null ],
+      [ "yMin", "struct__WlzFBox2.html#a0cd89b270d20c5af085e5a484bd11d0d", null ],
+      [ "xMax", "struct__WlzFBox2.html#acc3d2776d8840fe32f1ec44efd81aca1", null ],
+      [ "yMax", "struct__WlzFBox2.html#a456332baf2d43f811fe8302c49732ee3", null ]
+    ] ],
+    [ "_WlzIBox3", "struct__WlzIBox3.html", [
+      [ "xMin", "struct__WlzIBox3.html#afe707d2ad7db5ef0c9d31ce88ba08e2d", null ],
+      [ "yMin", "struct__WlzIBox3.html#a424569ac05c725e4ddae7e406ad91a59", null ],
+      [ "zMin", "struct__WlzIBox3.html#a8ee0d43913b7930807d2fd10f99933cc", null ],
+      [ "xMax", "struct__WlzIBox3.html#a793caf1750e04d46a42ca99128114abc", null ],
+      [ "yMax", "struct__WlzIBox3.html#ad7a051d52a27598b1e98cf8e405e1b5d", null ],
+      [ "zMax", "struct__WlzIBox3.html#a10f9510e6d1bf33ca757ae99e80739ab", null ]
+    ] ],
+    [ "_WlzDBox3", "struct__WlzDBox3.html", [
+      [ "xMin", "struct__WlzDBox3.html#aff878034ad368f9904f36565ec1ac759", null ],
+      [ "yMin", "struct__WlzDBox3.html#ae0b16b43f3dd2cb1d4dcbfd8cd40e9af", null ],
+      [ "zMin", "struct__WlzDBox3.html#aefa7613379137569e3dc78db2909d1cd", null ],
+      [ "xMax", "struct__WlzDBox3.html#abebb991b92664d56b16dfcd238057f0b", null ],
+      [ "yMax", "struct__WlzDBox3.html#ae35b30b63b109b0509e6e4f44759a4d5", null ],
+      [ "zMax", "struct__WlzDBox3.html#ab573696dd44a60bcd8c7bb6ed4aedc69", null ]
+    ] ],
+    [ "_WlzFBox3", "struct__WlzFBox3.html", [
+      [ "xMin", "struct__WlzFBox3.html#a0a2f19842c1d77bd8bb14e5a6364339c", null ],
+      [ "yMin", "struct__WlzFBox3.html#a9379fef88d2e53d8fc80cc3a11812e20", null ],
+      [ "zMin", "struct__WlzFBox3.html#a2f8cb88a6af10fbdadb68e7b750caae9", null ],
+      [ "xMax", "struct__WlzFBox3.html#a786aab98444dcdf17f1f72587a1c8f06", null ],
+      [ "yMax", "struct__WlzFBox3.html#aac2ddf0b003a9447ca50275bad35a57b", null ],
+      [ "zMax", "struct__WlzFBox3.html#aac8e3ab8516a873e40af20fddddff26d", null ]
+    ] ],
+    [ "_WlzBoxP", "union__WlzBoxP.html", [
+      [ "v", "union__WlzBoxP.html#afddacdd45770b075b8386ec0fd6aff06", null ],
+      [ "i2", "union__WlzBoxP.html#a9800f3f3742c9ca2da67766db370facc", null ],
+      [ "f2", "union__WlzBoxP.html#a9bd23691654ecf3c9aa112896e71853f", null ],
+      [ "d2", "union__WlzBoxP.html#a1c747388981232e9c3b2364549ca2ca7", null ],
+      [ "i3", "union__WlzBoxP.html#a7ce8e79fe84a622f54eb2bcbf3ad7fe2", null ],
+      [ "f3", "union__WlzBoxP.html#a6e2cbba4b9331b4ddf576d4e923ef244", null ],
+      [ "d3", "union__WlzBoxP.html#a3d6b836dfbc35b341d01f4d60d377c88", null ]
+    ] ],
+    [ "_WlzBox", "union__WlzBox.html", [
+      [ "i2", "union__WlzBox.html#a719d7c3999c88c794e3804ac262971e8", null ],
+      [ "f2", "union__WlzBox.html#ad80fe2784879e33defe975567a0745ce", null ],
+      [ "d2", "union__WlzBox.html#ae0d464d843ab5ed4446a39f71549207e", null ],
+      [ "i3", "union__WlzBox.html#a9c69a11a34e10274344b7f27c3afb8f3", null ],
+      [ "f3", "union__WlzBox.html#a577d0afdb601c7bb473af68e6a113014", null ],
+      [ "d3", "union__WlzBox.html#adde2db1905b47ba27ba96135bc728de6", null ]
+    ] ],
+    [ "_WlzGreyP", "union__WlzGreyP.html", [
+      [ "v", "union__WlzGreyP.html#a220acdd27b48cdb0c20a7c775da9bc72", null ],
+      [ "lnp", "union__WlzGreyP.html#ad4e6325fbac64f70013be88bb6625a14", null ],
+      [ "inp", "union__WlzGreyP.html#a9c39a063596671ca4b3b2a8ed30f1a3f", null ],
+      [ "shp", "union__WlzGreyP.html#a677a06138728c817fa379d2dabe25145", null ],
+      [ "ubp", "union__WlzGreyP.html#adf012324959862647585ddfb909bed7e", null ],
+      [ "flp", "union__WlzGreyP.html#a0001b507c318a649ffcf4b077ce9ef64", null ],
+      [ "dbp", "union__WlzGreyP.html#ac8683edb2a97a5cf80312ed51946e5d2", null ],
+      [ "rgbp", "union__WlzGreyP.html#a354361e017bf2d22a2888a40edd6eebf", null ],
+      [ "bytes", "union__WlzGreyP.html#a066cfc695b20beb14f22735d8ca52730", null ],
+      [ "ubytes", "union__WlzGreyP.html#a6ebc571db32bb5c3eaa63e8313deee1e", null ]
+    ] ],
+    [ "_WlzGreyV", "union__WlzGreyV.html", [
+      [ "v", "union__WlzGreyV.html#a755d3e21b302ca8f6d615849388d1c4d", null ],
+      [ "lnv", "union__WlzGreyV.html#aaf0b0f6b8a41cce30292b41d6dd07544", null ],
+      [ "inv", "union__WlzGreyV.html#a2bd64d78d6cb44c5586da22bf20d6dc1", null ],
+      [ "shv", "union__WlzGreyV.html#a23599734ea5cec4a650066752788a8c1", null ],
+      [ "ubv", "union__WlzGreyV.html#a9e6fd10cb0e319fd1587a1669e014628", null ],
+      [ "flv", "union__WlzGreyV.html#a967c72950b4a8d9d71fd29c5d910ea26", null ],
+      [ "dbv", "union__WlzGreyV.html#a818841c66bf50e9ce4132eba599560d4", null ],
+      [ "rgbv", "union__WlzGreyV.html#aa5a9df175a9a94de2ccada89fe0093c9", null ],
+      [ "bytes", "union__WlzGreyV.html#a56fd20d462a75525de79de28b997fe87", null ],
+      [ "ubytes", "union__WlzGreyV.html#a020d6f700738358f55e3cbc530f8d4a7", null ]
+    ] ],
+    [ "_WlzPixelV", "struct__WlzPixelV.html", [
+      [ "type", "struct__WlzPixelV.html#af4db8b840140d416c13f7f4c8d7f1aba", null ],
+      [ "v", "struct__WlzPixelV.html#a9fae2dc4e0c7a8cda979ef87f2b2c436", null ]
+    ] ],
+    [ "_WlzPixelP", "struct__WlzPixelP.html", [
+      [ "type", "struct__WlzPixelP.html#a431f80ff67c8b1b96037e1f880551edf", null ],
+      [ "p", "struct__WlzPixelP.html#a852e9d045c761b4a2c52e261b2921c63", null ]
+    ] ],
+    [ "_WlzLBTNode2D", "struct__WlzLBTNode2D.html", [
+      [ "flags", "struct__WlzLBTNode2D.html#a7cfff5142213c189fb3049a3637f9d90", null ],
+      [ "keys", "struct__WlzLBTNode2D.html#a5e605f00b51d34232a7a299907def57e", null ]
+    ] ],
+    [ "_WlzLBTNode3D", "struct__WlzLBTNode3D.html", [
+      [ "flags", "struct__WlzLBTNode3D.html#a466bd524e792ed635a1b5ef75a691969", null ],
+      [ "keys", "struct__WlzLBTNode3D.html#a178fd66c7c77d333a13c6a5eccd3eb3d", null ]
+    ] ],
+    [ "_WlzLBTDomain2D", "struct__WlzLBTDomain2D.html", [
+      [ "type", "struct__WlzLBTDomain2D.html#a603f158f29fbb113a7c0d64ffe08f227", null ],
+      [ "linkcount", "struct__WlzLBTDomain2D.html#a9c8e97579c4beb03070091c3fb8f2fcc", null ],
+      [ "freeptr", "struct__WlzLBTDomain2D.html#a6e0b47429f2772be9d50df1fc4761850", null ],
+      [ "line1", "struct__WlzLBTDomain2D.html#aba5e47c96d9f7b53ec27623d583a11b5", null ],
+      [ "lastln", "struct__WlzLBTDomain2D.html#a662156b8ab00dbc5918e1da935d49ec2", null ],
+      [ "kol1", "struct__WlzLBTDomain2D.html#acae9283c7bec021c400d0f1b63ec99cd", null ],
+      [ "lastkl", "struct__WlzLBTDomain2D.html#ad4a7b32516ec9903c368d70ef0d87788", null ],
+      [ "depth", "struct__WlzLBTDomain2D.html#ab8e4b6f66340285e5297a59bb29f9819", null ],
+      [ "nNodes", "struct__WlzLBTDomain2D.html#ac8853d1e613ee8ba20c52af05de45c31", null ],
+      [ "maxNodes", "struct__WlzLBTDomain2D.html#a8bcee2b2905cb1afc7f33a3073a62332", null ],
+      [ "nodes", "struct__WlzLBTDomain2D.html#af32020140bfdc95311c821b50c5dcf4c", null ]
+    ] ],
+    [ "_WlzLBTDomain3D", "struct__WlzLBTDomain3D.html", [
+      [ "type", "struct__WlzLBTDomain3D.html#a239665ee1935dafc6245503051978a58", null ],
+      [ "linkcount", "struct__WlzLBTDomain3D.html#a194b3466b319c0d49044a034acda0a8d", null ],
+      [ "freeptr", "struct__WlzLBTDomain3D.html#a8f30d5b6f8420c3dee4b04c7dfe21785", null ],
+      [ "plane1", "struct__WlzLBTDomain3D.html#adfce36b95e04abfde342b8bfed632315", null ],
+      [ "lastpl", "struct__WlzLBTDomain3D.html#ae4c34744d1107e1dd1ee14f532812e40", null ],
+      [ "line1", "struct__WlzLBTDomain3D.html#abdafd577ffaedf83757eda2a57e0f16c", null ],
+      [ "lastln", "struct__WlzLBTDomain3D.html#a0689e229764b5e95b1be82f6f4d691cb", null ],
+      [ "kol1", "struct__WlzLBTDomain3D.html#a1b5ed9512f072e010bcba42346c54983", null ],
+      [ "lastkl", "struct__WlzLBTDomain3D.html#a6db3bcf3bfcd55ba09cbf1d908e406f4", null ],
+      [ "depth", "struct__WlzLBTDomain3D.html#adaa53405a530941a04f94bfd46864f9b", null ],
+      [ "nNodes", "struct__WlzLBTDomain3D.html#a9e54263f071388105468a585630c072f", null ],
+      [ "maxNodes", "struct__WlzLBTDomain3D.html#a6d89254f10b0a20ec0d2063257fda475", null ],
+      [ "nodes", "struct__WlzLBTDomain3D.html#a501f1035f524821d781c6c842d9befb6", null ]
+    ] ],
+    [ "_WlzLUTDomain", "struct__WlzLUTDomain.html", [
+      [ "type", "struct__WlzLUTDomain.html#a7b7e630e5bcf64676dd222988eb999c0", null ],
+      [ "linkcount", "struct__WlzLUTDomain.html#aba211a9d140fd7a6e60f7639fec0e0b3", null ],
+      [ "freeptr", "struct__WlzLUTDomain.html#a51045b3a91a903d7fff498e0e69964e4", null ],
+      [ "bin1", "struct__WlzLUTDomain.html#a79b3ec96a921ccf69121624ba7fb00e7", null ],
+      [ "lastbin", "struct__WlzLUTDomain.html#a0c8f21d0e67a78003b6234ac89568c03", null ]
+    ] ],
+    [ "_WlzValues", "union__WlzValues.html", [
+      [ "core", "union__WlzValues.html#acc42335c78a3ae766b84f0c1c61cccc0", null ],
+      [ "v", "union__WlzValues.html#a765ff529413aebd42dd742a0a2c1f7e0", null ],
+      [ "r", "union__WlzValues.html#a21f5b7f218c77e14203d5408430a1039", null ],
+      [ "i", "union__WlzValues.html#a8f4c41800765a92d5a3686ece17f7301", null ],
+      [ "c", "union__WlzValues.html#ac1cf5660990264e957178bacc7b420da", null ],
+      [ "vox", "union__WlzValues.html#a135a18e52f1a1ee40494da398153ef54", null ],
+      [ "obj", "union__WlzValues.html#abf3c09c9869d613cdc71c33ed0d8f24b", null ],
+      [ "fv", "union__WlzValues.html#ab3d6a88c747f217861301a1b4aa6661c", null ],
+      [ "rfv", "union__WlzValues.html#a15efe660faf94f8f8355a4650a269629", null ],
+      [ "x", "union__WlzValues.html#a6ee349b101e0ea0746ed953a75752777", null ],
+      [ "t", "union__WlzValues.html#a489a3b4b2a4c297511ac4d198b3c4740", null ],
+      [ "lut", "union__WlzValues.html#a8500f1cb0df995a5b850230afcbcbacd", null ],
+      [ "pts", "union__WlzValues.html#a0981bda0981122933761a911dbfebc91", null ]
+    ] ],
+    [ "_WlzDomain", "union__WlzDomain.html", [
+      [ "core", "union__WlzDomain.html#a896195bd0df8e694ddf616d9bcec63db", null ],
+      [ "i", "union__WlzDomain.html#ae630f8aaae538354c5b9eb8d6ec655de", null ],
+      [ "p", "union__WlzDomain.html#a573e94074e6aaf98b3f044f1126b4286", null ],
+      [ "poly", "union__WlzDomain.html#a31337ce69bb0948d20945fcdfea23960", null ],
+      [ "b", "union__WlzDomain.html#a506206078dbf39982b7993361ff7fd6b", null ],
+      [ "hist", "union__WlzDomain.html#a960e1c8c389bff97f9e581c81bc02a93", null ],
+      [ "r", "union__WlzDomain.html#a74ef52de9f1201454f742e6c821212c8", null ],
+      [ "fr", "union__WlzDomain.html#a00a52240d44495c8d8fdfc39a1035921", null ],
+      [ "t", "union__WlzDomain.html#a69f4c223ba542922bb6705a76b99b0d2", null ],
+      [ "wt", "union__WlzDomain.html#ad7f2b7224921517815000a1b805c8794", null ],
+      [ "ctr", "union__WlzDomain.html#aa648d360b814c0c0c3bf8825869e3dbb", null ],
+      [ "mt", "union__WlzDomain.html#a21f6efc452c6e5d43b6cde8c431845ee", null ],
+      [ "l2", "union__WlzDomain.html#a30bf7213868b0e3851612b24a9ca8992", null ],
+      [ "l3", "union__WlzDomain.html#abc41f241574060f0be0ae0758bb1ece0", null ],
+      [ "cm2", "union__WlzDomain.html#af9449bb3815762e0bebd1a693c7e6b1c", null ],
+      [ "cm2d5", "union__WlzDomain.html#aefa3a7741fe86e88a3662e1f989557b2", null ],
+      [ "cm3", "union__WlzDomain.html#a28ae53c2173e7ae2aa4728aee8a982c1", null ],
+      [ "pts", "union__WlzDomain.html#a5c5ab262ef1f77ea1437dc1e5f74709c", null ],
+      [ "lut", "union__WlzDomain.html#a60620ce213153a3b054480ebe8dcb255", null ],
+      [ "cvh2", "union__WlzDomain.html#a4274c133990e8bb46464e00e0849dfd1", null ],
+      [ "cvh3", "union__WlzDomain.html#ab7f556dc3dec54b2df7a6b080ed01ba1", null ],
+      [ "vs3d", "union__WlzDomain.html#a0ff7613be831baa72c6c8caf9d781183", null ]
+    ] ],
+    [ "_WlzCoreObject", "struct__WlzCoreObject.html", [
+      [ "type", "struct__WlzCoreObject.html#acd8a682c6ef7a8e3444e274ac8fa9ad8", null ],
+      [ "linkcount", "struct__WlzCoreObject.html#afb27b3640b50a8eecf36aa1987779880", null ]
+    ] ],
+    [ "_WlzObject", "struct__WlzObject.html", [
+      [ "type", "struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f", null ],
+      [ "linkcount", "struct__WlzObject.html#a002c3c111404514d6e8556283bc42706", null ],
+      [ "domain", "struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a", null ],
+      [ "values", "struct__WlzObject.html#adfdb535c9e7ad60ed084562ac862901d", null ],
+      [ "plist", "struct__WlzObject.html#a5da67f24e8bce63460d73a1765a2be31", null ],
+      [ "assoc", "struct__WlzObject.html#a43c9f9d78ba113bd174238f49040539e", null ]
+    ] ],
+    [ "_WlzCompoundArray", "struct__WlzCompoundArray.html", [
+      [ "type", "struct__WlzCompoundArray.html#a135f9ab047411153f8614218f856b986", null ],
+      [ "linkcount", "struct__WlzCompoundArray.html#ae99babb1b721113c9fb5b6dcc559c126", null ],
+      [ "otype", "struct__WlzCompoundArray.html#a31634e78b77ae5fa7ab8f337ea5ecace", null ],
+      [ "n", "struct__WlzCompoundArray.html#a27f64c13f87aa2a78b8df7b95a647134", null ],
+      [ "o", "struct__WlzCompoundArray.html#a71b60e54a505bedb33ec84e7f7fc9890", null ],
+      [ "plist", "struct__WlzCompoundArray.html#a1bbaac6b90d4576ba98243e109a30423", null ],
+      [ "assoc", "struct__WlzCompoundArray.html#a46f5c1cca9902fa50f22d811f9981d25", null ]
+    ] ],
+    [ "_WlzCoreDomain", "struct__WlzCoreDomain.html", [
+      [ "type", "struct__WlzCoreDomain.html#a78a7c160ff04404fd16072da868fac70", null ],
+      [ "linkcount", "struct__WlzCoreDomain.html#a03e65a6d30d3ef7151ad4b5732abe062", null ],
+      [ "freeptr", "struct__WlzCoreDomain.html#ac94816519f39a95fa368320c1d7d9f2b", null ]
+    ] ],
+    [ "_WlzIntervalDomain", "struct__WlzIntervalDomain.html", [
+      [ "type", "struct__WlzIntervalDomain.html#a21386a65300b271f9f91d3a5bcf434c9", null ],
+      [ "linkcount", "struct__WlzIntervalDomain.html#a5b7223b155d5596d1c8a8617179ce443", null ],
+      [ "freeptr", "struct__WlzIntervalDomain.html#a56cacee2b1eced23080733273a7084a1", null ],
+      [ "line1", "struct__WlzIntervalDomain.html#aebab5d76571844c11f0f3262232241d6", null ],
+      [ "lastln", "struct__WlzIntervalDomain.html#a9266308b93b459578f9e4584073425fc", null ],
+      [ "kol1", "struct__WlzIntervalDomain.html#a3b7aaad248c588d926261078a86c449a", null ],
+      [ "lastkl", "struct__WlzIntervalDomain.html#a2bd96a83b6bdc29766b40c4e3774acdc", null ],
+      [ "intvlines", "struct__WlzIntervalDomain.html#a6fa9fd906c25c4a883b13e6a1aeac6e0", null ]
+    ] ],
+    [ "_WlzPlaneDomain", "struct__WlzPlaneDomain.html", [
+      [ "type", "struct__WlzPlaneDomain.html#a897137f597e4b1f8bf0c40ca83edf1c2", null ],
+      [ "linkcount", "struct__WlzPlaneDomain.html#a5cb05c22fe43b24c251793a4ed8bd036", null ],
+      [ "freeptr", "struct__WlzPlaneDomain.html#a2677560ec4571f4d27164ada16721c12", null ],
+      [ "plane1", "struct__WlzPlaneDomain.html#a8f7c0e3f2b5009de0c39b847b6f9effd", null ],
+      [ "lastpl", "struct__WlzPlaneDomain.html#aa1d617724a75e8c0262185f3a22f9746", null ],
+      [ "line1", "struct__WlzPlaneDomain.html#ac47e47d407b85323b91fd388b812b7be", null ],
+      [ "lastln", "struct__WlzPlaneDomain.html#a524557b98b8bcd3579b52d7d72a464a1", null ],
+      [ "kol1", "struct__WlzPlaneDomain.html#ae1693c7649532faeb77624b1a9b4827f", null ],
+      [ "lastkl", "struct__WlzPlaneDomain.html#a53774e29427e91f5a4d6b151a5833d21", null ],
+      [ "domains", "struct__WlzPlaneDomain.html#a5db78668ef52a270fda9ca27f2a3e21d", null ],
+      [ "voxel_size", "struct__WlzPlaneDomain.html#af62a73518e519ec07619706a34fe38ad", null ]
+    ] ],
+    [ "_WlzIntervalLine", "struct__WlzIntervalLine.html", [
+      [ "nintvs", "struct__WlzIntervalLine.html#a588028227f932ced49bcc064908c20f3", null ],
+      [ "intvs", "struct__WlzIntervalLine.html#a8730765089d43ec9242e732d09d093b1", null ]
+    ] ],
+    [ "_WlzInterval", "struct__WlzInterval.html", [
+      [ "ileft", "struct__WlzInterval.html#aa74b1174ec0ceaa46072d221a52f85cb", null ],
+      [ "iright", "struct__WlzInterval.html#a80232461eafe235e8afb58ce4d9864a6", null ]
+    ] ],
+    [ "_WlzDynItvPool", "struct__WlzDynItvPool.html", [
+      [ "itvBlock", "struct__WlzDynItvPool.html#a940aaf72a7b11aa09e46d56368afd1ca", null ],
+      [ "itvsInBlock", "struct__WlzDynItvPool.html#a5071d558fde0abe916e7af556017243c", null ],
+      [ "offset", "struct__WlzDynItvPool.html#ade1472652257bc382ae2463b90963961", null ]
+    ] ],
+    [ "_WlzCoreValues", "struct__WlzCoreValues.html", [
+      [ "type", "struct__WlzCoreValues.html#ae34afcf4b44eb57b958e4f8240cf83ae", null ],
+      [ "linkcount", "struct__WlzCoreValues.html#add04304e9a4cf971634915b80e3201b6", null ]
+    ] ],
+    [ "_WlzValueLine", "struct__WlzValueLine.html", [
+      [ "vkol1", "struct__WlzValueLine.html#aedb8570ae5d28273edf52899f2557753", null ],
+      [ "vlastkl", "struct__WlzValueLine.html#ab921c5290d659d4fe1b59d30ad291d10", null ],
+      [ "values", "struct__WlzValueLine.html#a2b4b453f5394df0e41bb5fbf50008950", null ]
+    ] ],
+    [ "_WlzTiledValueBuffer", "struct__WlzTiledValueBuffer.html", [
+      [ "pl", "struct__WlzTiledValueBuffer.html#ab37fa285a2ff93acb5b71ebbe7786263", null ],
+      [ "ln", "struct__WlzTiledValueBuffer.html#aee9fe0fe87212172e74b079fbe41e975", null ],
+      [ "kl", "struct__WlzTiledValueBuffer.html#af0c0035d521fe72a3bdde18fbb07b40f", null ],
+      [ "lo", "struct__WlzTiledValueBuffer.html#acba9320f918bd6680283eab735818bdf", null ],
+      [ "li", "struct__WlzTiledValueBuffer.html#a1ef168a66bfd00c5cfaf9ee80540c9b0", null ],
+      [ "valid", "struct__WlzTiledValueBuffer.html#a628754ff22c6399a3bc2df791d2581a7", null ],
+      [ "mode", "struct__WlzTiledValueBuffer.html#ad94c187cd6944d06bb9678b18e2b3e15", null ],
+      [ "gtype", "struct__WlzTiledValueBuffer.html#aaf4f6415b9383fc11194cd2b129d6aea", null ],
+      [ "lnbuf", "struct__WlzTiledValueBuffer.html#aabc680ef8698a1c8d9942731d01e46df", null ]
+    ] ],
+    [ "_WlzRagRValues", "struct__WlzRagRValues.html", [
+      [ "type", "struct__WlzRagRValues.html#a6c5520fad22ddc391c4ab549578b4bb6", null ],
+      [ "linkcount", "struct__WlzRagRValues.html#a10de6f1baf5945a160da2b8de8c178ee", null ],
+      [ "freeptr", "struct__WlzRagRValues.html#aa67dfa57c6a9fcff9641ac38883cf0e2", null ],
+      [ "original_table", "struct__WlzRagRValues.html#a36d3afdf2ca9187b78db8aef7a09626e", null ],
+      [ "line1", "struct__WlzRagRValues.html#aa47dad7e7e2ee22687be3a4fc4af10d3", null ],
+      [ "lastln", "struct__WlzRagRValues.html#a5a0c4add2cb7efa3e02adf0cf2d35c35", null ],
+      [ "kol1", "struct__WlzRagRValues.html#a83d19e6631217923f313208a42177039", null ],
+      [ "width", "struct__WlzRagRValues.html#ada40e1208b183c7c1265858b52c57556", null ],
+      [ "bckgrnd", "struct__WlzRagRValues.html#ab83084f514fa73c76188003a6fed1637", null ],
+      [ "vtblines", "struct__WlzRagRValues.html#a49bbce03c46a1f035f0716e5dc33ddc1", null ]
+    ] ],
+    [ "_WlzRectValues", "struct__WlzRectValues.html", [
+      [ "type", "struct__WlzRectValues.html#ab7cde68279a879eb678f80f3b569e97d", null ],
+      [ "linkcount", "struct__WlzRectValues.html#a54f925703c7cda92f19e8a5db097407f", null ],
+      [ "freeptr", "struct__WlzRectValues.html#a5b66da8193449fd2453e8733282ff9c3", null ],
+      [ "original_table", "struct__WlzRectValues.html#a6bf41386a36448871b88ff3ca965c4ea", null ],
+      [ "line1", "struct__WlzRectValues.html#aee168c7a370815cf0aafae34634f6984", null ],
+      [ "lastln", "struct__WlzRectValues.html#a009b31faadc66c9247297a7637b3006e", null ],
+      [ "kol1", "struct__WlzRectValues.html#a7b1596fe83d14637c074eed3c517f81d", null ],
+      [ "width", "struct__WlzRectValues.html#ad3ab1fbf069ff449d5a0df008a2693c9", null ],
+      [ "bckgrnd", "struct__WlzRectValues.html#a867183b940952bbaf2dc17e64168ef8a", null ],
+      [ "values", "struct__WlzRectValues.html#aac8dce81277817c07a3d251d09f36d4f", null ]
+    ] ],
+    [ "_WlzValueIntervalLine", "struct__WlzValueIntervalLine.html", [
+      [ "nintvs", "struct__WlzValueIntervalLine.html#ab7b137bfd3b7d587c2c32329baf0edec", null ],
+      [ "vtbint", "struct__WlzValueIntervalLine.html#a3c8f80ab852521a42a8e2f642833f052", null ]
+    ] ],
+    [ "_WlzIntervalValues", "struct__WlzIntervalValues.html", [
+      [ "type", "struct__WlzIntervalValues.html#aa51fac3de77a2e9f93ef9906531be5e9", null ],
+      [ "linkcount", "struct__WlzIntervalValues.html#a1ae1a87f5840d5b42005ca858cd34e96", null ],
+      [ "freeptr", "struct__WlzIntervalValues.html#a8a58668c52d14044795416f90cfe11c6", null ],
+      [ "original_table", "struct__WlzIntervalValues.html#a3fcacc8453f72ba94689deff4f425c1e", null ],
+      [ "line1", "struct__WlzIntervalValues.html#aebb2a08c4def13a7bd572df51bf06815", null ],
+      [ "lastln", "struct__WlzIntervalValues.html#acccbbc3e9e61b35b6d31f6bfbef4358b", null ],
+      [ "kol1", "struct__WlzIntervalValues.html#a3309763fff98f7e9e7a30a49ea253a2a", null ],
+      [ "width", "struct__WlzIntervalValues.html#acd4fdcadace203751235fc742975e15b", null ],
+      [ "bckgrnd", "struct__WlzIntervalValues.html#ab9acfda15a029c723a6697589a3d6584", null ],
+      [ "vil", "struct__WlzIntervalValues.html#a0bbaf5e68dca9bf54ce53ab6b533dc87", null ]
+    ] ],
+    [ "_WlzVoxelValues", "struct__WlzVoxelValues.html", [
+      [ "type", "struct__WlzVoxelValues.html#a8895c1dae20a6fe866ca45dc5d2912ab", null ],
+      [ "linkcount", "struct__WlzVoxelValues.html#a995c041ea962bafbdbbe0e3bb3c1b38a", null ],
+      [ "freeptr", "struct__WlzVoxelValues.html#a80e35f7b4e4ff4174b0a4f4d8cf679c8", null ],
+      [ "original_table", "struct__WlzVoxelValues.html#a25a5e5369f0f03e015ad62d905e0e33f", null ],
+      [ "plane1", "struct__WlzVoxelValues.html#ab3b4d3f18b98864b148222c4d0fc57a4", null ],
+      [ "lastpl", "struct__WlzVoxelValues.html#a382a9aef6afec28176a7b1823c120c3f", null ],
+      [ "bckgrnd", "struct__WlzVoxelValues.html#a8de4fa6a824be1be11f4fa89b77619da", null ],
+      [ "values", "struct__WlzVoxelValues.html#abe205d27c5efb7497abd23012317edd3", null ]
+    ] ],
+    [ "_WlzValueAttach", "struct__WlzValueAttach.html", null ],
+    [ "_WlzIndexedValues", "struct__WlzIndexedValues.html", [
+      [ "type", "struct__WlzIndexedValues.html#aadb209394ef53dc6037da666d3c583ad", null ],
+      [ "linkcount", "struct__WlzIndexedValues.html#acf72413f7d154cdc1aca0dc783e0f4f3", null ],
+      [ "freeptr", "struct__WlzIndexedValues.html#abf8d2db87879950d94b3df282fa7d266", null ],
+      [ "rank", "struct__WlzIndexedValues.html#a626e762cd57a52afac8edf3925f3c2a2", null ],
+      [ "dim", "struct__WlzIndexedValues.html#a861deed0358e49eeddcb0ddce3bc6b9a", null ],
+      [ "vType", "struct__WlzIndexedValues.html#a2b01555cc7d41a5786fb9cdf58a629f3", null ],
+      [ "attach", "struct__WlzIndexedValues.html#a102cfb768f01801664bfeb701a1a9da8", null ],
+      [ "values", "struct__WlzIndexedValues.html#a4b397405f22fcad39d7d6da9290a1ebd", null ]
+    ] ],
+    [ "_WlzTiledValues", "struct__WlzTiledValues.html", [
+      [ "type", "struct__WlzTiledValues.html#a8f8d033f6030268fd5c15973413efde6", null ],
+      [ "linkcount", "struct__WlzTiledValues.html#a88e9aa16789cb67b932f251b199509b8", null ],
+      [ "freeptr", "struct__WlzTiledValues.html#a05f930a6b35743f600670daf9b3d917b", null ],
+      [ "original_table", "struct__WlzTiledValues.html#af24c034c5a4c2c584b652d37d9d2d3b7", null ],
+      [ "dim", "struct__WlzTiledValues.html#ac45a6f2b0566fff2c73f20e84786b0af", null ],
+      [ "kol1", "struct__WlzTiledValues.html#a00d4657e8f5b2d20eac483418c084024", null ],
+      [ "lastkl", "struct__WlzTiledValues.html#a976015cdd0c78938f69e9056a26c8f13", null ],
+      [ "line1", "struct__WlzTiledValues.html#a76440b8e003da25497da02bd6a78524a", null ],
+      [ "lastln", "struct__WlzTiledValues.html#a0aae7f994eac4ebb3d1d47211247f5a3", null ],
+      [ "plane1", "struct__WlzTiledValues.html#a4ae9986a8eef9c65b9ebaedae4a7056f", null ],
+      [ "lastpl", "struct__WlzTiledValues.html#afa609b5de03d6b1c2e2522cf27c626b9", null ],
+      [ "bckgrnd", "struct__WlzTiledValues.html#a091a5a5f4017775747509a4668f50471", null ],
+      [ "vRank", "struct__WlzTiledValues.html#a8b156fb6677adeed056f8f7b1594ba4b", null ],
+      [ "vDim", "struct__WlzTiledValues.html#a5e13e25d40100d7e257bd38dd1b5e61d", null ],
+      [ "vpe", "struct__WlzTiledValues.html#a07fd1e4a0b2b484c736b55ba51e9e646", null ],
+      [ "tileSz", "struct__WlzTiledValues.html#a9a61de0735debbade782c58713f0301a", null ],
+      [ "tileWidth", "struct__WlzTiledValues.html#a24156c90f074af6d247083c7568f30f8", null ],
+      [ "numTiles", "struct__WlzTiledValues.html#ac83ed96d74989e2fa94e2ccccb9aadad", null ],
+      [ "nIdx", "struct__WlzTiledValues.html#a6fe66c9f5f03216463918222062e9bee", null ],
+      [ "indices", "struct__WlzTiledValues.html#adfecb32f029891bf956eb6126ddee05b", null ],
+      [ "fd", "struct__WlzTiledValues.html#ae1fbd80d4a2f0ce02bf89a6bc57c2325", null ],
+      [ "tileOffset", "struct__WlzTiledValues.html#a84f591c22900978dcb3f0d1934fd98b6", null ],
+      [ "tiles", "struct__WlzTiledValues.html#af5c796dfbae20d17c5b981675c7248f8", null ]
+    ] ],
+    [ "_WlzLUTValues", "struct__WlzLUTValues.html", [
+      [ "type", "struct__WlzLUTValues.html#ab55f872fe0d1c76160dd7f08bb24a955", null ],
+      [ "linkcount", "struct__WlzLUTValues.html#abb38a052b628001c5b09b6e6fb3dad52", null ],
+      [ "freeptr", "struct__WlzLUTValues.html#a2bc06964020b598e9f76c2b879a8cc2d", null ],
+      [ "vType", "struct__WlzLUTValues.html#a85f2c2e40b971503e456eea4948e2751", null ],
+      [ "maxVal", "struct__WlzLUTValues.html#aa02e568830933ba474eb5857ab06017e", null ],
+      [ "val", "struct__WlzLUTValues.html#aeb39025496c0074098433bcc48157c85", null ]
+    ] ],
+    [ "_WlzPointValues", "struct__WlzPointValues.html", [
+      [ "type", "struct__WlzPointValues.html#a0107bc79f45ad311fa91ce5cc6927ece", null ],
+      [ "linkcount", "struct__WlzPointValues.html#a73c16a9487bfd40c713cc600ececa3ee", null ],
+      [ "freeptr", "struct__WlzPointValues.html#a794c260b986b5726d485d59910451a86", null ],
+      [ "rank", "struct__WlzPointValues.html#a6c95938b834c749f4c35615f056fb49b", null ],
+      [ "dim", "struct__WlzPointValues.html#af00129bf7fc0603db8789c1c7d4c6ea9", null ],
+      [ "pSz", "struct__WlzPointValues.html#afa40a3a590563d168592f6fcb561e4bb", null ],
+      [ "vType", "struct__WlzPointValues.html#acce40f3b81b409581118e518c9ba6545", null ],
+      [ "maxPoints", "struct__WlzPointValues.html#a36b8567186ff65c7a9e9e93a19708233", null ],
+      [ "values", "struct__WlzPointValues.html#a9db9278bea3b0c256567444135e203cd", null ]
+    ] ],
+    [ "_WlzThreshCbStr", "struct__WlzThreshCbStr.html", [
+      [ "pix", "struct__WlzThreshCbStr.html#ae65e09ba7e0b3f17c7541f5bb259bcfd", null ],
+      [ "pos", "struct__WlzThreshCbStr.html#a09584738458a1c0dc82335cc467b79c4", null ]
+    ] ],
+    [ "_WlzKrigModelFn", "struct__WlzKrigModelFn.html", [
+      [ "type", "struct__WlzKrigModelFn.html#ad48e46e055f4e00f5fcbfbafa5bf0b11", null ],
+      [ "c0", "struct__WlzKrigModelFn.html#a9401f28b20847c6e9ae501f70af6592b", null ],
+      [ "c1", "struct__WlzKrigModelFn.html#a3c75cdb20496874cbeaf582dcba6518c", null ],
+      [ "a", "struct__WlzKrigModelFn.html#a1b4a35e95b8b10a49e425c74a3d9d27f", null ],
+      [ "fn", "struct__WlzKrigModelFn.html#a9d34114e9d204d7c01dc697e4c7fb51c", null ]
+    ] ],
+    [ "WLZ_GREY_TABLE_TYPE", "group__WlzType.html#ga5610338d8df9d00dd0e1647e834b9c33", null ],
+    [ "WLZ_GREY_TABLE_TO_GREY_TYPE", "group__WlzType.html#gab6ff5a0d333697d78401cc76b3f5b2b5", null ],
+    [ "WLZ_GREY_TABLE_TO_TABLE_TYPE", "group__WlzType.html#ga2bfbd8311ddffdb87371fe5558e873f5", null ],
+    [ "WLZ_GREY_TABLE_TO_RANK", "group__WlzType.html#ga905fcac97a59968f280ea452cf4e9f57", null ],
+    [ "WLZ_LBTDOMAIN_MAXDIGITS", "group__WlzType.html#gaa3d98ac44486bf24877c3cb3eab6f27e", null ],
+    [ "WLZ_TILEDVALUES_TILE_SIZE", "group__WlzType.html#gab51e6935ecbdb3e6fe02532eb27c696c", null ],
+    [ "WlzUByte", "group__WlzType.html#ga4eca14adf6439ec21dea01575441a53d", null ],
+    [ "WlzUInt", "group__WlzType.html#ga415d5faa2a218a2fa70d34ebfbc9cffa", null ],
+    [ "WlzLong", "group__WlzType.html#ga1ac497337a05a4120d79bdfa1f3f4809", null ],
+    [ "_WlzGreyType", "group__WlzType.html#ga3fa66c817599e71e9c85a0da37a0a553", [
+      [ "WLZ_GREY_LONG", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553a75c616cc6550113d8d325ced824a1caa", null ],
+      [ "WLZ_GREY_INT", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553a366a4d2ffb06fafbb3b81b5f2a0d251a", null ],
+      [ "WLZ_GREY_SHORT", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553ab4f9fb3910f2f01d95b58006c54c34ed", null ],
+      [ "WLZ_GREY_UBYTE", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aa1ce676759b12db27d19529244bf6dfc", null ],
+      [ "WLZ_GREY_FLOAT", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553ad5476f9b409e98b580140613b9f49dc5", null ],
+      [ "WLZ_GREY_DOUBLE", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aea910a89caf81f56ad256d7b1fc1601b", null ],
+      [ "WLZ_GREY_BIT", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553ab24afb7bd2332667ffa68ab1e66d83ff", null ],
+      [ "WLZ_GREY_RGBA", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553afcc474aaf4c534397200557b487cfca8", null ],
+      [ "WLZ_GREY_ERROR", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553acbdea5083ebc6de5bab17af78baf8c79", null ]
+    ] ],
+    [ "_WlzGreyTableType", "group__WlzType.html#ga627d7be8475fffe2963cfb518d364354", [
+      [ "WLZ_GREY_TAB_RAGR", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a2a3cfcd466340f0a849e565a312c336b", null ],
+      [ "WLZ_GREY_TAB_RECT", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a7a8912b0be102a1a804be21f8e800012", null ],
+      [ "WLZ_GREY_TAB_INTL", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354accc82279c10e7202c7040c4ad25bc861", null ],
+      [ "WLZ_POINT_VALUES", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a415db45fad7af3f0354d4917ee9933ad", null ],
+      [ "WLZ_INDEXED_VALUES", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a992001a0a501ad79659611c7654c75a9", null ],
+      [ "WLZ_FEAT_TAB_RAGR", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a55fabfd9b28b67876ecfff99b898d677", null ],
+      [ "WLZ_FEAT_TAB_RECT", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a476625a149d4eb7bf49a959de0d3154e", null ],
+      [ "WLZ_GREY_TAB_TILED", "WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a2d560a51587bc4841df66d9532c35cec", null ]
+    ] ],
+    [ "_WlzObjectType", "group__WlzType.html#ga72750e155d8197e84cea681e08625c36", [
+      [ "WLZ_NULL", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a385b33033532b1058441fd16a4c22391", null ],
+      [ "WLZ_2D_DOMAINOBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af18fb5ac58f25a0464b73e13f8ebc22f", null ],
+      [ "WLZ_3D_DOMAINOBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a6f4a609eb33f4bebcb5a4a0fa8e43c21", null ],
+      [ "WLZ_TRANS_OBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abbc5f5181e276f64c65f19e23d15d8e6", null ],
+      [ "WLZ_3D_WARP_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5251bebaa5895130a0edf744b070d206", null ],
+      [ "WLZ_2D_POLYGON", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ab0e047036a704ff2f354586153175533", null ],
+      [ "WLZ_BOUNDLIST", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ab2d848633bba6ea2cb7d123890b3cfbb", null ],
+      [ "WLZ_CONV_HULL", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a02bfde50e8056007af96ea11abf3da20", null ],
+      [ "WLZ_HISTOGRAM", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a86f6313fd82a43b987745cc740f1e36a", null ],
+      [ "WLZ_3D_POLYGON", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ade6aba827439eb06a34f9b087409b716", null ],
+      [ "WLZ_CONTOUR", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aad54487d10fe4650e520ee69195f9a12", null ],
+      [ "WLZ_CMESH_2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a95f9c672dab612bae6dbc623bd88edbc", null ],
+      [ "WLZ_CMESH_3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aeea2e13d62531b3bccec9617a268f453", null ],
+      [ "WLZ_CMESH_2D5", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aaebefa2929f4d536eda7ce702dd6de91", null ],
+      [ "WLZ_RECTANGLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a14e2f226095de29d0094e69d0eef397a", null ],
+      [ "WLZ_POINTS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aef34dfb40eca96da9d461a7225f0f8a2", null ],
+      [ "WLZ_CONVOLVE_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aa3b15a8268a3d68d63a9baebbd39bdbb", null ],
+      [ "WLZ_CONVOLVE_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5217c7b076ce49a2d9054496b4a048e5", null ],
+      [ "WLZ_AFFINE_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a72ca1ea71e126ff9ea7c041e1cb40d80", null ],
+      [ "WLZ_WARP_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ae0fb3baef1828fab877b09f999ce1d34", null ],
+      [ "WLZ_FMATCHOBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abdfe6ef7b4dd9eb37785142674e534a8", null ],
+      [ "WLZ_TEXT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5a2418690722ebd31cfd93e18bce2180", null ],
+      [ "WLZ_COMPOUND_ARR_1", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a3a370fe31598cd18e6bab7025f45d70b", null ],
+      [ "WLZ_COMPOUND_ARR_2", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af14266ad8a12206df879bc46cc4a8979", null ],
+      [ "WLZ_COMPOUND_LIST_1", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36adafb78c365247bb68e38b8518ad44da1", null ],
+      [ "WLZ_COMPOUND_LIST_2", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a869d6b9dc49082f8c4b87598c8740c12", null ],
+      [ "WLZ_LUT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a92aabaefe763a5dd3317baf4ee8ea2d6", null ],
+      [ "WLZ_PROPERTY_OBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a1154866acc6317d3c07eee0074dc0077", null ],
+      [ "WLZ_EMPTY_OBJ", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a3374dde402aa47286e44e593578136b5", null ],
+      [ "WLZ_MESH_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abab95ef2470135a451a03c33f3c16fbe", null ],
+      [ "WLZ_CMESH_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5d5a639ed3e2bdfa4ff06bcb1af51823", null ],
+      [ "WLZ_EMPTY_DOMAIN", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a403cb16f285e9fe5559b10477bdba642", null ],
+      [ "WLZ_EMPTY_VALUES", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a8a21a5729269eefb4ddd33a42ebbeb75", null ],
+      [ "WLZ_INTERVALDOMAIN_INTVL", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aaffa01780b92a9d0be5d96947acd198e", null ],
+      [ "WLZ_INTERVALDOMAIN_RECT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aba9db5d1c9661d5b6c5d4caa48c4ed6c", null ],
+      [ "WLZ_LBTDOMAIN_2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a671284f1538ee2dbbfe0b4aaa09af5c8", null ],
+      [ "WLZ_LBTDOMAIN_3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a18673311858c0830057d8f69997eec4e", null ],
+      [ "WLZ_PLANEDOMAIN_DOMAIN", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac41e5a727505a9e3d1490204104605bf", null ],
+      [ "WLZ_PLANEDOMAIN_POLYGON", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a4997638c6720b57998f9f01f05126ab2", null ],
+      [ "WLZ_PLANEDOMAIN_BOUNDLIST", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a97e7d89f7adb8521c79479d175e41797", null ],
+      [ "WLZ_PLANEDOMAIN_CONV_HULL", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a3acecd0e34091c59dba3d5bbaf6b9b19", null ],
+      [ "WLZ_PLANEDOMAIN_HISTOGRAM", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a9e7701ac4eedf3a818d2cb35eaaf0eca", null ],
+      [ "WLZ_PLANEDOMAIN_AFFINE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a93f7bdfdd95a608cf39bf3d6912204ee", null ],
+      [ "WLZ_PLANEDOMAIN_WARP", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aab3c00f525170de156bd55199eef6c36", null ],
+      [ "WLZ_VALUETABLE_RAGR_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a169d1c9c745dc21da204b07e68e95aab", null ],
+      [ "WLZ_VALUETABLE_RAGR_SHORT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a81f04de149b4a010b238c14f07fabd63", null ],
+      [ "WLZ_VALUETABLE_RAGR_UBYTE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a95e98d52071963303701b1a338581e8d", null ],
+      [ "WLZ_VALUETABLE_RAGR_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a57698c38ca57cf0dc9f346facf0b184f", null ],
+      [ "WLZ_VALUETABLE_RAGR_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a082465ea88837716070f9760fbc59bbe", null ],
+      [ "WLZ_VALUETABLE_RAGR_BIT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a94b723d8ad30c31cc39c743e7ebff74b", null ],
+      [ "WLZ_VALUETABLE_RAGR_RGBA", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a0d07f738c87075445ae4a443623cf0ba", null ],
+      [ "WLZ_VALUETABLE_RECT_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a66ee57eddfbb40cacae7abfab55d4a28", null ],
+      [ "WLZ_VALUETABLE_RECT_SHORT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aea0d9ecb7ea49e33a9d95811c8a4dee8", null ],
+      [ "WLZ_VALUETABLE_RECT_UBYTE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a586b62ead15023b4af6f3ecc75835844", null ],
+      [ "WLZ_VALUETABLE_RECT_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af258f801c36d8602794f0bd21d5fd5b2", null ],
+      [ "WLZ_VALUETABLE_RECT_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a0d1c6667f1da64330b5cd75a33ec9a60", null ],
+      [ "WLZ_VALUETABLE_RECT_BIT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a828c22333979fecd90b866e71bd39173", null ],
+      [ "WLZ_VALUETABLE_RECT_RGBA", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a2d63b4913c84b128ea50e562b3e6ecd9", null ],
+      [ "WLZ_VALUETABLE_INTL_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a0473b846f2400ff46e6c3ef4c00831b7", null ],
+      [ "WLZ_VALUETABLE_INTL_SHORT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a9f194f221180a0cf93fb96f6715d3da4", null ],
+      [ "WLZ_VALUETABLE_INTL_UBYTE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a76bf6591e3cf8b3f595b724dc06ba0b1", null ],
+      [ "WLZ_VALUETABLE_INTL_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a0fe997246641fae671144fa3c33163de", null ],
+      [ "WLZ_VALUETABLE_INTL_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a6e14a6d1444b0b682fe4474b929ad7b5", null ],
+      [ "WLZ_VALUETABLE_INTL_BIT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aa990b76fd564b21e6fa0727cee6afc37", null ],
+      [ "WLZ_VALUETABLE_INTL_RGBA", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aea2923ce4c78ad71a2738e999584ef59", null ],
+      [ "WLZ_VALUETABLE_TILED_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abfa59a25a08a89b68de662868ee7ef7d", null ],
+      [ "WLZ_VALUETABLE_TILED_SHORT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aad0ff19da4261f2fe39748c3f2114fad", null ],
+      [ "WLZ_VALUETABLE_TILED_UBYTE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aabdbac72917885cd01e1b9575ae5fec7", null ],
+      [ "WLZ_VALUETABLE_TILED_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a463f9027da0c2cf0657b1fa7d152ccb8", null ],
+      [ "WLZ_VALUETABLE_TILED_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5f835c3051f4a7f10a1479a4f6b55351", null ],
+      [ "WLZ_VALUETABLE_TILED_BIT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36add7e3fc9255fa6aff5ed43bf9abaf3dc", null ],
+      [ "WLZ_VALUETABLE_TILED_RGBA", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af0b2f3ba041f3d7f7bd20c6c901b63a5", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a09b8ee4dd9cd354beed0b9c83840fe8e", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_SHORT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a4478932bd9d5cb4250afbbfeb71e67f8", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_UBYTE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a8abb93afa32df5d3040cb3d6976a875f", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ad83844a6035654679b2c9f15d063148d", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acd421b5a28bc5c37d3385a337625f0fd", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_BIT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a9ece24e4c25e01dae85d4833e17ac327", null ],
+      [ "WLZ_VALUETABLE_TILED_ARY_RGBA", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a0eab30b0bc35063cb47da68d5e5d6634", null ],
+      [ "WLZ_FEATVALUETABLE_RAGR", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac8cd12ad2b8cf9cef39e0a6bf6b250eb", null ],
+      [ "WLZ_FEATVALUETABLE_RECT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a66537a84761df45d8eaa1f29dff5f4f0", null ],
+      [ "WLZ_VOXELVALUETABLE_GREY", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a4bafec79afea48b79c8a1f3fe3d70e92", null ],
+      [ "WLZ_VOXELVALUETABLE_CONV_HULL", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a718358dc48d13c6c15273c5b23163b10", null ],
+      [ "WLZ_POLYGON_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a8f4725a7de1cd25c56a24c297fd46959", null ],
+      [ "WLZ_POLYGON_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a19932d6c53c1b3a2b76031896362a9fd", null ],
+      [ "WLZ_POLYGON_DOUBLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acff79eca9f92283c362c3b64f625bcfb", null ],
+      [ "WLZ_BOUNDLIST_PIECE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a8f40ecfff025bbb17655d750cb0bc50a", null ],
+      [ "WLZ_BOUNDLIST_HOLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a29131bdba914245a47ea730b388ca1bb", null ],
+      [ "WLZ_CONVHULL_VALUES", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5c2de9eb4239623cf03d55a1404466ae", null ],
+      [ "WLZ_CONVHULL_DOMAIN_2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ad7670afdab70f4a46af57af454f76e22", null ],
+      [ "WLZ_CONVHULL_DOMAIN_3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af2edc8ee3f2f86efaf79d4c0968f2c44", null ],
+      [ "WLZ_HISTOGRAMDOMAIN_OLD_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ada3a7dc08658741dc040021566e1aa36", null ],
+      [ "WLZ_HISTOGRAMDOMAIN_OLD_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aa5a8e8b633efea79cf16f2061f34402f", null ],
+      [ "WLZ_HISTOGRAMDOMAIN_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ad1816d85297ffc657fd694b950a0abae", null ],
+      [ "WLZ_HISTOGRAMDOMAIN_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36affd7e2ae5b074f223c00a6d2d4a7ab68", null ],
+      [ "WLZ_RECTANGLE_DOMAIN_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ab425cd926bb2a90089c267b5c1daef42", null ],
+      [ "WLZ_RECTANGLE_DOMAIN_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac12ae0f1159811ea14104bc501de6d7e", null ],
+      [ "WLZ_3D_VIEW_STRUCT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acc7326c34e47cd8c9b3cb2e411855fa8", null ],
+      [ "WLZ_PROPERTYLIST", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abd87bf0a0c2a51be9fc990d1f621abbf", null ],
+      [ "WLZ_PROPERTY_SIMPLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a1b680da088c840ee578c84243131118e", null ],
+      [ "WLZ_PROPERTY_EMAP", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a506349b1e409435c38936f4af9d6eef5", null ],
+      [ "WLZ_PROPERTY_NAME", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a7f08edb18b0b423e30495c5c73721f95", null ],
+      [ "WLZ_PROPERTY_GREY", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a12256e58da663ceb5b1a0accbfc3662a", null ],
+      [ "WLZ_PROPERTY_TEXT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a9fcc25a6a7d6fbd9ef33a46efb791be6", null ],
+      [ "WLZ_POINTS_2I", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36add036fe46bde94375cc6e41f4355e10a", null ],
+      [ "WLZ_POINTS_2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a96ac8166a15602f1fd2f3020fd241d0c", null ],
+      [ "WLZ_POINTS_3I", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acfcffb4f829492c2e5de3e7eefa7591a", null ],
+      [ "WLZ_POINTS_3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac6bef64c8d47cc297254f0bc9e6a8119", null ],
+      [ "WLZ_DUMMY_ENTRY", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a277f595334a6bc685d4925ecceaa08e2", null ]
+    ] ],
+    [ "_WlzDirection", "group__WlzType.html#gab6188c729415c95683cdb2ff0e71f4d9", [
+      [ "WLZ_DIRECTION_IC", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9ab185de16e7554e953d3249cd7b8d91fb", null ],
+      [ "WLZ_DIRECTION_IL", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9ac4be1b7666ff624ea0407a2a087c72d4", null ],
+      [ "WLZ_DIRECTION_IP", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9a6f2a41315453fb235c7e6f4b4c0157a2", null ],
+      [ "WLZ_DIRECTION_DC", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9afd9318baa83207aace44ba093cda249f", null ],
+      [ "WLZ_DIRECTION_DL", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9aeb24e4a997e9d62b58e9093136591574", null ],
+      [ "WLZ_DIRECTION_DP", "WlzType_8h.html#gab6188c729415c95683cdb2ff0e71f4d9ab7537dbe49d635a1a1639d83d8bb00fb", null ]
+    ] ],
+    [ "_WlzConnectType", "group__WlzType.html#gac62dc9359c0540dd8509306910c9721c", [
+      [ "WLZ_0_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721cac4aeb56bd9b8e1a8fc88fc270d5ebc01", null ],
+      [ "WLZ_8_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721cacedab84f8a05f1fb3ef0787d4eee5756", null ],
+      [ "WLZ_4_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca585beb40d5454c95c1d3c59e6a5ad624", null ],
+      [ "WLZ_6_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca6ca63075dc120c00121319ee72843266", null ],
+      [ "WLZ_18_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca0ba4b3f31d6b3a8ebc6280a4c6d8ba19", null ],
+      [ "WLZ_26_CONNECTED", "WlzType_8h.html#gac62dc9359c0540dd8509306910c9721caea060e0a35488ead0a03b73190ab841b", null ]
+    ] ],
+    [ "_WlzDistanceType", "group__WlzType.html#ga452ce7a974ca2cbd58ed14ef3396b6a1", [
+      [ "WLZ_8_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1adf76304e8afecd444b97a387c09b65f8", null ],
+      [ "WLZ_4_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a5123553de54d04c2c52e9ccf9acbc728", null ],
+      [ "WLZ_6_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a30d04a6f81a09141c91935e0abbf8751", null ],
+      [ "WLZ_18_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a2fea6a6e5339981520725dd874ca17bf", null ],
+      [ "WLZ_26_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a4a5af70ef98f3ffeb4dee59a95b86cd0", null ],
+      [ "WLZ_OCTAGONAL_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a5f09ea157fa57e3bf0ba4f43ea7c6459", null ],
+      [ "WLZ_EUCLIDEAN_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1ab96b5136b0b2210b3a3797c6ed57bcd1", null ],
+      [ "WLZ_APX_EUCLIDEAN_DISTANCE", "WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a5ee8fc9e1f855df045d6735e4e2da85d", null ]
+    ] ],
+    [ "_WlzRCCClassIdx", "group__WlzType.html#gab6b8f9500f4f47edc610ef2d399073b3", [
+      [ "WLZ_RCCIDX_DC", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a01b5309213fc7e5e06c6298a3a0074aa", null ],
+      [ "WLZ_RCCIDX_EC", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a3ea58c9cb08fed5e53218db13de326cb", null ],
+      [ "WLZ_RCCIDX_EQ", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a2b0be6c73db7e3077aa5be5c8928e360", null ],
+      [ "WLZ_RCCIDX_PO", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3aa58678a4afc61a14020650eef1b3c2ac", null ],
+      [ "WLZ_RCCIDX_TPP", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3acddf353fca60d3befbf12eac53a3b0f5", null ],
+      [ "WLZ_RCCIDX_NTPP", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3ae561f7e9136319e28354344b5d8183b3", null ],
+      [ "WLZ_RCCIDX_TPPI", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a3a9cd6ca99d610d844da0d6b4776d898", null ],
+      [ "WLZ_RCCIDX_NTPPI", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3ac19fed704a89f1164474bade9662a353", null ],
+      [ "WLZ_RCCIDX_TSUR", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3add15d925a98eb8e269371c1ef7946e9e", null ],
+      [ "WLZ_RCCIDX_TSURI", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a66a53c712d7d8f96e9e60aadc6cb7db2", null ],
+      [ "WLZ_RCCIDX_NTSUR", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a01a347724e97da2a9524701ffc243a57", null ],
+      [ "WLZ_RCCIDX_NTSURI", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a038fad9ce5844566533710374833070a", null ],
+      [ "WLZ_RCCIDX_ENC", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a80f0fa64569e2156b3ad11a4d9299862", null ],
+      [ "WLZ_RCCIDX_ENCI", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a423d8b47ab708707be2e80ac9eb97e80", null ],
+      [ "WLZ_RCCIDX_OST", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a24bfb95ecade78fa5d9a65b29727ad9c", null ],
+      [ "WLZ_RCCIDX_CNT", "WlzType_8h.html#gab6b8f9500f4f47edc610ef2d399073b3a569fdf964ed87fc94363137f48948f14", null ]
+    ] ],
+    [ "_WlzRCCClass", "group__WlzType.html#ga9eac38ff76acd47bc1ef7e662ad45e15", [
+      [ "WLZ_RCC_EMPTY", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15ab79ccc3b64f7d6303fe9654a1cbcfa64", null ],
+      [ "WLZ_RCC_DC", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a54b4f781adc362684ede19d94ae12eb3", null ],
+      [ "WLZ_RCC_EC", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a33a5945ec4e654ff5a694e6ac3ffa5ec", null ],
+      [ "WLZ_RCC_EQ", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a3c4f77bfc7bde7b688bc3c6d8c6f454d", null ],
+      [ "WLZ_RCC_PO", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a45d84cb9e082b5acc7fd3df5fa1c6bbe", null ],
+      [ "WLZ_RCC_TPP", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15abc46c4c5f12892043c0250cce0c93739", null ],
+      [ "WLZ_RCC_NTPP", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15af33a5156e26daa71bbb53bb15256b00e", null ],
+      [ "WLZ_RCC_TPPI", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a60b4c4fafd642b52d408406fc794bd54", null ],
+      [ "WLZ_RCC_NTPPI", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15acb026b395a092f8180f76597759169a4", null ],
+      [ "WLZ_RCC_TSUR", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15aedd73df47348abcaf907fe069a154fa1", null ],
+      [ "WLZ_RCC_TSURI", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a4fda3334c402e6ff85cb6ba44f52fa85", null ],
+      [ "WLZ_RCC_NTSUR", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a774fc47958b6c6de8c7d1addb962b461", null ],
+      [ "WLZ_RCC_NTSURI", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a48a7e06752209c09f7bf77c972d36f52", null ],
+      [ "WLZ_RCC_ENC", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a4936c6744face79e77a142720ab978ac", null ],
+      [ "WLZ_RCC_ENCI", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15af373e585415dc239af77f9c931874fc8", null ],
+      [ "WLZ_RCC_OST", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15ad29ce91ee9b96befce2e0b9f43071ba9", null ],
+      [ "WLZ_RCC_MSK", "WlzType_8h.html#ga9eac38ff76acd47bc1ef7e662ad45e15a2a529b2d991391319645aca71c2f7f09", null ]
+    ] ],
+    [ "_WlzInterpolationType", "group__WlzType.html#ga89ec233d847933162c0c03ef80bded8c", [
+      [ "WLZ_INTERPOLATION_NEAREST", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8ca73770c5a50fb6bc80d747c93a1a6ebf2", null ],
+      [ "WLZ_INTERPOLATION_LINEAR", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8cab75f6077ac7bab86e201c314e9c1d647", null ],
+      [ "WLZ_INTERPOLATION_CLASSIFY_1", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8cacb975d5206c0848f3b662d047f9ebb60", null ],
+      [ "WLZ_INTERPOLATION_CALLBACK", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8caf1f7167a02bcbf2c2da52f1289fe4c40", null ],
+      [ "WLZ_INTERPOLATION_ORDER_2", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8ca41bda46cae8bc7e40b9ba4d39a5e31c1", null ],
+      [ "WLZ_INTERPOLATION_BARYCENTRIC", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8ca60c11e6a72ecd9db7c13d3c72d132899", null ],
+      [ "WLZ_INTERPOLATION_KRIG", "WlzType_8h.html#ga89ec233d847933162c0c03ef80bded8ca822f409a9109092dddb901d1a3ab55bf", null ]
+    ] ],
+    [ "_WlzVertexType", "group__WlzType.html#ga8773ab756ebba7730492225889d3c445", [
+      [ "WLZ_VERTEX_ERROR", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445abb5fe76dd6587befa8432fd01c9e9f61", null ],
+      [ "WLZ_VERTEX_I2", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a589be54092bc2fe4aa911650d124763e", null ],
+      [ "WLZ_VERTEX_F2", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a01c7b7295143bd1feb71b5c422aab5b0", null ],
+      [ "WLZ_VERTEX_D2", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445ae533d4339e8bd9959173521308a40856", null ],
+      [ "WLZ_VERTEX_I3", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a7e1323cf32ca3e4d3b7528abaab17403", null ],
+      [ "WLZ_VERTEX_F3", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a16facd593078bbd67549850f1a181086", null ],
+      [ "WLZ_VERTEX_D3", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445aa5e3457a635a87ee74155eb38295fb78", null ],
+      [ "WLZ_VERTEX_L2", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445ace85d050e92840ad5f10e19f1a9359a7", null ],
+      [ "WLZ_VERTEX_L3", "WlzType_8h.html#ga8773ab756ebba7730492225889d3c445af34f437de40a1ecc0f65ff3b7f4b6056", null ]
+    ] ],
+    [ "_WlzMarkerType", "group__WlzType.html#ga8b0002dc1d3c878946e5cdb03f67a6c4", [
+      [ "WLZ_MARKER_NONE", "WlzType_8h.html#ga8b0002dc1d3c878946e5cdb03f67a6c4a4ed566bdc018c8035ebdcb46b07a8e9c", null ],
+      [ "WLZ_MARKER_POINT", "WlzType_8h.html#ga8b0002dc1d3c878946e5cdb03f67a6c4a8201bf535cf12005f2d84596c4c6d204", null ],
+      [ "WLZ_MARKER_SPHERE", "WlzType_8h.html#ga8b0002dc1d3c878946e5cdb03f67a6c4a53aabe3b49b4173793ea39436a915624", null ]
+    ] ],
+    [ "_WlzLBTNodeClass2D", "group__WlzType.html#gafa787d3273729897334defed5f9dc6d3", [
+      [ "WLZ_LBT_NODE_CLASS_2D_0", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3a630c9cd4a3c58afa2e35b611b5198658", null ],
+      [ "WLZ_LBT_NODE_CLASS_2D_1", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3a1fa62c22b5750e0d782d085957fa90c5", null ],
+      [ "WLZ_LBT_NODE_CLASS_2D_2", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3ad37113f4ed00db23b3b636b1492ae1d4", null ],
+      [ "WLZ_LBT_NODE_CLASS_2D_3", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3aad62d514202e90f64e396d2b6c55b37c", null ],
+      [ "WLZ_LBT_NODE_CLASS_2D_4", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3afe4bc6845804b3d8424dca6b185dd60c", null ],
+      [ "WLZ_LBT_NODE_CLASS_2D_5", "WlzType_8h.html#gafa787d3273729897334defed5f9dc6d3a4e5b7938e5948d6b4ba03adac37a51c0", null ]
+    ] ],
+    [ "_WlzKrigModelFnType", "group__WlzType.html#ga38e3c408536c0044f1108629461d326b", [
+      [ "WLZ_KRIG_MODELFN_INVALID", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba29cf72877784b9e69866879c1a221028", null ],
+      [ "WLZ_KRIG_MODELFN_NUGGET", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba874e28f64cb89a100c5e4510a54cf578", null ],
+      [ "WLZ_KRIG_MODELFN_LINEAR", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326bae73f1979aef36bd4e2c39718164718a3", null ],
+      [ "WLZ_KRIG_MODELFN_SPHERICAL", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba52d3c0c2aa8bec32906f82e1665e56d5", null ],
+      [ "WLZ_KRIG_MODELFN_EXPONENTIAL", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba49fabf878fd4ca121b9289e42e89c1cc", null ],
+      [ "WLZ_KRIG_MODELFN_GAUSSIAN", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba6fa3d4b794a9ecd8eb79867dbd7070e0", null ],
+      [ "WLZ_KRIG_MODELFN_QUADRATIC", "WlzType_8h.html#ga38e3c408536c0044f1108629461d326ba5099e0db5f6a421d13aa35231956caaf", null ]
+    ] ]
+];
