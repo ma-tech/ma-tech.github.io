@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.7.0</span>
+   &#160;<span id="projectnumber">Version 1.7.5</span>
    </div>
   </td>
  </tr>
@@ -82,7 +82,7 @@ Files</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <dl class="section user"><dt>Name</dt><dd>WlzPointsFromDomain - computes points from a given spatial domain object. </dd></dl>
 <dl class="section user"><dt>Synopsis</dt><dd><pre class="fragment">WlzPointsFromDomain [-d#] [-D #,#[#]] [-g[&lt;min&gt;][,&lt;max&gt;][,&lt;gam&gt;]] [-G] [-M]
-                [-o&lt;output object&gt;] [-h] [-T] [-x] [&lt;input object&gt;]
+                [-N] [-o&lt;output object&gt;] [-h] [-T] [-x] [&lt;input object&gt;]
 </pre> </dd></dl>
 <dl class="section user"><dt>Options</dt><dd><table  width="500" border="0">
 <tr>
@@ -95,6 +95,8 @@ Files</h2></td></tr>
 <td><b>-G</b> </td><td>Include sampled grey values.  </td></tr>
 <tr>
 <td><b>-M</b> </td><td>Transform the sampled grey values using gamma function.  </td></tr>
+<tr>
+<td><b>-N</b> </td><td>Normalise sampled grey values to range [g_min - 255].  </td></tr>
 <tr>
 <td><b>-o</b> </td><td>Output file.  </td></tr>
 <tr>

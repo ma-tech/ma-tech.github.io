@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.7.0</span>
+   &#160;<span id="projectnumber">Version 1.7.5</span>
    </div>
   </td>
  </tr>
@@ -290,7 +290,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga964764c41ef25f7bec123a90f688d7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a new point value table with space for the requested number of points.  <a href="#ga964764c41ef25f7bec123a90f688d7de">More...</a><br /></td></tr>
 <tr class="separator:ga964764c41ef25f7bec123a90f688d7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac886cae588452cfda076a1ef6a4d0b02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#a4d276ab11a9c56685b8845cfc8ba0309">WlzPolygonDomain</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzAllocation.html#gac886cae588452cfda076a1ef6a4d0b02">WlzMakePolygonDomain</a> (<a class="el" href="WlzType_8h.html#a81afb97e32b0abe6045e0df86a1ac6d5">WlzObjectType</a> type, int n, <a class="el" href="WlzType_8h.html#a6ea6a1cf0d8a596b3f4149709bca0c95">WlzIVertex2</a> *vertices, int maxv, int copy, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:gac886cae588452cfda076a1ef6a4d0b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a polygon domain, allocating space and copying as required:  <a href="#gac886cae588452cfda076a1ef6a4d0b02">More...</a><br /></td></tr>
+<tr class="memdesc:gac886cae588452cfda076a1ef6a4d0b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a polygon domain, allocating space and copying vertices as required acording to the copy flag. The polygon domain must be freed when longer required using <a class="el" href="group__WlzAllocation.html#ga55cfccf2b34c6133133258031753a455" title="Free a polygon domain. ">WlzFreePolyDmn()</a>.  <a href="#gac886cae588452cfda076a1ef6a4d0b02">More...</a><br /></td></tr>
 <tr class="separator:gac886cae588452cfda076a1ef6a4d0b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2b2a89ddfb7bee0f7cc7a4b628029079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#a0e8a65f401218fac6f063e04092c6d0b">WlzBoundList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzAllocation.html#ga2b2a89ddfb7bee0f7cc7a4b628029079">WlzMakeBoundList</a> (<a class="el" href="WlzType_8h.html#a81afb97e32b0abe6045e0df86a1ac6d5">WlzObjectType</a> type, int wrap, <a class="el" href="WlzType_8h.html#a4d276ab11a9c56685b8845cfc8ba0309">WlzPolygonDomain</a> *poly, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga2b2a89ddfb7bee0f7cc7a4b628029079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate space and initialise a boundlist structure.  <a href="#ga2b2a89ddfb7bee0f7cc7a4b628029079">More...</a><br /></td></tr>
@@ -3379,31 +3379,29 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Make a polygon domain, allocating space and copying as required: </p>
-<ul>
-<li>
-vertices != NULL, copy=0 - just plant the pointer  </li>
-<li>
-vertices != NULL, copy=1 - allocate space and copy  </li>
-<li>
-vertices == NULL, copy=0 - no vertex space allocated<br />
-probably an error!! </li>
-<li>
-vertices == NULL, copy=1 - allocate space for maxv vertices </li>
-</ul>
-<dl class="section return"><dt>Returns</dt><dd>Pointer to the initialised structure. </dd></dl>
+<p>Makes a polygon domain, allocating space and copying vertices as required acording to the copy flag. The polygon domain must be freed when longer required using <a class="el" href="group__WlzAllocation.html#ga55cfccf2b34c6133133258031753a455" title="Free a polygon domain. ">WlzFreePolyDmn()</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the initialised polygon domain.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>one of WLZ_POLYGON_INT, WLZ_POLYGON_FLOAT, WLZ_POLYGON_DOUBLE </td></tr>
-    <tr><td class="paramname">n</td><td>number of vertices if vertices!=NULL. </td></tr>
-    <tr><td class="paramname">vertices</td><td>vertices to be set, see type for value options. </td></tr>
-    <tr><td class="paramname">maxv</td><td>size of array if vertices!=NULL else number of vertices for which space it to be allocated. </td></tr>
-    <tr><td class="paramname">copy</td><td>copy flag see description for values. </td></tr>
-    <tr><td class="paramname">dstErr</td><td>Error return, values: WLZ_ERR_NONE, WLZ_ERR_PARAM_DATA, WLZ_ERR_MEM_ALLOC. </td></tr>
+    <tr><td class="paramname">type</td><td>Required type of the polygon domain; WLZ_POLYGON_INT, WLZ_POLYGON_FLOAT or WLZ_POLYGON_DOUBLE. </td></tr>
+    <tr><td class="paramname">n</td><td>Number of vertices, required if vertices pointer is not NULL. </td></tr>
+    <tr><td class="paramname">vertices</td><td>Vertices pointer, either an array of vertices or NULL. Although this is of type WlzIVertex2 *, the vertex type must match the polygon type (eg WlzDVertex2 * for WLZ_POLYGON_DOUBLE). Vertices should be passed by casting the vertex pointer to WlzIVertex2 * if required. </td></tr>
+    <tr><td class="paramname">maxv</td><td>Size of the vertex array, ie the maximum number of vertices that the polygon domain may hold. </td></tr>
+    <tr><td class="paramname">copy</td><td>Copy flag: <ul>
+<li>
+vertices == NULL, copy=0 - no vertex space allocated </li>
+<li>
+vertices != NULL, copy=0 - just plant the pointer </li>
+<li>
+vertices == NULL, copy=1 - allocate space for maxv vertices </li>
+<li>
+vertices != NULL, copy=1 - allocate space and copy </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section user"><dt>Source:</dt><dd><a class="el" href="WlzMakeStructs_8c.html" title="Functions for allocating woolz structures. ">WlzMakeStructs.c</a> </dd></dl>
 
 <p>References <a class="el" href="group__AlcAlloc.html#ga26b2dfadff11077beca5b5963adbf7de">AlcCalloc()</a>, <a class="el" href="struct__WlzPolygonDomain.html#a532666c6fee6635eb1b2540f22ea2210">_WlzPolygonDomain::linkcount</a>, <a class="el" href="struct__WlzPolygonDomain.html#adb554dc63642d8abcd4498f6655cacff">_WlzPolygonDomain::maxvertices</a>, <a class="el" href="struct__WlzPolygonDomain.html#ad749a7063bfe5367ae984c514c9e8d5a">_WlzPolygonDomain::nvertices</a>, <a class="el" href="struct__WlzPolygonDomain.html#a1d7988af33859a5fc7b6f029457153a9">_WlzPolygonDomain::type</a>, <a class="el" href="struct__WlzPolygonDomain.html#a2983ddcd40430f3871cfae74ab8b1271">_WlzPolygonDomain::vtx</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acff79eca9f92283c362c3b64f625bcfb">WLZ_POLYGON_DOUBLE</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a19932d6c53c1b3a2b76031896362a9fd">WLZ_POLYGON_FLOAT</a>, and <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a8f4725a7de1cd25c56a24c297fd46959">WLZ_POLYGON_INT</a>.</p>
 

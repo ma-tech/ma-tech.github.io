@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"struct__WlzEMAPProperty.html#a8c396e075b8f7c4d7acc7d2fbdf18636":[3,23,4,13],
+"struct__WlzEMAPProperty.html#a8ef6c80c0a09a50f56d599e5c5e18e79":[3,23,4,6],
+"struct__WlzEMAPProperty.html#a958604c229d9539590f5fd50e159f6a2":[3,23,4,16],
 "struct__WlzEMAPProperty.html#a9c038e566d9c229e519928b3fa29ace8":[3,23,4,3],
 "struct__WlzEMAPProperty.html#ab96a3f7e5c70fc8dfb42dc255238adce":[3,23,4,4],
 "struct__WlzEMAPProperty.html#ae6badc2136eb1e46f55ba2757876fcaa":[3,23,4,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "struct__WlzEffStackCtrHeader.html#af56d729d077c4cde7c83c547705a2772":[4,0,126,1],
 "struct__WlzEffVffHeader.html":[4,0,127],
 "struct__WlzEffVffHeader.html#a036f38146d1647df2eccc057f00ba094":[4,0,127,2],
-"struct__WlzEffVffHeader.html#a285f946d7b7a80cf34845fd5b724fc53":[4,0,127,10],
-"struct__WlzEffVffHeader.html#a2e4b51033a6d597e13b392a269cc128c":[4,0,127,4],
-"struct__WlzEffVffHeader.html#a40a35a93d8daac2ec3fc8917e9a6ccdc":[4,0,127,1],
-"struct__WlzEffVffHeader.html#a484e25c37611e72ad8f077e1d5e5203e":[4,0,127,7]
+"struct__WlzEffVffHeader.html#a285f946d7b7a80cf34845fd5b724fc53":[4,0,127,10]
 };

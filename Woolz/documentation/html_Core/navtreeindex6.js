@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"WlzStringUtils_8c.html#ab88ce4c77ebbeafb3608ce5f2f6d6d46":[5,0,0,0,0,0,0,0,0,7,188,7],
 "WlzStripProperties_8c.html":[5,0,0,0,0,0,0,0,0,0,164],
 "WlzTensorComponent_8c.html":[5,0,0,0,0,0,0,0,0,0,167],
 "WlzTensor_8c.html":[5,0,0,0,0,0,0,0,0,7,191],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "WlzType_8h.html#ae9537e34fc96d3dcfaff3ae8f5c7dacb":[5,0,0,0,0,0,0,0,0,7,198,230],
 "WlzType_8h.html#aeadab0c345fdd7ba2d28fe0a0123d038":[5,0,0,0,0,0,0,0,0,7,198,164],
 "WlzType_8h.html#aeb1e7df7e18416eebcb4fca7ce0d7635":[5,0,0,0,0,0,0,0,0,7,198,189],
-"WlzType_8h.html#aebb25ec21d287e5919a81df22662c87d":[5,0,0,0,0,0,0,0,0,7,198,56],
-"WlzType_8h.html#aebbee582bb054a6110119fd5b4988f04":[5,0,0,0,0,0,0,0,0,7,198,59]
+"WlzType_8h.html#aebb25ec21d287e5919a81df22662c87d":[5,0,0,0,0,0,0,0,0,7,198,56]
 };

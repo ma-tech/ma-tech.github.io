@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"struct__WlzEffVffHeader.html#a2e4b51033a6d597e13b392a269cc128c":[4,0,127,4],
+"struct__WlzEffVffHeader.html#a40a35a93d8daac2ec3fc8917e9a6ccdc":[4,0,127,1],
+"struct__WlzEffVffHeader.html#a484e25c37611e72ad8f077e1d5e5203e":[4,0,127,7],
 "struct__WlzEffVffHeader.html#a4b294098f56ae1071f9b0be888eab6ad":[4,0,127,9],
 "struct__WlzEffVffHeader.html#a7c2482ae11b08723d771bb8a39dc8f0c":[4,0,127,8],
 "struct__WlzEffVffHeader.html#a8509dbfc4c19b4b4ca0ce98db5c7cc05":[4,0,127,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "struct__WlzGreyProperty.html#ae86da2cf5c37d85c7c8cc734fc9f2c79":[3,23,6,3],
 "struct__WlzGreyTransformParam.html":[3,29,39],
 "struct__WlzGreyTransformParam.html#a075869eecd6e778f6f6580c99589bb37":[3,29,39,1],
-"struct__WlzGreyTransformParam.html#a82537630275da193eb59564628d920e0":[3,29,39,3],
-"struct__WlzGreyTransformParam.html#a975ca0659884555dd9f12209c67e7b66":[3,29,39,6],
-"struct__WlzGreyTransformParam.html#a9b98b1222395cae04952acfbf52f20c9":[3,29,39,5],
-"struct__WlzGreyTransformParam.html#ab06bfcca2494eb5e42e963dc68e3ea82":[3,29,39,4]
+"struct__WlzGreyTransformParam.html#a82537630275da193eb59564628d920e0":[3,29,39,3]
 };

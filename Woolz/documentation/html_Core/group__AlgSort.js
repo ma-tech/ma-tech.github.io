@@ -2,6 +2,7 @@ var group__AlgSort =
 [
     [ "AlgHeapSort.c", "AlgHeapSort_8c.html", null ],
     [ "AlgQSort.c", "AlgQSort_8c.html", null ],
+    [ "AlgSort.c", "AlgSort_8c.html", null ],
     [ "AlgHeapSort", "group__AlgSort.html#ga3786f72f3e70d9a570c4f13a708d173b", null ],
     [ "AlgHeapSortIdx", "group__AlgSort.html#ga6753f2965c44f2eb007e8d640bdf0187", null ],
     [ "AlgHeapElmSwap", "group__AlgSort.html#gaef06b3c364dfa904317ff0baa4b82c75", null ],
@@ -33,5 +34,6 @@ var group__AlgSort =
     [ "AlgHeapSortInvCmpIdxLFn", "group__AlgSort.html#gaa00fcee89121f8b8040a4654f394eb9f", null ],
     [ "AlgHeapSortInvCmpIdxFFn", "group__AlgSort.html#ga23db4aa85722a9fb8231b4d35befb9f2", null ],
     [ "AlgHeapSortInvCmpIdxDFn", "group__AlgSort.html#ga759e7c902b81b34b54f0ecf4e68d93c9", null ],
-    [ "AlgQSort", "group__AlgSort.html#ga112cc58a781857e4c41baf32bcb770ef", null ]
+    [ "AlgQSort", "group__AlgSort.html#ga112cc58a781857e4c41baf32bcb770ef", null ],
+    [ "AlgSort", "group__AlgSort.html#gabf27049935f070c0dbc268c5448a3da6", null ]
 ];

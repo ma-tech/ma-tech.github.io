@@ -1,5 +1,8 @@
 var NAVTREEINDEX34 =
 {
+"struct__WlzMeshIntVec.html#a9ee80bf6784878a2d14df59a5c40db55":[4,0,213,3],
+"struct__WlzMeshIntVec.html#aeefa91ac473de100bd305bf39dab0132":[4,0,213,0],
+"struct__WlzMeshNode.html":[3,29,46],
 "struct__WlzMeshNode.html#a3ee6ab8a7573c4ef3e00e406e4c561b1":[3,29,46,1],
 "struct__WlzMeshNode.html#aa1f9547220423acd5158d1c9ba3e282b":[3,29,46,0],
 "struct__WlzMeshNode.html#afb551bd705b5ef99e15d6d68e5fbd985":[3,29,46,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX34 =
 "struct__WlzSplitObjData.html#a80ac37b50085bc367cedfff23ed6ad05":[4,0,249,3],
 "struct__WlzSplitObjData.html#ac6d069103a8daae4a12e1b311ce074c4":[4,0,249,2],
 "struct__WlzTElement.html":[3,29,54],
-"struct__WlzTElement.html#a1ace977d72e858d423038ea2a5935926":[3,29,54,2],
-"struct__WlzTElement.html#a779266d30a2843cfe6dd338142b6c6c1":[3,29,54,4],
-"struct__WlzTElement.html#abdbbd13a09923bbd2458edfdb1638130":[3,29,54,0],
-"struct__WlzTElement.html#ac1c9d7a437bc56b48adeba90a9bccf37":[3,29,54,1]
+"struct__WlzTElement.html#a1ace977d72e858d423038ea2a5935926":[3,29,54,2]
 };

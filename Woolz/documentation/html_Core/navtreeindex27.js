@@ -1,17 +1,20 @@
 var NAVTREEINDEX27 =
 {
+"group__hguDlpList.html#ga98def44eeaf2d600dac50f39c493d631":[5,0,0,0,0,0,0,0,0,6,0,5],
+"group__hguDlpList.html#gac6ab7d189a53d8ce32fbd5e8eb049e69":[3,65,25],
 "group__hguDlpList.html#gac6ab7d189a53d8ce32fbd5e8eb049e69":[5,0,0,0,0,0,0,0,0,6,0,22],
+"group__hguDlpList.html#gac6ab7d189a53d8ce32fbd5e8eb049e69":[5,0,0,0,0,0,0,0,0,6,1,9],
 "group__hguDlpList.html#gae78184455b8d8196a152bc3b9c542ba6":[3,65,6],
-"group__hguDlpList.html#gae78184455b8d8196a152bc3b9c542ba6":[5,0,0,0,0,0,0,0,0,6,0,3],
 "group__hguDlpList.html#gae78184455b8d8196a152bc3b9c542ba6":[5,0,0,0,0,0,0,0,0,6,1,11],
+"group__hguDlpList.html#gae78184455b8d8196a152bc3b9c542ba6":[5,0,0,0,0,0,0,0,0,6,0,3],
 "group__hguDlpList.html#gaef1ab96080915463f11307a0f7a91538":[3,65,18],
 "group__hguDlpList.html#gaef1ab96080915463f11307a0f7a91538":[5,0,0,0,0,0,0,0,0,6,1,8],
 "group__hguDlpList.html#gaef1ab96080915463f11307a0f7a91538":[5,0,0,0,0,0,0,0,0,6,0,15],
-"group__hguDlpList.html#gaf28004cb455fc5ccbde6e0c4f9a8e51b":[5,0,0,0,0,0,0,0,0,6,0,11],
 "group__hguDlpList.html#gaf28004cb455fc5ccbde6e0c4f9a8e51b":[3,65,14],
+"group__hguDlpList.html#gaf28004cb455fc5ccbde6e0c4f9a8e51b":[5,0,0,0,0,0,0,0,0,6,0,11],
 "group__hguDlpList.html#gaf45a25c35dfde04615f3695cca89b795":[3,65,13],
-"group__hguDlpList.html#gaf45a25c35dfde04615f3695cca89b795":[5,0,0,0,0,0,0,0,0,6,1,6],
 "group__hguDlpList.html#gaf45a25c35dfde04615f3695cca89b795":[5,0,0,0,0,0,0,0,0,6,0,10],
+"group__hguDlpList.html#gaf45a25c35dfde04615f3695cca89b795":[5,0,0,0,0,0,0,0,0,6,1,6],
 "group__wlz3dgetprojection.html":[3,68,0],
 "group__wlz3dgetsection.html":[3,68,1],
 "group__wlz3dviewtransformbitmap.html":[3,68,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "index.html#overview":[0,0],
 "index.html#sstructure":[0,1],
 "libWlz_2Wlz3DViewTransformObj_8c.html":[5,0,0,0,0,0,0,0,0,7,8],
-"libWlz_2WlzAffineTransformLSq_8c.html":[5,0,0,0,0,0,0,0,0,7,11],
-"libWlz_2WlzArea_8c.html":[5,0,0,0,0,0,0,0,0,7,12],
-"libWlz_2WlzBoundingBox_8c.html":[5,0,0,0,0,0,0,0,0,7,20],
-"libWlz_2WlzBoundingBox_8c.html#a0c33bf504f78637fe779ab4afb2693a2":[5,0,0,0,0,0,0,0,0,7,20,5]
+"libWlz_2WlzAffineTransformLSq_8c.html":[5,0,0,0,0,0,0,0,0,7,11]
 };

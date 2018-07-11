@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"struct__WlzCMeshEntCore.html":[3,20,13],
+"struct__WlzCMeshEntCore.html#a2cc6828e9b48dfae878d42968d18d82e":[3,20,13,1],
+"struct__WlzCMeshEntCore.html#ade5896c1ce183ab49c85483da14d5000":[3,20,13,0],
 "struct__WlzCMeshEntRes.html":[3,20,37],
 "struct__WlzCMeshEntRes.html#a5e6223cfd1019d4c8f488c7e23919b70":[3,20,37,1],
 "struct__WlzCMeshEntRes.html#a6f501848e0952936a0c2f4aee4314c87":[3,20,37,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "struct__WlzEMAPProperty.html#a4d4972b5001dd3b96eefa2bfc0a4e2b1":[3,23,4,10],
 "struct__WlzEMAPProperty.html#a514a1457f9ec45852a4cfba5b6a234e4":[3,23,4,17],
 "struct__WlzEMAPProperty.html#a544e0d68fa01b8c48b1cff836bdaff1f":[3,23,4,12],
-"struct__WlzEMAPProperty.html#a5bccfb93949b00bb0f0eb787b72522f1":[3,23,4,1],
-"struct__WlzEMAPProperty.html#a8c396e075b8f7c4d7acc7d2fbdf18636":[3,23,4,13],
-"struct__WlzEMAPProperty.html#a8ef6c80c0a09a50f56d599e5c5e18e79":[3,23,4,6],
-"struct__WlzEMAPProperty.html#a958604c229d9539590f5fd50e159f6a2":[3,23,4,16]
+"struct__WlzEMAPProperty.html#a5bccfb93949b00bb0f0eb787b72522f1":[3,23,4,1]
 };

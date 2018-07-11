@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"union__WlzGMVertexGU.html#a3a935dc254afbe1659061cc9ba4568d5":[3,17,13,1],
+"union__WlzGMVertexGU.html#a3c44ebae3d1e12c4cd29849aee7eb2bf":[3,17,13,5],
+"union__WlzGMVertexGU.html#aa2ab03f381fed2757e5c9ebdac0d59e5":[3,17,13,4],
 "union__WlzGMVertexGU.html#ac07ebd70bb6ddb650cce6133502ec9c5":[3,17,13,6],
 "union__WlzGMVertexGU.html#ae9f7bf0c75185784eaf2fcf69935ae31":[3,17,13,0],
 "union__WlzGreyP.html":[3,30,18],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX35 =
 {
+"struct__WlzTElement.html#a779266d30a2843cfe6dd338142b6c6c1":[3,29,54,4],
+"struct__WlzTElement.html#abdbbd13a09923bbd2458edfdb1638130":[3,29,54,0],
+"struct__WlzTElement.html#ac1c9d7a437bc56b48adeba90a9bccf37":[3,29,54,1],
 "struct__WlzTElement.html#afc4c312e7acbd2af52acd257a414494d":[3,29,54,3],
 "struct__WlzTextProperty.html":[3,23,7],
 "struct__WlzTextProperty.html#a5b3d1aca85426c75e04e96e1c26ef09b":[3,23,7,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX35 =
 "union__WlzGMShellGU.html#acb56c0af38be10f3464a04e3e0946b35":[3,17,25,0],
 "union__WlzGMVertexGU.html":[3,17,13],
 "union__WlzGMVertexGU.html#a01eed7d9f1c660d3b5129ab92e13aa50":[3,17,13,2],
-"union__WlzGMVertexGU.html#a30062c0ce39a4c3325f44555b097b26c":[3,17,13,3],
-"union__WlzGMVertexGU.html#a3a935dc254afbe1659061cc9ba4568d5":[3,17,13,1],
-"union__WlzGMVertexGU.html#a3c44ebae3d1e12c4cd29849aee7eb2bf":[3,17,13,5],
-"union__WlzGMVertexGU.html#aa2ab03f381fed2757e5c9ebdac0d59e5":[3,17,13,4]
+"union__WlzGMVertexGU.html#a30062c0ce39a4c3325f44555b097b26c":[3,17,13,3]
 };

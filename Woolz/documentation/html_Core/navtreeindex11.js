@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"WlzValueUtils_8c.html#a8303aa8de4e29a8be88138d7c62259c9":[5,0,0,0,0,0,0,0,0,7,204,91],
 "WlzValueUtils_8c.html#a8ec51a7b5d5109fb622960306d0f6763":[5,0,0,0,0,0,0,0,0,7,204,59],
 "WlzValueUtils_8c.html#a97a68814aa3d17d5452f669e98dd9554":[5,0,0,0,0,0,0,0,0,7,204,70],
 "WlzValueUtils_8c.html#aa2e9bcf657e26550949a9bad2a4fbdce":[5,0,0,0,0,0,0,0,0,7,204,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "globals_eval_w.html":[5,1,5,3],
 "globals_f.html":[5,1,0,6],
 "globals_func.html":[5,1,1,0],
-"globals_func.html":[5,1,1],
-"globals_func_b.html":[5,1,1,1]
+"globals_func.html":[5,1,1]
 };

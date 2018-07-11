@@ -32,7 +32,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.7.0</span>
+   &#160;<span id="projectnumber">Version 1.7.5</span>
    </div>
   </td>
  </tr>
@@ -81,6 +81,9 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:AlgQSort_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AlgQSort_8c.html">AlgQSort.c</a></td></tr>
 <tr class="memdesc:AlgQSort_8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized implementation of quick sort based on "Engineering a Sort Function" J.L. Bentley and M.D. McIlroy, Software Practice and Experience 23 (1993) 1249-1265. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:AlgSort_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="AlgSort_8c.html">AlgSort.c</a></td></tr>
+<tr class="memdesc:AlgSort_8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic sorting functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -181,6 +184,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga112cc58a781857e4c41baf32bcb770ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AlgSort.html#ga112cc58a781857e4c41baf32bcb770ef">AlgQSort</a> (void *base, size_t nElm, size_t elmSz, void *cData, int(*cmpFn)(const void *, const void *, const void *))</td></tr>
 <tr class="memdesc:ga112cc58a781857e4c41baf32bcb770ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">A qsort implementation which allows client data to be passed to the sort function.  <a href="#ga112cc58a781857e4c41baf32bcb770ef">More...</a><br /></td></tr>
 <tr class="separator:ga112cc58a781857e4c41baf32bcb770ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf27049935f070c0dbc268c5448a3da6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AlgSort.html#gabf27049935f070c0dbc268c5448a3da6">AlgSort</a> (void *base, size_t nElm, size_t elmSz, int(*compar)(const void *, const void *))</td></tr>
+<tr class="memdesc:gabf27049935f070c0dbc268c5448a3da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper for qsort()/mergesort() which aims to be consistent across platforms. The default sort is qsort but on some platforms, eg Apple OSX this is unreliable and mergesort is used. The parameters are for qsort/mergesort.  <a href="#gabf27049935f070c0dbc268c5448a3da6">More...</a><br /></td></tr>
+<tr class="separator:gabf27049935f070c0dbc268c5448a3da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1625,6 +1631,57 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="AlgType_8h.html#a807d77562a06d641160796d350dc71d1">ALG_MIN</a>, <a class="el" href="AlgQSort_8c.html#ab0a6366f2b6bef79442469b01ab70dab">ALG_QSORT_PVINIT</a>, <a class="el" href="AlgQSort_8c.html#a8d8fc768c5587c9131ada04da06be4c4">ALG_QSORT_SWAP</a>, <a class="el" href="AlgQSort_8c.html#af7f436b48b8121edc08ff6e3559766d9">ALG_QSORT_SWAPCODE</a>, and <a class="el" href="AlgQSort_8c.html#a9a834de9597e5defedb8170e4949cb5b">ALG_QSORT_VECSWAP</a>.</p>
 
 <p>Referenced by <a class="el" href="group__WlzDomainOps.html#gad68030118df8d55f30444d50a0a5b2bb">WlzIDomainFromPItv2D()</a>, <a class="el" href="group__WlzDomainOps.html#ga372a93d29b9ef94a14735104a2c2975d">WlzLBTBalanceDomain2D()</a>, <a class="el" href="group__WlzDomainOps.html#gadfd3eec5397372409ed6dd5428d3a27c">WlzLBTBalanceDomain3D()</a>, <a class="el" href="group__WlzDomainOps.html#ga8eaef078139028cfcc029044b65c7def">WlzLBTKeyToBox2I()</a>, <a class="el" href="group__WlzDomainOps.html#ga7e1b4e4f3d2607852d08170533be4723">WlzPDomainFromPItv3D()</a>, and <a class="el" href="group__WlzBinaryOps.html#ga22ac7ecd8c36462cc42e6148ca6260e1">WlzSplitObj()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gabf27049935f070c0dbc268c5448a3da6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AlgSort </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>base</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nElm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>elmSz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int(*)(const void *, const void *)&#160;</td>
+          <td class="paramname"><em>compar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A wrapper for qsort()/mergesort() which aims to be consistent across platforms. The default sort is qsort but on some platforms, eg Apple OSX this is unreliable and mergesort is used. The parameters are for qsort/mergesort. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base</td><td>Start of array to be sorted. </td></tr>
+    <tr><td class="paramname">nElm</td><td>Number of elements in the array. </td></tr>
+    <tr><td class="paramname">elmSz</td><td>Size of an array element. </td></tr>
+    <tr><td class="paramname">compar</td><td>Comparison function. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Referenced by <a class="el" href="group__WlzSectionTransform.html#ga40d854c4d5b175ca0d28e4b752d2a48b">Wlz3DViewStructTransformBB()</a>, <a class="el" href="group__WlzTransform.html#ga0a44ae5a7328a4449604500cc90efdaf">Wlz3DViewTransformObj()</a>, <a class="el" href="group__WlzTransform.html#gafbd1ce8db06044985dd7ff134176b7a8">WlzCMeshCompSurfMap()</a>, <a class="el" href="group__WlzMesh.html#ga259ebe41b7dce14054d79dd82a13803e">WlzCMeshToDomObjValues()</a>, <a class="el" href="libWlz_2WlzCompDispIncGrey_8c.html#a4963e9019e4193db586fd402db73374f">WlzCompDispIncGrey()</a>, <a class="el" href="group__WlzConvexHull.html#gaedc2e3482e023b8b87a9031a17891c3a">WlzConvHullClarkson2D()</a>, <a class="el" href="WlzPatchObjRegister_8c.html#aca677bb89ff81c928c54b64c345ff676">WlzGetPatchTreeToDepth()</a>, <a class="el" href="group__WlzValuesUtils.html#ga65eaf55f82362941277e9136e0cd364f">WlzGreySetHilbertRankValues()</a>, <a class="el" href="group__WlzTransform.html#ga5c70555ce6b5a7a1ad7ac44fe555fdcf">WlzMatchICPWeightMatches()</a>, <a class="el" href="group__WlzTransform.html#gaaf7521612784110b6231c14af9adc193">WlzMeshTransformVtx()</a>, <a class="el" href="group__WlzPolyline.html#gae71e422d6285f583e932357ad250ad75">WlzPolyToObj()</a>, and <a class="el" href="group__WlzRaster.html#ga765c96e7c804ddc706195cb8531309ec">WlzRasterLineSetItv2D()</a>.</p>
 
 </div>
 </div>

@@ -32,6 +32,7 @@ var dir_cc77ec509bcecbc09dbf7fea040b07d0 =
     [ "AlgRange.c", "AlgRange_8c.html", "AlgRange_8c" ],
     [ "AlgRank.c", "AlgRank_8c.html", "AlgRank_8c" ],
     [ "AlgShuffle.c", "AlgShuffle_8c.html", "AlgShuffle_8c" ],
+    [ "AlgSort.c", "AlgSort_8c.html", "AlgSort_8c" ],
     [ "AlgType.h", "AlgType_8h.html", "AlgType_8h" ],
     [ "AlgVectorMath.c", "AlgVectorMath_8c.html", "AlgVectorMath_8c" ]
 ];

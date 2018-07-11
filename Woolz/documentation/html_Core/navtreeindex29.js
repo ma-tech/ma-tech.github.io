@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"struct__AlcLRUCache.html#a16d606b14b08634d895cbf8f788bc8f1":[3,44,2,3],
+"struct__AlcLRUCache.html#a250bf4836ad80dc3b1b299ca0ada267f":[3,44,2,0],
+"struct__AlcLRUCache.html#a2d0f52b914f5093484e5f13c02b75ab1":[3,44,2,5],
 "struct__AlcLRUCache.html#a5a16e7b21c1965ee27de1ac6a79b2589":[3,44,2,13],
 "struct__AlcLRUCache.html#a80fce19f655c96a399e9aff538ad1cbb":[3,44,2,11],
 "struct__AlcLRUCache.html#a84e779733ea727a2592d6928c3e9548c":[3,44,2,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "struct__WlzCMeshElm3D.html#a685a820b711b89568c28ecca53d0396a":[3,20,25,4],
 "struct__WlzCMeshElm3D.html#a7bb9cffc8b6a6303cf9f4ab221361838":[3,20,25,3],
 "struct__WlzCMeshElm3D.html#a7fab0e4cf4370e782e8b3624fa954bdb":[3,20,25,2],
-"struct__WlzCMeshElm3D.html#ac2725abf279b6d2ffd78f00005eb1cc0":[3,20,25,0],
-"struct__WlzCMeshEntCore.html":[3,20,13],
-"struct__WlzCMeshEntCore.html#a2cc6828e9b48dfae878d42968d18d82e":[3,20,13,1],
-"struct__WlzCMeshEntCore.html#ade5896c1ce183ab49c85483da14d5000":[3,20,13,0]
+"struct__WlzCMeshElm3D.html#ac2725abf279b6d2ffd78f00005eb1cc0":[3,20,25,0]
 };
