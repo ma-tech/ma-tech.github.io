@@ -1,3 +1,26 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "Woolz Image Processing", "index.html", [
@@ -12,8 +35,8 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
@@ -30,42 +53,42 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AlcAlloc_8c.html",
-"HGUDlpList_8h.html#ga72fc54dde9b136b85bc018a159943420a5f1fa42eb59da12e6c70fb4fa9fd6041",
-"WlzError_8h.html",
-"WlzExtFFType_8h.html#a45ffe89e2bb9030f5a1fdabbc6e1bf9da4c557a483ebd12ca1ef802c1deef27e1",
-"WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda3e6bf37e14464a2d1569271452fb75c3",
-"WlzMacro_8h.html#a15effc7e5fb3ce0a0efb701997d10447",
-"WlzStringUtils_8c.html#ab88ce4c77ebbeafb3608ce5f2f6d6d46",
-"WlzType_8h.html#aebbee582bb054a6110119fd5b4988f04",
-"WlzType_8h.html#ga6c6db76ae895f2bdd157840da31e98a7a75f4dfc5764d7d2c7bcf1ac3c9af18c3",
-"WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af2edc8ee3f2f86efaf79d4c0968f2c44",
-"WlzType_8h.html#gac13a9d6b87d9461518a09340ee6fc8a5a907b20546b77e04c28559655566e5824",
-"WlzValueUtils_8c.html#a8303aa8de4e29a8be88138d7c62259c9",
-"globals_func_b.html",
-"group__AlcHashTable.html#ga085ed5d6f97367a96b0336f1b59b2e58",
-"group__AlgMatrix.html#ga1cf9679154eaa5ad77c31357dd7d1307",
-"group__WlzAllocation.html#ga045e235998100433a1ba2feddf442cf5",
-"group__WlzArray.html#gaca81f24a446504dc80c7e1223d6ee1b9",
-"group__WlzDomainUtils.html#ga009eff990f80fd69e287b3a5b30a51d1",
-"group__WlzFeatures.html#ga58c6167f7a4843de1e37161a1aaeb930",
-"group__WlzGeoModel.html#ga4faae03eaefa1fa14d1c658ac0f50e94",
-"group__WlzGeometry.html#ga8d958dacead2ca75e722a1c9712ef798",
-"group__WlzMesh.html#ga490936b2a6b32c52313085262935aa1b",
-"group__WlzMesh.html#gad47fe9a3938024c4be1b9c71d5c1fc95",
-"group__WlzSectionTransform.html#ga64293d02c504f11cde643773691558ab",
-"group__WlzTransform.html#ga2e3a1288702fc02b9affd3250d28f5cb",
-"group__WlzTransform.html#gad0caadaba09f6b9af4e4d9421d097a5e",
-"group__WlzValuesUtils.html#ga3ac785fd634c7bd9109cda3da6d05dea",
-"group__hguDlpList.html#ga98def44eeaf2d600dac50f39c493d631",
-"libWlz_2WlzArea_8c.html",
-"struct__AlcLRUCache.html#a16d606b14b08634d895cbf8f788bc8f1",
-"struct__WlzCMeshEntCore.html",
-"struct__WlzEMAPProperty.html#a8c396e075b8f7c4d7acc7d2fbdf18636",
-"struct__WlzEffVffHeader.html#a2e4b51033a6d597e13b392a269cc128c",
-"struct__WlzGreyTransformParam.html#a975ca0659884555dd9f12209c67e7b66",
-"struct__WlzMeshIntVec.html#a9ee80bf6784878a2d14df59a5c40db55",
-"struct__WlzTElement.html#a779266d30a2843cfe6dd338142b6c6c1",
-"union__WlzGMVertexGU.html#a3a935dc254afbe1659061cc9ba4568d5"
+"HGUDlpList_8h.html#ga15b73786509919242a327ea54d0a54e8abccd55669379888e4c58eee866ea7402",
+"WlzEMAP_8h.html#a3f384435a08408331e29329c0c6e6bfe",
+"WlzExtFFType_8h.html#a4135af3776a18bec44676ade0b99298f",
+"WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda25ab05c6a9f3497aabef52d2f4fbc222",
+"WlzLUTGreyTransformFromTxt_8c.html",
+"WlzSetBackground_8c.html",
+"WlzType_8h.html#ad869c3c1ab5601539712dd63009daafe",
+"WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a476625a149d4eb7bf49a959de0d3154e",
+"WlzType_8h.html#ga72750e155d8197e84cea681e08625c36adafb78c365247bb68e38b8518ad44da1",
+"WlzType_8h.html#gabe6ddc419d64e241884c4383dca906f4ab44f5d36ca67b876032531da65ed012c",
+"WlzValueUtils_8c.html#a294e78593da5c540d426da22590decaf",
+"globals_defs_a.html",
+"group__AlcDLPList.html#ga43139de686b585ef7050449405e44ed1",
+"group__AlgFourier.html#gaad18ceb9ca4f044bda59427230fc448c",
+"group__AlgVector.html#ga1f816cb8a5f0d4d10474f63702d111ba",
+"group__WlzArray.html#ga21e80551fd9f440133b8b4bca2aac6ba",
+"group__WlzDomainOps.html#gaa4fcc80633673d33cd05859ff710b107",
+"group__WlzFeatures.html#ga0259c0df484839d717b3fc8896d4b6eb",
+"group__WlzFunction.html#gad2e469fc01c19e9fae496bc921bf71ce",
+"group__WlzGeometry.html#ga08ed42464e7559c40ff3d008ebaf5aec",
+"group__WlzMesh.html#ga19b79a31736b83b4b2c60afcb37f3d96",
+"group__WlzMesh.html#gaa8c493c83a7da01cae61facd7118d712",
+"group__WlzProperty.html#ga865e5be880e45a2b78b5dfbba8d881f6",
+"group__WlzThreshold.html#gac1a89bb242056f7dc9b691da7b9088a3",
+"group__WlzTransform.html#gaac76edd9e769d150cd6ba6a878bafb7a",
+"group__WlzValuesFilters.html#gaa7f3ee2567463bf69652a236f0646bb4",
+"group__bibfile.html#ga8148542165c9eb2cb789b3aa9c87c051",
+"group__wlzintrescaleobj.html",
+"structWlzBoundInterval.html",
+"struct__WlzBasisFnTransform.html",
+"struct__WlzConvHullDomain3.html",
+"struct__WlzEffDenHeader.html#a213f036cbaea06d165bb8def1c966883",
+"struct__WlzGMLoopT.html#a4f362ae0d6d7d0fb7091d7b2f402bcf6",
+"struct__WlzKrigModelFn.html#a1b4a35e95b8b10a49e425c74a3d9d27f",
+"struct__WlzPointValues.html#acce40f3b81b409581118e518c9ba6545",
+"struct__WlzVoxelValues.html#abe205d27c5efb7497abd23012317edd3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

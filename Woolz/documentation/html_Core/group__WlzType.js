@@ -228,7 +228,8 @@ var group__WlzType =
       [ "lut", "union__WlzDomain.html#a60620ce213153a3b054480ebe8dcb255", null ],
       [ "cvh2", "union__WlzDomain.html#a4274c133990e8bb46464e00e0849dfd1", null ],
       [ "cvh3", "union__WlzDomain.html#ab7f556dc3dec54b2df7a6b080ed01ba1", null ],
-      [ "vs3d", "union__WlzDomain.html#a0ff7613be831baa72c6c8caf9d781183", null ]
+      [ "vs3d", "union__WlzDomain.html#a0ff7613be831baa72c6c8caf9d781183", null ],
+      [ "bs", "union__WlzDomain.html#a1fbb121d7fb92ccc51efe42ee12e5322", null ]
     ] ],
     [ "_WlzCoreObject", "struct__WlzCoreObject.html", [
       [ "type", "struct__WlzCoreObject.html#acd8a682c6ef7a8e3444e274ac8fa9ad8", null ],
@@ -428,15 +429,18 @@ var group__WlzType =
       [ "a", "struct__WlzKrigModelFn.html#a1b4a35e95b8b10a49e425c74a3d9d27f", null ],
       [ "fn", "struct__WlzKrigModelFn.html#a9d34114e9d204d7c01dc697e4c7fb51c", null ]
     ] ],
-    [ "WLZ_GREY_TABLE_TYPE", "group__WlzType.html#ga5610338d8df9d00dd0e1647e834b9c33", null ],
+    [ "WLZ_GREY_TABLE_TYPE", "group__WlzType.html#ga8f32b04f81efcf3f593be53bf0132166", null ],
     [ "WLZ_GREY_TABLE_TO_GREY_TYPE", "group__WlzType.html#gab6ff5a0d333697d78401cc76b3f5b2b5", null ],
     [ "WLZ_GREY_TABLE_TO_TABLE_TYPE", "group__WlzType.html#ga2bfbd8311ddffdb87371fe5558e873f5", null ],
-    [ "WLZ_GREY_TABLE_TO_RANK", "group__WlzType.html#ga905fcac97a59968f280ea452cf4e9f57", null ],
+    [ "WLZ_GREY_TABLE_TO_RANK", "group__WlzType.html#gac537c80c8a025e85775876ca30c0b65d", null ],
     [ "WLZ_LBTDOMAIN_MAXDIGITS", "group__WlzType.html#gaa3d98ac44486bf24877c3cb3eab6f27e", null ],
     [ "WLZ_TILEDVALUES_TILE_SIZE", "group__WlzType.html#gab51e6935ecbdb3e6fe02532eb27c696c", null ],
+    [ "WLZ_BSPLINE_ORDER_MIN", "group__WlzType.html#ga2690c3bf1021149cfe60468035517cff", null ],
+    [ "WLZ_BSPLINE_ORDER_MAX", "group__WlzType.html#ga8a9d48749149f473626d294c21643ee8", null ],
     [ "WlzUByte", "group__WlzType.html#ga4eca14adf6439ec21dea01575441a53d", null ],
     [ "WlzUInt", "group__WlzType.html#ga415d5faa2a218a2fa70d34ebfbc9cffa", null ],
     [ "WlzLong", "group__WlzType.html#ga1ac497337a05a4120d79bdfa1f3f4809", null ],
+    [ "WlzULong", "group__WlzType.html#ga1659632d831ac88babe3cfdd59e4af2e", null ],
     [ "_WlzGreyType", "group__WlzType.html#ga3fa66c817599e71e9c85a0da37a0a553", [
       [ "WLZ_GREY_LONG", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553a75c616cc6550113d8d325ced824a1caa", null ],
       [ "WLZ_GREY_INT", "WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553a366a4d2ffb06fafbb3b81b5f2a0d251a", null ],
@@ -475,6 +479,7 @@ var group__WlzType =
       [ "WLZ_CMESH_2D5", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aaebefa2929f4d536eda7ce702dd6de91", null ],
       [ "WLZ_RECTANGLE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a14e2f226095de29d0094e69d0eef397a", null ],
       [ "WLZ_POINTS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aef34dfb40eca96da9d461a7225f0f8a2", null ],
+      [ "WLZ_SPLINE", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36abc452dd3019edbd2c4840859a3c34cc6", null ],
       [ "WLZ_CONVOLVE_INT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aa3b15a8268a3d68d63a9baebbd39bdbb", null ],
       [ "WLZ_CONVOLVE_FLOAT", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a5217c7b076ce49a2d9054496b4a048e5", null ],
       [ "WLZ_AFFINE_TRANS", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a72ca1ea71e126ff9ea7c041e1cb40d80", null ],
@@ -567,6 +572,8 @@ var group__WlzType =
       [ "WLZ_POINTS_2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a96ac8166a15602f1fd2f3020fd241d0c", null ],
       [ "WLZ_POINTS_3I", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36acfcffb4f829492c2e5de3e7eefa7591a", null ],
       [ "WLZ_POINTS_3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac6bef64c8d47cc297254f0bc9e6a8119", null ],
+      [ "WLZ_BSPLINE_C2D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8", null ],
+      [ "WLZ_BSPLINE_C3D", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac528e42e41caf28284d564dfaf9fd3a3", null ],
       [ "WLZ_DUMMY_ENTRY", "WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a277f595334a6bc685d4925ecceaa08e2", null ]
     ] ],
     [ "_WlzDirection", "group__WlzType.html#gab6188c729415c95683cdb2ff0e71f4d9", [

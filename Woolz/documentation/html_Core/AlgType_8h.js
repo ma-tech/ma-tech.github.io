@@ -10,6 +10,7 @@ var AlgType_8h =
     [ "_ComplexD", "struct__ComplexD.html", "struct__ComplexD" ],
     [ "ALG_MAX", "AlgType_8h.html#a20189871cff063efd53a8ba126d4342d", null ],
     [ "ALG_MIN", "AlgType_8h.html#a807d77562a06d641160796d350dc71d1", null ],
+    [ "ALG_CLAMP", "AlgType_8h.html#a1c9bd9b5c93b9202a23113c826ce762a", null ],
     [ "ALG_MAXIDX", "AlgType_8h.html#a0646c7fb22f97f849406d793d45f21e2", null ],
     [ "ALG_MINIDX", "AlgType_8h.html#a84ab0546d934d23e56256c1f82a4ad5a", null ],
     [ "ALG_ABS", "AlgType_8h.html#aed659dea1416e99c0e696ab1dd4bd80f", null ],
@@ -36,8 +37,9 @@ var AlgType_8h =
     [ "ALG_M_SQRT3", "AlgType_8h.html#ae749c7da5f2615de93f77fda05b9275d", null ],
     [ "ALG_M_SQRT1_2", "AlgType_8h.html#a7faa3505fe9ac7e6e3f7c2f6bc1da194", null ],
     [ "ALG_DBL_TOLLERANCE", "AlgType_8h.html#aba4796a505c83a804df9344aba100a2c", null ],
+    [ "ALG_GAUSSLEGENDRE_ORDER_MAX", "AlgType_8h.html#a11cd7ea8e25d8c4ec570e0f67bf3d5cd", null ],
     [ "ALG_DBG_FN", "AlgType_8h.html#ad4573e4ad10046631999c64722453fe3", null ],
-    [ "ALG_DBG", "AlgType_8h.html#a1777290fe572a13d894a2325dba9cc74", null ],
+    [ "ALG_DBG", "AlgType_8h.html#a5663b98653ea10bca37dc3c1523e3742", null ],
     [ "AlgDistribution", "AlgType_8h.html#a71842f382c1d0579aba19b196a0d31cd", null ],
     [ "AlgMatrixType", "AlgType_8h.html#ac0c7274ca970fa72748f10d67673c8d8", null ],
     [ "AlgMatrix", "AlgType_8h.html#ae6d642347ce83603e551005e65cff39f", null ],
@@ -83,6 +85,8 @@ var AlgType_8h =
       [ "ALG_ERR_NONGLOBAL", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8ac2ced262ddba85759a94d5eb4e7f49cf", null ],
       [ "ALG_ERR_READ", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8aff45ad186c0ab1624897663b25a83bb9", null ],
       [ "ALG_ERR_WRITE", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8a2e2a260e4f6cd30c64746264cb89e1c5", null ],
+      [ "ALG_ERR_UNIMPLEMENTED", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8a85778caff67385497681a5c1085673f6", null ],
+      [ "ALG_ERR_UNKNOWN", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8a7fafd8a3bad486a5e2bffc9b06ffdf70", null ],
       [ "ALG_ERR_MAX", "AlgType_8h.html#a13b4d2a4cbe8c92ac2c0b593a23a74a8a81dc1964e5c456c2a42c028c508e288a", null ]
     ] ],
     [ "_AlgDbgMask", "AlgType_8h.html#ae92b20ed51bc5ec56d1950a018076d1d", [

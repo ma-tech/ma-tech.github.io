@@ -77,6 +77,7 @@ var group__BinWlzApp =
     [ "WlzRadialDistribution.c", "WlzRadialDistribution_8c.html", null ],
     [ "WlzRawToWlz.c", "WlzRawToWlz_8c.html", null ],
     [ "WlzReconstruct.c", "WlzReconstruct_8c.html", null ],
+    [ "WlzShellFilter3D.c", "WlzShellFilter3D_8c.html", null ],
     [ "WlzSizeSelect.c", "WlzSizeSelect_8c.html", null ],
     [ "WlzSplitImage.c", "WlzSplitImage_8c.html", null ],
     [ "WlzSplitMontage.c", "WlzSplitMontage_8c.html", null ],

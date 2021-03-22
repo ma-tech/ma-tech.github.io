@@ -21,5 +21,6 @@ var union__WlzDomain =
     [ "lut", "union__WlzDomain.html#a60620ce213153a3b054480ebe8dcb255", null ],
     [ "cvh2", "union__WlzDomain.html#a4274c133990e8bb46464e00e0849dfd1", null ],
     [ "cvh3", "union__WlzDomain.html#ab7f556dc3dec54b2df7a6b080ed01ba1", null ],
-    [ "vs3d", "union__WlzDomain.html#a0ff7613be831baa72c6c8caf9d781183", null ]
+    [ "vs3d", "union__WlzDomain.html#a0ff7613be831baa72c6c8caf9d781183", null ],
+    [ "bs", "union__WlzDomain.html#a1fbb121d7fb92ccc51efe42ee12e5322", null ]
 ];

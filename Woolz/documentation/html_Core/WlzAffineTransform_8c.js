@@ -4,6 +4,7 @@ var WlzAffineTransform_8c =
     [ "WlzAffineTransformIsTranslate", "group__WlzTransform.html#ga86833dcfea523c0006ef60efca523ad2", null ],
     [ "WlzAffineTransformContour", "group__WlzTransform.html#ga5b45e0fb54988b5fddd6d45722d7ea9c", null ],
     [ "WlzAffineTransformPoints", "group__WlzTransform.html#ga18a07a74c380845cb74a476100d77396", null ],
+    [ "WlzAffineTransformBSpline", "group__WlzTransform.html#ga64bc3c738382c72c506df97d500a7e46", null ],
     [ "WlzAffineTransformGMModel", "group__WlzTransform.html#gac909c0ff00a1f37f8df1db3139f9496c", null ],
     [ "WlzAffineTransformGMShell", "group__WlzTransform.html#ga23d8eb5291b0fba155900bfaac13bac8", null ],
     [ "WlzAffineTransformPrimSet", "group__WlzTransform.html#ga080d58ea6eb5b8fc1a6f87c2d3ced75f", null ],

@@ -19,6 +19,7 @@ var WlzBasisFnTransform_8c =
     [ "WlzBasisFnInvertMakeCMeshTr2D", "group__WlzTransform.html#gae36c9a089c96a154aca7673291c505d6", null ],
     [ "WlzBasisFnInvertMakeCMeshTr3D", "group__WlzTransform.html#ga5915f9dfa3f40fe98765e39675c41f8a", null ],
     [ "WlzBasisFnTransformObj", "group__WlzTransform.html#ga0dec74cecf5e29f0b71fc3d625872686", null ],
+    [ "WlzBasisFnTransformRandom", "group__WlzTransform.html#gacf191b3a658222bbac7daa55944c75e8", null ],
     [ "WlzBasisFnTransformPoly2", "group__WlzTransform.html#gaf22ab9b549bd10ec31dff918e08ea5d1", null ],
     [ "WlzBasisFnTransformBoundList", "group__WlzTransform.html#ga32be13382cb5708928832ae69927b361", null ],
     [ "WlzBasisFnTransformContour", "group__WlzTransform.html#gae5abc00e409a5e8e6f7a41efda7a5549", null ],

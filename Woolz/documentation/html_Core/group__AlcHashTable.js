@@ -22,8 +22,8 @@ var group__AlcHashTable =
     [ "AlcHashItemInsert", "group__AlcHashTable.html#ga9ac876739de67d8d6c5105f0e16dfffd", null ],
     [ "AlcHashItemFree", "group__AlcHashTable.html#gab043286e4a0d94fb5ec64f9193287221", null ],
     [ "AlcHashTableCount", "group__AlcHashTable.html#gaf20ffc0c3264bbcaa9b9818a9ef95a27", null ],
-    [ "AlcHashTableIterate", "group__AlcHashTable.html#ga0ed3c848a09222d1fd9a0cbf19f8d1ce", null ],
-    [ "AlcHashTableUnlinkAll", "group__AlcHashTable.html#ga4d8d391627dd7601d1bd557a70ad9d88", null ],
+    [ "AlcHashTableIterate", "group__AlcHashTable.html#ga4a30daa5b26434a599ae4669453d9d2d", null ],
+    [ "AlcHashTableUnlinkAll", "group__AlcHashTable.html#gaf1266465ddb14c84174f4c767c1bb69b", null ],
     [ "AlcHashItemGet", "group__AlcHashTable.html#ga603324da9e6ef320c32f3e06f2bd875c", null ],
     [ "AlcHashItemOrder", "group__AlcHashTable.html#ga44ed2ad516c809917d3da734dd9cd2bd", null ]
 ];

@@ -33,7 +33,7 @@ var group__AlgMatrix =
     [ "AlgMatrixSymSetAll", "group__AlgMatrix.html#ga5421b39e59a4a08c3ac7666d24d4dc98", null ],
     [ "AlgMatrixLLRSetAll", "group__AlgMatrix.html#gab41bde808862da2eed4f29a8ab53dc42", null ],
     [ "AlgMatrixLLRERemove", "group__AlgMatrix.html#ga83fc9473e04371a8d66502c00d91a07c", null ],
-    [ "AlgMatrixCGSolve", "group__AlgMatrix.html#gacfbeace4d27c010bb6fb24fc8a95fc30", null ],
+    [ "AlgMatrixCGSolve", "group__AlgMatrix.html#ga748e19938852a1a33d94a0b29646abb8", null ],
     [ "AlgMatrixGaussSolve", "group__AlgMatrix.html#ga63a83de196074f1938ec2bebfad40bdf", null ],
     [ "AlgMatrixSolveLSQR", "group__AlgMatrix.html#ga7c53912f279741ab02a5e5a2b85527fc", null ],
     [ "AlgMatrixLUSolveRaw3", "group__AlgMatrix.html#gaab306f6b888118a5035e29acdd73962d", null ],

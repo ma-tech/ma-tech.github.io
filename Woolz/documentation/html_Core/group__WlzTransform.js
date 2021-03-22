@@ -14,6 +14,7 @@ var group__WlzTransform =
     [ "WlzMatchICP.c", "WlzMatchICP_8c.html", null ],
     [ "WlzMeshTransform.c", "WlzMeshTransform_8c.html", null ],
     [ "WlzMeshUtils.c", "WlzMeshUtils_8c.html", null ],
+    [ "WlzProfile.c", "WlzProfile_8c.html", null ],
     [ "WlzProj3DToSection.c", "WlzProj3DToSection_8c.html", null ],
     [ "WlzRegICP.c", "WlzRegICP_8c.html", null ],
     [ "WlzSampleObj.c", "libWlz_2WlzSampleObj_8c.html", null ],
@@ -21,7 +22,6 @@ var group__WlzTransform =
     [ "WlzSnapFit.c", "WlzSnapFit_8c.html", null ],
     [ "WlzTransform.c", "WlzTransform_8c.html", null ],
     [ "WlzTransposeObj.c", "libWlz_2WlzTransposeObj_8c.html", null ],
-    [ "WlzTransRANSAC.c", "WlzTransRANSAC_8c.html", null ],
     [ "_WlzCMeshScanElm2D", "struct__WlzCMeshScanElm2D.html", [
       [ "idx", "struct__WlzCMeshScanElm2D.html#a3ebe56d689a8aaa5c0e39e7cc6084ec3", null ],
       [ "flags", "struct__WlzCMeshScanElm2D.html#a39137dafd6533d2f8794e02a59648776", null ],
@@ -130,13 +130,6 @@ var group__WlzTransform =
       [ "wgt", "struct__WlzRegICPWSp.html#a5c0d8b0f0a18fa60b1ba06fb49dd9fe4", null ],
       [ "prvTr", "struct__WlzRegICPWSp.html#ad6e42db5c77894f36c61671f635c4920", null ],
       [ "curTr", "struct__WlzRegICPWSp.html#a9ca758e5951005490039e857d1cc2a34", null ]
-    ] ],
-    [ "_WlzTransRANSACVtx", "struct__WlzTransRANSACVtx.html", [
-      [ "nVtx", "struct__WlzTransRANSACVtx.html#a33bab610f6a548ee9ac1128e302b3eed", null ],
-      [ "tType", "struct__WlzTransRANSACVtx.html#ab8c307676a5bc0832aedb23220cc3397", null ],
-      [ "sType", "struct__WlzTransRANSACVtx.html#a8e1b0049d39cee45a3280c0a062641d9", null ],
-      [ "tVtx", "struct__WlzTransRANSACVtx.html#a9d7fca609e8fc5072462598857137532", null ],
-      [ "sVtx", "struct__WlzTransRANSACVtx.html#a464b2fb7c62c0465135a3487c8d6d16f", null ]
     ] ],
     [ "_WlzGreyTransformParam", "struct__WlzGreyTransformParam.html", [
       [ "type", "struct__WlzGreyTransformParam.html#aef5a9ef8d0fd2de2b883d6d17aef4ecb", null ],
@@ -279,9 +272,6 @@ var group__WlzTransform =
       [ "imdisp", "struct__WlzWarpTrans.html#acbb16d02df92fd3cfd09d022771186a1", null ],
       [ "iterdisp", "struct__WlzWarpTrans.html#aa18f9ae0aefd768ca2936d471328b6fc", null ]
     ] ],
-    [ "WlzTransformRANSACErrFn", "group__WlzTransform.html#ga93473f3fd16a25138420d8ec4411f1c2", null ],
-    [ "WlzTransformRANSACFitFn", "group__WlzTransform.html#ga38efb5c13a33bc3ce47a7bb12dada6b3", null ],
-    [ "WlzTransformRANSACDegFn", "group__WlzTransform.html#ga430070344f9b2ab313f220a98ee53adb", null ],
     [ "WlzRegICPUsrWgtFn", "group__WlzTransform.html#gaff69b00efa863f8237fc8010a1316db4", null ],
     [ "WlzMatchICPWeightCbData", "group__WlzTransform.html#gaed414192476c8018f63259f4fcba6440", null ],
     [ "WlzAffineTransformCbFn", "group__WlzTransform.html#gadf1729df7ede2970642889331a600ced", null ],
@@ -389,6 +379,7 @@ var group__WlzTransform =
     [ "WlzAffineTransformIsTranslate", "group__WlzTransform.html#ga86833dcfea523c0006ef60efca523ad2", null ],
     [ "WlzAffineTransformContour", "group__WlzTransform.html#ga5b45e0fb54988b5fddd6d45722d7ea9c", null ],
     [ "WlzAffineTransformPoints", "group__WlzTransform.html#ga18a07a74c380845cb74a476100d77396", null ],
+    [ "WlzAffineTransformBSpline", "group__WlzTransform.html#ga64bc3c738382c72c506df97d500a7e46", null ],
     [ "WlzAffineTransformGMModel", "group__WlzTransform.html#gac909c0ff00a1f37f8df1db3139f9496c", null ],
     [ "WlzAffineTransformGMShell", "group__WlzTransform.html#ga23d8eb5291b0fba155900bfaac13bac8", null ],
     [ "WlzAffineTransformPrimSet", "group__WlzTransform.html#ga080d58ea6eb5b8fc1a6f87c2d3ced75f", null ],
@@ -456,6 +447,7 @@ var group__WlzTransform =
     [ "WlzBasisFnInvertMakeCMeshTr2D", "group__WlzTransform.html#gae36c9a089c96a154aca7673291c505d6", null ],
     [ "WlzBasisFnInvertMakeCMeshTr3D", "group__WlzTransform.html#ga5915f9dfa3f40fe98765e39675c41f8a", null ],
     [ "WlzBasisFnTransformObj", "group__WlzTransform.html#ga0dec74cecf5e29f0b71fc3d625872686", null ],
+    [ "WlzBasisFnTransformRandom", "group__WlzTransform.html#gacf191b3a658222bbac7daa55944c75e8", null ],
     [ "WlzBasisFnTransformPoly2", "group__WlzTransform.html#gaf22ab9b549bd10ec31dff918e08ea5d1", null ],
     [ "WlzBasisFnTransformBoundList", "group__WlzTransform.html#ga32be13382cb5708928832ae69927b361", null ],
     [ "WlzBasisFnTransformContour", "group__WlzTransform.html#gae5abc00e409a5e8e6f7a41efda7a5549", null ],
@@ -541,6 +533,8 @@ var group__WlzTransform =
     [ "WlzMeshGetNodesAndEdges", "group__WlzTransform.html#gacd9deef4259959e01c6b46024911c531", null ],
     [ "WlzMeshMaxEdgeLenSq", "group__WlzTransform.html#gadac7ba270917ce88d35aa1bede4dddcb", null ],
     [ "WlzMeshClosestNod2D", "group__WlzTransform.html#ga9f947c59f5c016165ce4448d3514973d", null ],
+    [ "WlzProfileLine", "group__WlzTransform.html#gac114cc1bb78c08634f482a1c7df5ee8b", null ],
+    [ "WlzProfileLineIDom", "group__WlzTransform.html#gac7255d39cdaa6d3c327fa7a000e50675", null ],
     [ "WlzProj3DToSection", "group__WlzTransform.html#ga3c24df88edd68f8f8100d7ccab1dc2f8", null ],
     [ "WlzRegICPObjsGrd", "group__WlzTransform.html#ga1113c02ac9b7c85b045957c716aaacf7", null ],
     [ "WlzRegICPObjs", "group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6", null ],
@@ -559,6 +553,5 @@ var group__WlzTransform =
     [ "WlzFreeEmptyTransform", "group__WlzTransform.html#gadbe068d137828b923495fadeb51a972d", null ],
     [ "WlzFreeTransform", "group__WlzTransform.html#gaeb7fd341ec035739b0524f01bf6bcbf1", null ],
     [ "WlzTransformProduct", "group__WlzTransform.html#ga1297073b026ad71a281c05bc7151e900", null ],
-    [ "WlzTransposeObj", "group__WlzTransform.html#gaf74bab4790abb9add41d9d78792760ae", null ],
-    [ "WlzTransformRANSAC", "group__WlzTransform.html#gaad3b8a249e63bc534abf7a3c46fd46ff", null ]
+    [ "WlzTransposeObj", "group__WlzTransform.html#gaf74bab4790abb9add41d9d78792760ae", null ]
 ];

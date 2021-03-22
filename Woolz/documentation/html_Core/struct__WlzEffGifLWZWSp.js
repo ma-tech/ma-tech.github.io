@@ -10,6 +10,6 @@ var struct__WlzEffGifLWZWSp =
     [ "clrCode", "struct__WlzEffGifLWZWSp.html#aa744c851aa2a86ce78bb4db2d9db062a", null ],
     [ "endCode", "struct__WlzEffGifLWZWSp.html#a737503592420dc6091f5b9f52b67bad2", null ],
     [ "sp", "struct__WlzEffGifLWZWSp.html#a6dd487e14a95beaadde6d46211edf686", null ],
-    [ "table", "struct__WlzEffGifLWZWSp.html#ae17032105c3f7f5b7bbd89585cca1bdd", null ],
-    [ "stack", "struct__WlzEffGifLWZWSp.html#a8c5507a07714e7db9b0524151e9abaad", null ]
+    [ "table", "struct__WlzEffGifLWZWSp.html#a35b86bb037e6ed585e64b8ae53ad19b1", null ],
+    [ "stack", "struct__WlzEffGifLWZWSp.html#afb472c1d5f221257e14e93178c44b0e5", null ]
 ];

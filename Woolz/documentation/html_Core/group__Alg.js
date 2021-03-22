@@ -11,6 +11,7 @@ var group__Alg =
     [ "AlgGamma.dox", "AlgGamma_8dox.html", null ],
     [ "AlgMatrix.dox", "AlgMatrix_8dox.html", null ],
     [ "AlgMixture.dox", "AlgMixture_8dox.html", null ],
+    [ "AlgPoly.dox", "AlgPoly_8dox.html", null ],
     [ "AlgRand.dox", "AlgRand_8dox.html", null ],
     [ "AlgRange.dox", "AlgRange_8dox.html", null ],
     [ "AlgRank.dox", "AlgRank_8dox.html", null ],

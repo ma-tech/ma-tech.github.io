@@ -58,6 +58,7 @@ var modules =
     [ "AlgGamma", "group__AlgGamma.html", "group__AlgGamma" ],
     [ "AlgMatrix", "group__AlgMatrix.html", "group__AlgMatrix" ],
     [ "AlgMixture", "group__AlgMixture.html", "group__AlgMixture" ],
+    [ "AlgPoly", "group__AlgPoly.html", "group__AlgPoly" ],
     [ "AlgRand", "group__AlgRand.html", "group__AlgRand" ],
     [ "AlgRange", "group__AlgRange.html", "group__AlgRange" ],
     [ "AlgRank", "group__AlgRank.html", "group__AlgRank" ],

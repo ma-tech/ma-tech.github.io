@@ -8,6 +8,8 @@ var WlzVerticies_8c =
     [ "WlzVerticesFromObj3I", "group__WlzFeatures.html#ga87ddea2b3f0012a44e5dd87bb7b4e081", null ],
     [ "WlzVerticesFromGM", "group__WlzFeatures.html#ga8de80f55ca558a90cf534c370d9b30a6", null ],
     [ "WlzDVerticesFromGM", "group__WlzFeatures.html#ga5b3ff0672b6f7f8a92aad8183cc54a22", null ],
+    [ "WlzVertexSize", "group__WlzFeatures.html#ga042a99fdeb454e6eaa45ab3e001685e2", null ],
+    [ "WlzVertexDim", "group__WlzFeatures.html#ga3def2d792079b259c574227c6eb774a3", null ],
     [ "WlzDVerticesFromCMesh", "group__WlzFeatures.html#gaba4f2fa51bbd0ffaa26bfd985593e56d", null ],
     [ "WlzVertexQSortFnI2", "group__WlzFeatures.html#ga81d0c9966a4f5945c0037ea74263055d", null ],
     [ "WlzVertexQSortFnI3", "group__WlzFeatures.html#gaaf6102ebfcdb66578e74f256acd35aa2", null ],
