@@ -11,5 +11,6 @@ var WlzBSpline_8c =
     [ "WlzBSplineEvalSP", "group__WlzFeatures.html#ga6f15a64358b5820a66e3267a8db5bf2c", null ],
     [ "WlzBSplineTangent", "group__WlzFeatures.html#ga8b25e6a7accd3652bc0ec4545c9423d5", null ],
     [ "WlzBSplineCut", "group__WlzFeatures.html#ga90ae4491f0abff73495a70a9dc081644", null ],
-    [ "WlzBSplineLength", "group__WlzFeatures.html#ga20bcf3ccd2c8aa0666d659b1b244067a", null ]
+    [ "WlzBSplineDistance", "group__WlzFeatures.html#ga307d8fea8d08f2b61ade4365b609f714", null ],
+    [ "WlzBSplineLength", "group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4", null ]
 ];

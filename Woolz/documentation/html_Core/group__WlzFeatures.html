@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -306,12 +306,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga90ae4491f0abff73495a70a9dc081644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzFeatures.html#ga90ae4491f0abff73495a70a9dc081644">WlzBSplineCut</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *iObj, <a class="el" href="WlzType_8h.html#a6402373a9222c36a8eafcaa3f5bbf6fe">WlzBSpline</a> *bs, int cutOrthog, int noGrey, int radius, double tB, double tE, <a class="el" href="WlzType_8h.html#ac55f436a7c43b0e59c3a948f88036c8f">WlzDVertex3</a> up, <a class="el" href="WlzType_8h.html#a73d6d1fb162926a575749ecfe4409523">WlzInterpolationType</a> interp, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga90ae4491f0abff73495a70a9dc081644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts regions from a spatial domain using a B-spline to define the region cut. The region may be the domain of the B-spline or planes orthogonal to the B-spline.  <a href="#ga90ae4491f0abff73495a70a9dc081644">More...</a><br /></td></tr>
 <tr class="separator:ga90ae4491f0abff73495a70a9dc081644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga20bcf3ccd2c8aa0666d659b1b244067a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzFeatures.html#ga20bcf3ccd2c8aa0666d659b1b244067a">WlzBSplineLength</a> (<a class="el" href="WlzType_8h.html#a6402373a9222c36a8eafcaa3f5bbf6fe">WlzBSpline</a> *bs, double tB, double tE, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:ga20bcf3ccd2c8aa0666d659b1b244067a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the length of a path along a spline's curve between a pair of parametric coordinates. Given a parametric curve \(c(t)\) then the length \(l\) of a segment on that curve between \(t_a\) and \(t_b\) is given by </p><p class="formulaDsp">
-\[ l = \int_{t_a}^{t_b}\sqrt{ {\acute{x}}^2 +{\acute{y}}^2 + \ldots}dt \]
+<tr class="memitem:ga307d8fea8d08f2b61ade4365b609f714"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzFeatures.html#ga307d8fea8d08f2b61ade4365b609f714">WlzBSplineDistance</a> (<a class="el" href="WlzType_8h.html#a6402373a9222c36a8eafcaa3f5bbf6fe">WlzBSpline</a> *bs, double tg, double dg, double sz, double sy, double sx, double tol, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
+<tr class="memdesc:ga307d8fea8d08f2b61ade4365b609f714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the parametric coordinate which is the given distance from the given origin parametric coordinate. This function uses a binary search to find the parametric cordinate for the given distance from the start calling <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4" title="Computes the length of a path along a spline&#39;s curve between a pair of parametric coordinates...">WlzBSplineLength()</a>. Coordinates outside of the spline domain are clamped to the range of the spline domain [0.0-1.0].  <a href="#ga307d8fea8d08f2b61ade4365b609f714">More...</a><br /></td></tr>
+<tr class="separator:ga307d8fea8d08f2b61ade4365b609f714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21bfb84ef8d547ea07aaa8bd6d0370c4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4">WlzBSplineLength</a> (<a class="el" href="WlzType_8h.html#a6402373a9222c36a8eafcaa3f5bbf6fe">WlzBSpline</a> *bs, double tB, double tE, double sz, double sy, double sx, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
+<tr class="memdesc:ga21bfb84ef8d547ea07aaa8bd6d0370c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the length of a path along a spline's curve between a pair of parametric coordinates. Given a parametric curve \(c(t)\) then the length \(l\) of a segment on that curve between \(t_a\) and \(t_b\) is given by </p><p class="formulaDsp">
+\[ l = \int_{t_a}^{t_b}\sqrt{ {\acute{x} s_x}^2 + {\acute{y} s_y}^2 + \ldots}dt \]
 </p>
-<p> where \(\acute{x}, \acute{y}, \ldots\) are the first derivatives of coordinates \(x, y, \ldots\) with respect to \(t\). Because the integral is an elliptic integral, then Legendre- Gauss quadrature is used for numerical integration with each spline segment integrated using it's own points and weights.  <a href="#ga20bcf3ccd2c8aa0666d659b1b244067a">More...</a><br /></td></tr>
-<tr class="separator:ga20bcf3ccd2c8aa0666d659b1b244067a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p> where \(\acute{x}, \acute{y}, \ldots\) are the first derivatives of coordinates \(x, y, \ldots\) with respect to \(t\). Step sizes ( \(\s_x, s_y, \ldots\) allow lengths to be computed for an domain with non-unit pixel/voxel size. Because the integral is an elliptic integral, then Legendre- Gauss quadrature is used for numerical integration with each spline segment integrated using it's own points and weights.  <a href="#ga21bfb84ef8d547ea07aaa8bd6d0370c4">More...</a><br /></td></tr>
+<tr class="separator:ga21bfb84ef8d547ea07aaa8bd6d0370c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7621a5847185169d8037dfe6894a650c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzFeatures.html#ga7621a5847185169d8037dfe6894a650c">WlzCCorS2D</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *obj0, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *obj1, int unionFlg, int normFlg, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga7621a5847185169d8037dfe6894a650c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the cross correlation of the two given 2D spatial domain objects in the spatial domain. The algorithm used by this function is not an efficient unless a single cross correlation value is required.  <a href="#ga7621a5847185169d8037dfe6894a650c">More...</a><br /></td></tr>
 <tr class="separator:ga7621a5847185169d8037dfe6894a650c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1601,7 +1604,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="group__AlcAlloc.html#gad77b9005f66254c5b7ba9a8d25812402">AlcFree()</a>, <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="group__AlgFit.html#ga0f5ba44db195ed6f2c3d44468bf6235e">AlgBSplineDer()</a>, <a class="el" href="group__AlgFit.html#ga509bd266ecdf5ca999f8a99d9665a90e">AlgBSplineEval()</a>, <a class="el" href="struct__WlzBSpline.html#a28be1bab0fa9c6675e0188fb3e2c6b17">_WlzBSpline::coefficients</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="struct__WlzBSpline.html#a2592e0e639380136367b9db011102880">_WlzBSpline::knots</a>, <a class="el" href="struct__WlzBSpline.html#aa2b95c6abf2a71a0ffe09dccadc0aa7a">_WlzBSpline::nKnots</a>, <a class="el" href="struct__WlzBSpline.html#af54836e3ab6b0d7ed232f75ebfbfe93b">_WlzBSpline::order</a>, <a class="el" href="struct__WlzBSpline.html#aafdac6ed6a196d5fa0617ac9d03fc3fe">_WlzBSpline::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="struct__WlzDVertex2.html#abe9c2ddc9631a6c60e54402858cdb0e5">_WlzDVertex2::vtX</a>, <a class="el" href="struct__WlzDVertex3.html#a4ffd3a5b96f7b91ed1b1cabaff188f4c">_WlzDVertex3::vtX</a>, <a class="el" href="struct__WlzDVertex2.html#af746c29d18bf112dabe3dca2327505a4">_WlzDVertex2::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#a7de9c61bbb573bfa26e7234deaafb1ff">_WlzDVertex3::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#ab170729e19c6d4743abae01f1738d4f0">_WlzDVertex3::vtZ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8">WLZ_BSPLINE_C2D</a>, <a class="el" href="group__WlzType.html#ga8a9d48749149f473626d294c21643ee8">WLZ_BSPLINE_ORDER_MAX</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa9448ee011b11a10985813814d36aac2">WLZ_ERR_PARAM_NULL</a>, <a class="el" href="group__WlzError.html#gac4f4ad6959c889f8b0243504aa9823a9">WlzErrorFromAlg()</a>, and <a class="el" href="WlzValueUtils_8c.html#a3752260950aabdf5ba6ad27bc825d264">WlzValueCopyDoubleToDouble()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__WlzFeatures.html#gaf427782a3f00882e544189168e03a4d5">WlzBSplineEvalPoints()</a>, <a class="el" href="group__WlzFeatures.html#ga6f15a64358b5820a66e3267a8db5bf2c">WlzBSplineEvalSP()</a>, <a class="el" href="group__WlzFeatures.html#ga20bcf3ccd2c8aa0666d659b1b244067a">WlzBSplineLength()</a>, <a class="el" href="group__WlzFeatures.html#ga8b25e6a7accd3652bc0ec4545c9423d5">WlzBSplineTangent()</a>, and <a class="el" href="group__WlzFeatures.html#gaf8981283b51a4110093f6544327b1854">WlzBSplineToDomain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__WlzFeatures.html#gaf427782a3f00882e544189168e03a4d5">WlzBSplineEvalPoints()</a>, <a class="el" href="group__WlzFeatures.html#ga6f15a64358b5820a66e3267a8db5bf2c">WlzBSplineEvalSP()</a>, <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4">WlzBSplineLength()</a>, <a class="el" href="group__WlzFeatures.html#ga8b25e6a7accd3652bc0ec4545c9423d5">WlzBSplineTangent()</a>, and <a class="el" href="group__WlzFeatures.html#gaf8981283b51a4110093f6544327b1854">WlzBSplineToDomain()</a>.</p>
 
 </div>
 </div>
@@ -1662,7 +1665,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="group__AlcAlloc.html#ga26b2dfadff11077beca5b5963adbf7de">AlcCalloc()</a>, <a class="el" href="group__AlcAlloc.html#gad77b9005f66254c5b7ba9a8d25812402">AlcFree()</a>, <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="union__WlzGreyP.html#ac8683edb2a97a5cf80312ed51946e5d2">_WlzGreyP::dbp</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="struct__WlzGreyValueWSpace.html#a48e643888d5ba0b8c6baa406e30d82d2">_WlzGreyValueWSpace::gPtr</a>, <a class="el" href="union__WlzValues.html#a8f4c41800765a92d5a3686ece17f7301">_WlzValues::i</a>, <a class="el" href="union__WlzGreyP.html#a9c39a063596671ca4b3b2a8ed30f1a3f">_WlzGreyP::inp</a>, <a class="el" href="struct__WlzPixelV.html#af4db8b840140d416c13f7f4c8d7f1aba">_WlzPixelV::type</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="struct__WlzBSpline.html#aafdac6ed6a196d5fa0617ac9d03fc3fe">_WlzBSpline::type</a>, <a class="el" href="union__WlzGreyP.html#adf012324959862647585ddfb909bed7e">_WlzGreyP::ubp</a>, <a class="el" href="union__WlzGreyV.html#a9e6fd10cb0e319fd1587a1669e014628">_WlzGreyV::ubv</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="union__WlzGreyP.html#a220acdd27b48cdb0c20a7c775da9bc72">_WlzGreyP::v</a>, <a class="el" href="struct__WlzPixelV.html#a9fae2dc4e0c7a8cda979ef87f2b2c436">_WlzPixelV::v</a>, <a class="el" href="struct__WlzObject.html#adfdb535c9e7ad60ed084562ac862901d">_WlzObject::values</a>, <a class="el" href="union__WlzValues.html#a135a18e52f1a1ee40494da398153ef54">_WlzValues::vox</a>, <a class="el" href="struct__WlzDVertex2.html#abe9c2ddc9631a6c60e54402858cdb0e5">_WlzDVertex2::vtX</a>, <a class="el" href="struct__WlzDVertex3.html#a4ffd3a5b96f7b91ed1b1cabaff188f4c">_WlzDVertex3::vtX</a>, <a class="el" href="struct__WlzDVertex2.html#af746c29d18bf112dabe3dca2327505a4">_WlzDVertex2::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#a7de9c61bbb573bfa26e7234deaafb1ff">_WlzDVertex3::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#ab170729e19c6d4743abae01f1738d4f0">_WlzDVertex3::vtZ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8">WLZ_BSPLINE_C2D</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac528e42e41caf28284d564dfaf9fd3a3">WLZ_BSPLINE_C3D</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a13eedbd649bf61c4ba23049cb3e52970">WLZ_ERR_DOMAIN_TYPE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aea910a89caf81f56ad256d7b1fc1601b">WLZ_GREY_DOUBLE</a>, <a class="el" href="WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354accc82279c10e7202c7040c4ad25bc861">WLZ_GREY_TAB_INTL</a>, <a class="el" href="WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aa1ce676759b12db27d19529244bf6dfc">WLZ_GREY_UBYTE</a>, <a class="el" href="WlzType_8h.html#gac1a89bb242056f7dc9b691da7b9088a3a5d2f479aa6aff04b7ec0802ac3f38990">WLZ_THRESH_HIGH</a>, <a class="el" href="group__WlzAllocation.html#ga8dbc100eabd344dd981dee2c563980af">WlzAssignObject()</a>, <a class="el" href="group__WlzAllocation.html#gadc98d6e1f25b5ac7413076f31ecebcbd">WlzAssignValues()</a>, <a class="el" href="group__WlzFeatures.html#ga0ab10c9ae18cd890295ca9a5f2237092">WlzBSplineEval()</a>, <a class="el" href="group__WlzFeatures.html#ga20bcf3ccd2c8aa0666d659b1b244067a">WlzBSplineLength()</a>, <a class="el" href="group__WlzAllocation.html#ga00efc48e9efbbffde0ca54723cf6d20b">WlzFreeObj()</a>, <a class="el" href="group__WlzAccess.html#ga48f33476c6e4d2b3e4f06785e98d9908">WlzGreyValueFreeWSp()</a>, <a class="el" href="group__WlzAccess.html#gaa916eb874ebad9760cf2e900d5d8cc59">WlzGreyValueGet()</a>, <a class="el" href="group__WlzAccess.html#gac2be6a8ba9ca38dbf32d9ab9ef766f39">WlzGreyValueMakeWSp()</a>, <a class="el" href="group__WlzValuesUtils.html#ga46db38f68132f134f255d4c2091ee4c9">WlzGreyValueTableType()</a>, <a class="el" href="group__WlzAllocation.html#ga83148cbf1fb2155e7d006ad712740f63">WlzMakeCuboid()</a>, <a class="el" href="group__WlzAllocation.html#ga990d5e695ee5c637ce0e4251cfee72da">WlzMakeIntervalValues()</a>, <a class="el" href="group__WlzAllocation.html#gad0468b0024c63f57b42cbcf04600f0b0">WlzMakeMain()</a>, <a class="el" href="group__WlzAllocation.html#ga4adb7cf7d9b0946a0e862199c392114f">WlzMakeRect()</a>, <a class="el" href="group__WlzAllocation.html#gad87856fa4ede45f489569a43f17d3781">WlzNewValuesVox()</a>, <a class="el" href="group__WlzThreshold.html#ga6f6b0855cfebbb250ac0c89c3b5ae5c7">WlzThreshold()</a>, <a class="el" href="struct__WlzIBox2.html#a3b330a83dfcdaa21d8150146399a3bd1">_WlzIBox2::xMax</a>, <a class="el" href="struct__WlzDBox2.html#ae6ead65d564cf7b760489721b7c4b262">_WlzDBox2::xMax</a>, <a class="el" href="struct__WlzDBox3.html#abebb991b92664d56b16dfcd238057f0b">_WlzDBox3::xMax</a>, <a class="el" href="struct__WlzIBox2.html#afce93785da7dac2657fe9e5f0f77496a">_WlzIBox2::xMin</a>, <a class="el" href="struct__WlzDBox2.html#a4e7b6a58f0f1b3ac1e781b0178893ed1">_WlzDBox2::xMin</a>, <a class="el" href="struct__WlzDBox3.html#aff878034ad368f9904f36565ec1ac759">_WlzDBox3::xMin</a>, <a class="el" href="struct__WlzIBox2.html#aedbc4ffcd70c4d96b33c18005454de04">_WlzIBox2::yMax</a>, <a class="el" href="struct__WlzDBox2.html#a0789fb32d28e55d3eb252e923021a86f">_WlzDBox2::yMax</a>, <a class="el" href="struct__WlzDBox3.html#ae35b30b63b109b0509e6e4f44759a4d5">_WlzDBox3::yMax</a>, <a class="el" href="struct__WlzIBox2.html#adf3ad0e147a43755e525101e095d6087">_WlzIBox2::yMin</a>, <a class="el" href="struct__WlzDBox2.html#ad101c3916cc61d3e7125bda33abf46af">_WlzDBox2::yMin</a>, <a class="el" href="struct__WlzDBox3.html#ae0b16b43f3dd2cb1d4dcbfd8cd40e9af">_WlzDBox3::yMin</a>, <a class="el" href="struct__WlzDBox3.html#ab573696dd44a60bcd8c7bb6ed4aedc69">_WlzDBox3::zMax</a>, and <a class="el" href="struct__WlzDBox3.html#aefa7613379137569e3dc78db2909d1cd">_WlzDBox3::zMin</a>.</p>
+<p class="reference">References <a class="el" href="group__AlcAlloc.html#ga26b2dfadff11077beca5b5963adbf7de">AlcCalloc()</a>, <a class="el" href="group__AlcAlloc.html#gad77b9005f66254c5b7ba9a8d25812402">AlcFree()</a>, <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="union__WlzGreyP.html#ac8683edb2a97a5cf80312ed51946e5d2">_WlzGreyP::dbp</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="struct__WlzGreyValueWSpace.html#a48e643888d5ba0b8c6baa406e30d82d2">_WlzGreyValueWSpace::gPtr</a>, <a class="el" href="union__WlzValues.html#a8f4c41800765a92d5a3686ece17f7301">_WlzValues::i</a>, <a class="el" href="union__WlzGreyP.html#a9c39a063596671ca4b3b2a8ed30f1a3f">_WlzGreyP::inp</a>, <a class="el" href="struct__WlzPixelV.html#af4db8b840140d416c13f7f4c8d7f1aba">_WlzPixelV::type</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="struct__WlzBSpline.html#aafdac6ed6a196d5fa0617ac9d03fc3fe">_WlzBSpline::type</a>, <a class="el" href="union__WlzGreyP.html#adf012324959862647585ddfb909bed7e">_WlzGreyP::ubp</a>, <a class="el" href="union__WlzGreyV.html#a9e6fd10cb0e319fd1587a1669e014628">_WlzGreyV::ubv</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="union__WlzGreyP.html#a220acdd27b48cdb0c20a7c775da9bc72">_WlzGreyP::v</a>, <a class="el" href="struct__WlzPixelV.html#a9fae2dc4e0c7a8cda979ef87f2b2c436">_WlzPixelV::v</a>, <a class="el" href="struct__WlzObject.html#adfdb535c9e7ad60ed084562ac862901d">_WlzObject::values</a>, <a class="el" href="union__WlzValues.html#a135a18e52f1a1ee40494da398153ef54">_WlzValues::vox</a>, <a class="el" href="struct__WlzDVertex2.html#abe9c2ddc9631a6c60e54402858cdb0e5">_WlzDVertex2::vtX</a>, <a class="el" href="struct__WlzDVertex3.html#a4ffd3a5b96f7b91ed1b1cabaff188f4c">_WlzDVertex3::vtX</a>, <a class="el" href="struct__WlzDVertex2.html#af746c29d18bf112dabe3dca2327505a4">_WlzDVertex2::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#a7de9c61bbb573bfa26e7234deaafb1ff">_WlzDVertex3::vtY</a>, <a class="el" href="struct__WlzDVertex3.html#ab170729e19c6d4743abae01f1738d4f0">_WlzDVertex3::vtZ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8">WLZ_BSPLINE_C2D</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac528e42e41caf28284d564dfaf9fd3a3">WLZ_BSPLINE_C3D</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a13eedbd649bf61c4ba23049cb3e52970">WLZ_ERR_DOMAIN_TYPE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aea910a89caf81f56ad256d7b1fc1601b">WLZ_GREY_DOUBLE</a>, <a class="el" href="WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354accc82279c10e7202c7040c4ad25bc861">WLZ_GREY_TAB_INTL</a>, <a class="el" href="WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553aa1ce676759b12db27d19529244bf6dfc">WLZ_GREY_UBYTE</a>, <a class="el" href="WlzType_8h.html#gac1a89bb242056f7dc9b691da7b9088a3a5d2f479aa6aff04b7ec0802ac3f38990">WLZ_THRESH_HIGH</a>, <a class="el" href="group__WlzAllocation.html#ga8dbc100eabd344dd981dee2c563980af">WlzAssignObject()</a>, <a class="el" href="group__WlzAllocation.html#gadc98d6e1f25b5ac7413076f31ecebcbd">WlzAssignValues()</a>, <a class="el" href="group__WlzFeatures.html#ga0ab10c9ae18cd890295ca9a5f2237092">WlzBSplineEval()</a>, <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4">WlzBSplineLength()</a>, <a class="el" href="group__WlzAllocation.html#ga00efc48e9efbbffde0ca54723cf6d20b">WlzFreeObj()</a>, <a class="el" href="group__WlzAccess.html#ga48f33476c6e4d2b3e4f06785e98d9908">WlzGreyValueFreeWSp()</a>, <a class="el" href="group__WlzAccess.html#gaa916eb874ebad9760cf2e900d5d8cc59">WlzGreyValueGet()</a>, <a class="el" href="group__WlzAccess.html#gac2be6a8ba9ca38dbf32d9ab9ef766f39">WlzGreyValueMakeWSp()</a>, <a class="el" href="group__WlzValuesUtils.html#ga46db38f68132f134f255d4c2091ee4c9">WlzGreyValueTableType()</a>, <a class="el" href="group__WlzAllocation.html#ga83148cbf1fb2155e7d006ad712740f63">WlzMakeCuboid()</a>, <a class="el" href="group__WlzAllocation.html#ga990d5e695ee5c637ce0e4251cfee72da">WlzMakeIntervalValues()</a>, <a class="el" href="group__WlzAllocation.html#gad0468b0024c63f57b42cbcf04600f0b0">WlzMakeMain()</a>, <a class="el" href="group__WlzAllocation.html#ga4adb7cf7d9b0946a0e862199c392114f">WlzMakeRect()</a>, <a class="el" href="group__WlzAllocation.html#gad87856fa4ede45f489569a43f17d3781">WlzNewValuesVox()</a>, <a class="el" href="group__WlzThreshold.html#ga6f6b0855cfebbb250ac0c89c3b5ae5c7">WlzThreshold()</a>, <a class="el" href="struct__WlzIBox2.html#a3b330a83dfcdaa21d8150146399a3bd1">_WlzIBox2::xMax</a>, <a class="el" href="struct__WlzDBox2.html#ae6ead65d564cf7b760489721b7c4b262">_WlzDBox2::xMax</a>, <a class="el" href="struct__WlzDBox3.html#abebb991b92664d56b16dfcd238057f0b">_WlzDBox3::xMax</a>, <a class="el" href="struct__WlzIBox2.html#afce93785da7dac2657fe9e5f0f77496a">_WlzIBox2::xMin</a>, <a class="el" href="struct__WlzDBox2.html#a4e7b6a58f0f1b3ac1e781b0178893ed1">_WlzDBox2::xMin</a>, <a class="el" href="struct__WlzDBox3.html#aff878034ad368f9904f36565ec1ac759">_WlzDBox3::xMin</a>, <a class="el" href="struct__WlzIBox2.html#aedbc4ffcd70c4d96b33c18005454de04">_WlzIBox2::yMax</a>, <a class="el" href="struct__WlzDBox2.html#a0789fb32d28e55d3eb252e923021a86f">_WlzDBox2::yMax</a>, <a class="el" href="struct__WlzDBox3.html#ae35b30b63b109b0509e6e4f44759a4d5">_WlzDBox3::yMax</a>, <a class="el" href="struct__WlzIBox2.html#adf3ad0e147a43755e525101e095d6087">_WlzIBox2::yMin</a>, <a class="el" href="struct__WlzDBox2.html#ad101c3916cc61d3e7125bda33abf46af">_WlzDBox2::yMin</a>, <a class="el" href="struct__WlzDBox3.html#ae0b16b43f3dd2cb1d4dcbfd8cd40e9af">_WlzDBox3::yMin</a>, <a class="el" href="struct__WlzDBox3.html#ab573696dd44a60bcd8c7bb6ed4aedc69">_WlzDBox3::zMax</a>, and <a class="el" href="struct__WlzDBox3.html#aefa7613379137569e3dc78db2909d1cd">_WlzDBox3::zMin</a>.</p>
 
 </div>
 </div>
@@ -1878,8 +1881,91 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga20bcf3ccd2c8aa0666d659b1b244067a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga20bcf3ccd2c8aa0666d659b1b244067a">&#9670;&nbsp;</a></span>WlzBSplineLength()</h2>
+<a id="ga307d8fea8d08f2b61ade4365b609f714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga307d8fea8d08f2b61ade4365b609f714">&#9670;&nbsp;</a></span>WlzBSplineDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double WlzBSplineDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="WlzType_8h.html#a6402373a9222c36a8eafcaa3f5bbf6fe">WlzBSpline</a> *&#160;</td>
+          <td class="paramname"><em>bs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tol</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *&#160;</td>
+          <td class="paramname"><em>dstErr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the parametric coordinate which is the given distance from the given origin parametric coordinate. This function uses a binary search to find the parametric cordinate for the given distance from the start calling <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4" title="Computes the length of a path along a spline&#39;s curve between a pair of parametric coordinates...">WlzBSplineLength()</a>. Coordinates outside of the spline domain are clamped to the range of the spline domain [0.0-1.0]. </p>
+<dl class="section return"><dt>Returns</dt><dd>Parametric cordinate which is the specified distance from the given start parametric coordinate.</dd></dl>
+<dl class="section user"><dt>See Also</dt><dd>WlzBSplineLength "WlzBSplineLength(3)" </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bs</td><td>Given B-spline domain. </td></tr>
+    <tr><td class="paramname">tg</td><td>Parametric coordinate of start. </td></tr>
+    <tr><td class="paramname">dg</td><td>Given signed distance, where negative distance vlues are from the given start towards the begining of the domain and positive values are towards the end. </td></tr>
+    <tr><td class="paramname">sz</td><td>Size of step in z. </td></tr>
+    <tr><td class="paramname">sy</td><td>Size of step in y. </td></tr>
+    <tr><td class="paramname">sx</td><td>Size of step in x. </td></tr>
+    <tr><td class="paramname">tol</td><td>Tolerance value. </td></tr>
+    <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="AlgType_8h.html#a1c9bd9b5c93b9202a23113c826ce762a">ALG_CLAMP</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, and <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4">WlzBSplineLength()</a>.</p>
+
+</div>
+</div>
+<a id="ga21bfb84ef8d547ea07aaa8bd6d0370c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21bfb84ef8d547ea07aaa8bd6d0370c4">&#9670;&nbsp;</a></span>WlzBSplineLength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1905,6 +1991,24 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *&#160;</td>
           <td class="paramname"><em>dstErr</em>&#160;</td>
         </tr>
@@ -1917,23 +2021,27 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the length of a path along a spline's curve between a pair of parametric coordinates. Given a parametric curve \(c(t)\) then the length \(l\) of a segment on that curve between \(t_a\) and \(t_b\) is given by </p><p class="formulaDsp">
-\[ l = \int_{t_a}^{t_b}\sqrt{ {\acute{x}}^2 +{\acute{y}}^2 + \ldots}dt \]
+\[ l = \int_{t_a}^{t_b}\sqrt{ {\acute{x} s_x}^2 + {\acute{y} s_y}^2 + \ldots}dt \]
 </p>
-<p> where \(\acute{x}, \acute{y}, \ldots\) are the first derivatives of coordinates \(x, y, \ldots\) with respect to \(t\). Because the integral is an elliptic integral, then Legendre- Gauss quadrature is used for numerical integration with each spline segment integrated using it's own points and weights. </p>
+<p> where \(\acute{x}, \acute{y}, \ldots\) are the first derivatives of coordinates \(x, y, \ldots\) with respect to \(t\). Step sizes ( \(\s_x, s_y, \ldots\) allow lengths to be computed for an domain with non-unit pixel/voxel size. Because the integral is an elliptic integral, then Legendre- Gauss quadrature is used for numerical integration with each spline segment integrated using it's own points and weights. </p>
 <dl class="section return"><dt>Returns</dt><dd>Length along the spline's parametric curve.</dd></dl>
+<dl class="section user"><dt>See Also</dt><dd>WlzBSplineDistance "WlzBSplineDistance(3)" </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">bs</td><td>Given B-spline domain. </td></tr>
     <tr><td class="paramname">tB</td><td>Parametric coordinate of start. </td></tr>
     <tr><td class="paramname">tE</td><td>Parametric coordinate of end. </td></tr>
+    <tr><td class="paramname">sz</td><td>Size of step in z. </td></tr>
+    <tr><td class="paramname">sy</td><td>Size of step in y. </td></tr>
+    <tr><td class="paramname">sx</td><td>Size of step in x. </td></tr>
     <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="group__AlcAlloc.html#gad77b9005f66254c5b7ba9a8d25812402">AlcFree()</a>, <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="group__AlgPoly.html#gadb90fdfb69c5b582ff4f18acb26ee083">AlgGaussLegendrePoints()</a>, <a class="el" href="group__AlgPoly.html#gad6afa648147b5b29582725a9a5100093">AlgGaussLegendreWeights()</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="struct__WlzBSpline.html#a2592e0e639380136367b9db011102880">_WlzBSpline::knots</a>, <a class="el" href="struct__WlzBSpline.html#aa2b95c6abf2a71a0ffe09dccadc0aa7a">_WlzBSpline::nKnots</a>, <a class="el" href="struct__WlzBSpline.html#af54836e3ab6b0d7ed232f75ebfbfe93b">_WlzBSpline::order</a>, <a class="el" href="struct__WlzBSpline.html#aafdac6ed6a196d5fa0617ac9d03fc3fe">_WlzBSpline::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8">WLZ_BSPLINE_C2D</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac528e42e41caf28284d564dfaf9fd3a3">WLZ_BSPLINE_C3D</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a13eedbd649bf61c4ba23049cb3e52970">WLZ_ERR_DOMAIN_TYPE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzMacro_8h.html#addb5d73ca0cd9c85e31c19850b676153">WLZ_VTX_2_LENGTH</a>, <a class="el" href="WlzMacro_8h.html#aea6682123b66039d47a9c309d1e014a3">WLZ_VTX_3_LENGTH</a>, and <a class="el" href="group__WlzFeatures.html#ga0ab10c9ae18cd890295ca9a5f2237092">WlzBSplineEval()</a>.</p>
+<p class="reference">References <a class="el" href="group__AlcAlloc.html#gad77b9005f66254c5b7ba9a8d25812402">AlcFree()</a>, <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="group__AlgPoly.html#gadb90fdfb69c5b582ff4f18acb26ee083">AlgGaussLegendrePoints()</a>, <a class="el" href="group__AlgPoly.html#gad6afa648147b5b29582725a9a5100093">AlgGaussLegendreWeights()</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertex.html#ae4244692727ec8b6297bc9791611dc18">_WlzVertex::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="union__WlzVertex.html#a7e46278977e778b95b33b8a18e1cda29">_WlzVertex::d3</a>, <a class="el" href="struct__WlzBSpline.html#a2592e0e639380136367b9db011102880">_WlzBSpline::knots</a>, <a class="el" href="struct__WlzBSpline.html#aa2b95c6abf2a71a0ffe09dccadc0aa7a">_WlzBSpline::nKnots</a>, <a class="el" href="struct__WlzBSpline.html#af54836e3ab6b0d7ed232f75ebfbfe93b">_WlzBSpline::order</a>, <a class="el" href="struct__WlzBSpline.html#aafdac6ed6a196d5fa0617ac9d03fc3fe">_WlzBSpline::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a098fdffee6e112248ca3101cdd95b5c8">WLZ_BSPLINE_C2D</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ac528e42e41caf28284d564dfaf9fd3a3">WLZ_BSPLINE_C3D</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a13eedbd649bf61c4ba23049cb3e52970">WLZ_ERR_DOMAIN_TYPE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzMacro_8h.html#a09f05b6be6d5f7c61f45bf42d97222c8">WLZ_VTX_2_HAD</a>, <a class="el" href="WlzMacro_8h.html#addb5d73ca0cd9c85e31c19850b676153">WLZ_VTX_2_LENGTH</a>, <a class="el" href="WlzMacro_8h.html#ab5b198c77a3a5ce70590edd5c3e60050">WLZ_VTX_2_SET</a>, <a class="el" href="WlzMacro_8h.html#a6b7825ebcda330cd9bad055351b41c37">WLZ_VTX_3_HAD</a>, <a class="el" href="WlzMacro_8h.html#aea6682123b66039d47a9c309d1e014a3">WLZ_VTX_3_LENGTH</a>, <a class="el" href="WlzMacro_8h.html#a87f8025935fb2fe06791d9300f8ab993">WLZ_VTX_3_SET</a>, and <a class="el" href="group__WlzFeatures.html#ga0ab10c9ae18cd890295ca9a5f2237092">WlzBSplineEval()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__WlzFeatures.html#gaf8981283b51a4110093f6544327b1854">WlzBSplineToDomain()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__WlzFeatures.html#ga307d8fea8d08f2b61ade4365b609f714">WlzBSplineDistance()</a>, and <a class="el" href="group__WlzFeatures.html#gaf8981283b51a4110093f6544327b1854">WlzBSplineToDomain()</a>.</p>
 
 </div>
 </div>
@@ -2051,7 +2159,7 @@ Functions</h2></td></tr>
 <p>Computes the centrality of a feature domain with respect to a boundary domain. The boundary domain must enclose the feature domain. </p>
 <dl class="section return"><dt>Returns</dt><dd>Centrality feature value in range [0.0-1.0]. <pre class="fragment">            Rays are projected from the centre of mass of the boundary
             domain to it's boundary. The maximum value of this distance
-            for a given angle \form#105 being \form#106. At each point
+            for a given angle \form#106 being \form#107. At each point
             in the feature domain intersected by the ray the currrent
             value of the centrality is updated. The distance from the
             centre of mass to each feature point is defined to be
@@ -5219,7 +5327,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="union__WlzDomain.html#a896195bd0df8e694ddf616d9bcec63db">_WlzDomain::core</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="union__WlzVertexP.html#ace590acafa95e1c1eca6fe5eb82dacfc">_WlzVertexP::i2</a>, <a class="el" href="union__WlzVertexP.html#a715c7f5307a93af23e33ab1bc2901a43">_WlzVertexP::i3</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af18fb5ac58f25a0464b73e13f8ebc22f">WLZ_2D_DOMAINOBJ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36ab0e047036a704ff2f354586153175533">WLZ_2D_POLYGON</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a6f4a609eb33f4bebcb5a4a0fa8e43c21">WLZ_3D_DOMAINOBJ</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a2a2ba15ad1ba5029f09f92fcd682e7a6">WLZ_ERR_OBJECT_NULL</a>, <a class="el" href="WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a589be54092bc2fe4aa911650d124763e">WLZ_VERTEX_I2</a>, <a class="el" href="WlzType_8h.html#ga8773ab756ebba7730492225889d3c445a7e1323cf32ca3e4d3b7528abaab17403">WLZ_VERTEX_I3</a>, <a class="el" href="group__WlzFeatures.html#gaedb425a10213d70f96ea5cf0324e5d26">WlzVerticesFromObj2I()</a>, and <a class="el" href="group__WlzFeatures.html#ga87ddea2b3f0012a44e5dd87bb7b4e081">WlzVerticesFromObj3I()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__WlzTransform.html#gacf191b3a658222bbac7daa55944c75e8">WlzBasisFnTransformRandom()</a>, <a class="el" href="group__WlzFeatures.html#gac644932f9e52b2fa89ff9062608fcf7d">WlzBSplineFromObj()</a>, <a class="el" href="group__WlzConvexHull.html#gafe2a6f11324cbafdf0fe77af00e5fed8">WlzObjToConvexHull()</a>, <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6">WlzRegICPObjs()</a>, <a class="el" href="group__WlzTransform.html#ga1113c02ac9b7c85b045957c716aaacf7">WlzRegICPObjsGrd()</a>, <a class="el" href="group__WlzTransform.html#ga1efd86e335baa5404f46a44e19d67d53">WlzRegICPObjWSD2D()</a>, and <a class="el" href="group__WlzTransform.html#gaa32552ee6b18b15089d9302c29fe301c">WlzSnapFit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__WlzTransform.html#gacf191b3a658222bbac7daa55944c75e8">WlzBasisFnTransformRandom()</a>, <a class="el" href="group__WlzFeatures.html#gac644932f9e52b2fa89ff9062608fcf7d">WlzBSplineFromObj()</a>, <a class="el" href="group__WlzConvexHull.html#gafe2a6f11324cbafdf0fe77af00e5fed8">WlzObjToConvexHull()</a>, <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485">WlzRegICPObjs()</a>, <a class="el" href="group__WlzTransform.html#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">WlzRegICPObjsGrd()</a>, <a class="el" href="group__WlzTransform.html#ga1efd86e335baa5404f46a44e19d67d53">WlzRegICPObjWSD2D()</a>, and <a class="el" href="group__WlzTransform.html#gaa32552ee6b18b15089d9302c29fe301c">WlzSnapFit()</a>.</p>
 
 </div>
 </div>

@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -74,20 +74,22 @@ $(document).ready(function(){initNavTree('group__wlzbsplinelength.html','');});
 </div><!--header-->
 <div class="contents">
 <dl class="section user"><dt>Name</dt><dd>WlzBSplineLength </dd></dl>
-<dl class="section user"><dt>Synopsis</dt><dd><pre class="fragment">WlzBSplineLength [-h] [-t [&lt;min&gt;],[&lt;max&gt;]] [&lt;in object&gt;]
+<dl class="section user"><dt>Synopsis</dt><dd><pre class="fragment">WlzBSplineLength [-h]  [-s &lt;x&gt;,&lt;y&gt;[,&lt;z&gt;]] [-t [&lt;min&gt;],[&lt;max&gt;]] [&lt;in object&gt;]
 </pre> </dd></dl>
 <dl class="section user"><dt>Options</dt><dd><table width="500" border="0">
 <tr>
 <td><b>-h</b> </td><td>Help, prints usage message.  </td></tr>
 <tr>
+<td><b>-s</b> </td><td>Step size (default 1.0,1.0,1.0).  </td></tr>
+<tr>
 <td><b>-t</b> </td><td>Parametric range along the B-spline curve (default 0,1).  </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Description</dt><dd>Computes the length of a path along a spline's curve between a pair of parametric coordinates. The length is written as a floating point number to the standard output. By default the input object is read from stdin. </dd></dl>
+<dl class="section user"><dt>Description</dt><dd>Computes the length of a path along a spline's curve between a pair of parametric coordinates. The step size may be used to compute the spline length for non-unit pixel/poxel sizes. The length is written as a floating point number to the standard output. By default the input object is read from stdin. </dd></dl>
 <dl class="section user"><dt>Example</dt><dd><pre class="fragment">WlzBSplineLength spline.wlz
 </pre> Prints out the length of the B-spline read from the file spline.wlz to the standard output. </dd></dl>
 <dl class="section user"><dt>File</dt><dd><a class="el" href="WlzBSplineLength_8c.html">WlzBSplineLength.c</a> </dd></dl>
-<dl class="section user"><dt>See Also</dt><dd><a class="el" href="group__BinWlz.html">WlzIntro(1)</a> <a class="el" href="group__WlzFeatures.html#ga20bcf3ccd2c8aa0666d659b1b244067a">WlzBSplineLength(3)</a> </dd></dl>
+<dl class="section user"><dt>See Also</dt><dd><a class="el" href="group__BinWlz.html">WlzIntro(1)</a> <a class="el" href="group__WlzFeatures.html#ga21bfb84ef8d547ea07aaa8bd6d0370c4">WlzBSplineLength(3)</a> </dd></dl>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

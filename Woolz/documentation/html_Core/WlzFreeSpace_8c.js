@@ -1,6 +1,7 @@
 var WlzFreeSpace_8c =
 [
     [ "WlzFreeObj", "group__WlzAllocation.html#ga00efc48e9efbbffde0ca54723cf6d20b", null ],
+    [ "WlzFreeCompoundArray", "group__WlzAllocation.html#gac0d080ea675d46a3636baf0ef39ba7cd", null ],
     [ "WlzFreeIntervalDomain", "group__WlzAllocation.html#gafb0887afe168505347ecf090bdf5dc77", null ],
     [ "WlzFreeHistogramDomain", "group__WlzAllocation.html#gac5dba11670685ce25211c013080edcd1", null ],
     [ "WlzFreeDomain", "group__WlzAllocation.html#ga045e235998100433a1ba2feddf442cf5", null ],

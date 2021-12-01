@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -75,7 +75,7 @@ $(document).ready(function(){initNavTree('group__wlzregistericp.html','');});
 <div class="contents">
 <dl class="section user"><dt>Name</dt><dd>WlzRegisterICP - registers two objects using an iterative closest point algorithm. </dd></dl>
 <dl class="section user"><dt>Synopsis</dt><dd><pre class="fragment">WlzRegisterICP [-h] [-o&lt;out obj&gt;]
-               [-E #] [-I] [-M #] [-i &lt;init tr&gt;] [-t] [-r]
+               [-E #] [-I] [-M #] [-N] [-i &lt;init tr&gt;] [-t] [-r]
                [&lt;in obj 0&gt;] [&lt;in obj 1&gt;]
 </pre> </dd></dl>
 <dl class="section user"><dt>Options</dt><dd><table width="500" border="0">
@@ -85,6 +85,8 @@ $(document).ready(function(){initNavTree('group__wlzregistericp.html','');});
 <td><b>-o</b> </td><td>Output file name for affine transform.  </td></tr>
 <tr>
 <td><b>-I</b> </td><td>Maximum number of iterations.  </td></tr>
+<tr>
+<td><b>-N</b> </td><td>Don't weight using normals.  </td></tr>
 <tr>
 <td><b>-M</b> </td><td>Minimum distance weight, range [0.0-1.0]: Useful values are 0.25 (default) for global matching and 0.0 for local matching..  </td></tr>
 <tr>
@@ -105,7 +107,7 @@ $(document).ready(function(){initNavTree('group__wlzregistericp.html','');});
 <dl class="section user"><dt>Examples</dt><dd><pre class="fragment">WlzRegisterICP -o out-tr.wlz -a in0.wlz in1.wlz
 </pre> An affine transform is found by registering in1.wlz to in0.wlz using an ICP algorithm to find the lest affine transform (in a least squares sense). The affine transform is then written to out-tr.wlz. </dd></dl>
 <dl class="section user"><dt>File</dt><dd><a class="el" href="WlzRegisterICP_8c.html">WlzRegisterICP.c</a> </dd></dl>
-<dl class="section user"><dt>See Also</dt><dd><a class="el" href="group__BinWlz.html">WlzIntro(1)</a> <a class="el" href="group__wlzregisterccor.html">WlzRegisterCCor(1)</a> <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6">WlzRegICPObjs(3)</a> <a class="el" href="group__WlzTransform.html#ga1113c02ac9b7c85b045957c716aaacf7">WlzRegICPObjsGrd(3)</a> </dd></dl>
+<dl class="section user"><dt>See Also</dt><dd><a class="el" href="group__BinWlz.html">WlzIntro(1)</a> <a class="el" href="group__wlzregisterccor.html">WlzRegisterCCor(1)</a> <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485">WlzRegICPObjs(3)</a> <a class="el" href="group__WlzTransform.html#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">WlzRegICPObjsGrd(3)</a> </dd></dl>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

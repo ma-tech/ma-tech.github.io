@@ -12,6 +12,7 @@ var dir_17d276a53f667086a8580c10419655c3 =
     [ "WlzExtFFIcs.c", "WlzExtFFIcs_8c.html", "WlzExtFFIcs_8c" ],
     [ "WlzExtFFIPL.c", "WlzExtFFIPL_8c.html", "WlzExtFFIPL_8c" ],
     [ "WlzExtFFJpeg.c", "WlzExtFFJpeg_8c.html", "WlzExtFFJpeg_8c" ],
+    [ "WlzExtFFJSON.c", "WlzExtFFJSON_8c.html", "WlzExtFFJSON_8c" ],
     [ "WlzExtFFMesh.c", "WlzExtFFMesh_8c.html", "WlzExtFFMesh_8c" ],
     [ "WlzExtFFNifti.c", "WlzExtFFNifti_8c.html", "WlzExtFFNifti_8c" ],
     [ "WlzExtFFNodeEle.c", "WlzExtFFNodeEle_8c.html", "WlzExtFFNodeEle_8c" ],

@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -2922,9 +2922,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Given a Woolz object and two vertices, finds the position along a line segment between the two vertices which is just inside/outside the boundary of the object. The destination pointer is used to return the status of the vertices, using the following code: 0 - One of the given verticies was inside and the other outside, 1 - Both the given verticies were inside, 2 - Both the given verticies were outside. This function assumes that the line segment only crosses the object's boundary once. </p>
-<dl class="section return"><dt>Returns</dt><dd>Position of intersection. <pre class="fragment">          Given the line segment \form#246, \form#247 any position
-          along the segment can be given by a parameter \form#175
-          (range [0-1]), where \form#283.
+<dl class="section return"><dt>Returns</dt><dd>Position of intersection. <pre class="fragment">          Given the line segment \form#247, \form#248 any position
+          along the segment can be given by a parameter \form#176
+          (range [0-1]), where \form#284.
 </pre> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -3002,9 +3002,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Given a Woolz object and two vertices, finds the position along a line segment between the two vertices which is just inside/outside the boundary of the object. The destination pointer is used to return the status of the vertices, using the following code: 0 - One of the given verticies was inside and the other outside, 1 - Both the given verticies were inside, 2 - Both the given verticies were outside. This function assumes that the line segment only crosses the object's boundary once. </p>
-<dl class="section return"><dt>Returns</dt><dd>Position of intersection. <pre class="fragment">          Given the line segment \form#246, \form#247 any position
-          along the segment can be given by a parameter \form#175
-          (range [0-1]), where \form#283.
+<dl class="section return"><dt>Returns</dt><dd>Position of intersection. <pre class="fragment">          Given the line segment \form#247, \form#248 any position
+          along the segment can be given by a parameter \form#176
+          (range [0-1]), where \form#284.
 </pre> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -3324,9 +3324,9 @@ Functions</h2></td></tr>
 <li>
 2 intersection at a single point (not end points). </li>
 </ul>
-<pre class="fragment">    Consider a line segment from a vertex at \form#286
-    to another vertex at \form#287 , with a third test
-    vertex at \form#288 , the shortest path from
+<pre class="fragment">    Consider a line segment from a vertex at \form#287
+    to another vertex at \form#288 , with a third test
+    vertex at \form#289 , the shortest path from
 </pre> \(\mathbf{p_x}\) to the line segment will be perpendicular to the line segment. Let the position of the intersection of this perpendicular with the line segment be at \(\mathbf{p}\) , with distance \(d\) from \(\mathbf{p_x}\) , then: <p class="formulaDsp">
 \[ \mathbf{p} = \mathbf{p_0} + s (\mathbf{p_1} - \mathbf{p_0}, \]
 </p>
@@ -3448,8 +3448,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the coordinates of vertices that may be used to draw a wide rectangle. </p>
-<dl class="section return"><dt>Returns</dt><dd>Non-zero if \(S\) and \(T\) are coincident. <pre class="fragment">            Given two vertices \form#296, \form#26 which define a line
-            segment and width \form#297 perpendicular to the line segent,
+<dl class="section return"><dt>Returns</dt><dd>Non-zero if \(S\) and \(T\) are coincident. <pre class="fragment">            Given two vertices \form#297, \form#26 which define a line
+            segment and width \form#298 perpendicular to the line segent,
             this function computes the coordinates of the vertices
 </pre> \(V_i\), \(i\in[0-3]\) of the rectangle. The vertices are sorted such that the rectangle may be drawn using the line segmants: \((V_0,V_1)\), \((V_1,V_2)\), \((V_2,V_3)\), \((V_3,V_0)\). Given the line segment \((S,T)\) it can be shown that the vertices which share a line segment passing through \(S\) are: <p class="formulaDsp">
 \[ V_i = S + (-\frac{r (T_x - S_x)}{l}, \frac{r (T_y - S_y)}{l}) \]
@@ -3523,8 +3523,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the intersection of a line with a plane. </p>
-<dl class="section return"><dt>Returns</dt><dd>Intersection of line with plane. <pre class="fragment">            Computes the intersection of line (vector \form#260)
-            through an off plane vertex ( \form#309) with a plane.
+<dl class="section return"><dt>Returns</dt><dd>Intersection of line with plane. <pre class="fragment">            Computes the intersection of line (vector \form#261)
+            through an off plane vertex ( \form#310) with a plane.
             The plane is defined by three on plane vertices
 </pre> \((\mathbf{p_0}, \mathbf{p_1}, \mathbf{p_2})\). \(q\) the vertex at the intersection is found by solving the vector equations <p class="formulaDsp">
 \[ (\mathbf{p_1} - \mathbf{p_0}) \times (\mathbf{p_2} - \mathbf{p_0}) . (\mathbf{q} - \mathbf{p_0}) = \mathbf{0}, \mathbf{n} \times (\mathbf{p_3} - \mathbf{q}) = \mathbf{0} \]
@@ -3636,7 +3636,7 @@ Functions</h2></td></tr>
  Solving for \(t\), \(u\) and \(v\) gives <p class="formulaDsp">
 \[ \left[ \begin{array}{c} t \\ u \\ v \end{array} \right] = \frac{1}{P \cdot E_1} \left[ \begin{array}{c} Q \cdot E_2 \\ P \cdot t \\ Q \cdot D \end{array} \right] \]
 </p>
- where \(E_1 = V_1 - V_0\), \(E_2 = V_2 - V_0\) \(t = O - V_0\), \(P = D \times E_2\) and \(Q = T \times E_1\). <pre class="fragment">   The \form#324 and \form#6 are only set if the line passes
+ where \(E_1 = V_1 - V_0\), \(E_2 = V_2 - V_0\) \(t = O - V_0\), \(P = D \times E_2\) and \(Q = T \times E_1\). <pre class="fragment">   The \form#325 and \form#6 are only set if the line passes
    through the triangle.
 </pre></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -3784,7 +3784,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Tests whether a vertex is a line. </p>
-<dl class="section return"><dt>Returns</dt><dd>If the vertex is on the ray 1, otherwise 0. <pre class="fragment">            Tests whether the given vertex \form#246 is on the
+<dl class="section return"><dt>Returns</dt><dd>If the vertex is on the ray 1, otherwise 0. <pre class="fragment">            Tests whether the given vertex \form#247 is on the
             given line
 </pre> \(\mathbf{x} = \mathbf{r_0} + \mathbf{r_D}\). If the point on the line and the given vertex are coincident then obviously the vertex is on the line otherwise the vertex is on the line if the squared length of the cross product of the line direction and the direction of the vertex (with respect to the point on the line) is less than ALG_DBL_TOLLERANCE, ie if <p class="formulaDsp">
 \[ \| (\mathbf{p_0} - \mathbf{r_0}) \times \mathbf{r_D} \| &lt; \epsilon \]
@@ -4609,7 +4609,7 @@ Functions</h2></td></tr>
             problem. This solution is based on one from
             http://mathforum.org which is credited to Doctor George.
             Starting with the distance from a point to a plane we
-            wish to find \form#351 such as to minimise
+            wish to find \form#352 such as to minimise
 </pre> <p class="formulaDsp">
 \[ f(a,b,c,d) = \sum{ \frac{a x_i + b y_i + c z_i} {a^2 + b^2 + c^2}} \]
 </p>

@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -3811,7 +3811,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Applies a Laplacian smoothing to the 2D mesh in which nodes are iteratively moved to the centroid of their imediate neighbours. If a node is on a boundary of the mesh then it is moved on the boundary, ie to the centroid of it's neighboring boundary nodes. Before calling this function all nodes must have had the boundary node flag bit set or cleared appropriately. This function will shrink meshes when the boundary parameter is set. </p>
-<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">    Each node at position \form#172 is moved to \form#173:
+<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">    Each node at position \form#173 is moved to \form#174:
 </pre> <p class="formulaDsp">
 \[ p&#39;_i = (1 - \alpha)p_i + \frac{\alpha}{n}\sum_{j}^{n}{p_{ij}} \]
 </p>

@@ -59,6 +59,7 @@ var dir_9cd6cbea1b3060a480d72286f7cc4af1 =
     [ "WlzDiffDomain.c", "libWlz_2WlzDiffDomain_8c.html", "libWlz_2WlzDiffDomain_8c" ],
     [ "WlzDiffDomain3d.c", "WlzDiffDomain3d_8c.html", "WlzDiffDomain3d_8c" ],
     [ "WlzDilation.c", "libWlz_2WlzDilation_8c.html", "libWlz_2WlzDilation_8c" ],
+    [ "WlzDistAllNearest.c", "WlzDistAllNearest_8c.html", "WlzDistAllNearest_8c" ],
     [ "WlzDistMetric.c", "WlzDistMetric_8c.html", "WlzDistMetric_8c" ],
     [ "WlzDistTransform.c", "WlzDistTransform_8c.html", "WlzDistTransform_8c" ],
     [ "WlzDomainFill.c", "libWlz_2WlzDomainFill_8c.html", "libWlz_2WlzDomainFill_8c" ],

@@ -1,6 +1,7 @@
 var group__WlzMorphologyOps =
 [
     [ "WlzDilation.c", "libWlz_2WlzDilation_8c.html", null ],
+    [ "WlzDistAllNearest.c", "WlzDistAllNearest_8c.html", null ],
     [ "WlzDistTransform.c", "WlzDistTransform_8c.html", null ],
     [ "WlzDomainNearby.c", "WlzDomainNearby_8c.html", null ],
     [ "WlzErosion.c", "libWlz_2WlzErosion_8c.html", null ],
@@ -21,6 +22,7 @@ var group__WlzMorphologyOps =
       [ "WLZ_SPEC_STRUCT_ELM_V2", "WlzType_8h.html#ga3d3b0956b7495a60d01c734f1ff9c0b6ade040573b90acdfe322d358f47f39ca4", null ]
     ] ],
     [ "WlzDilation", "group__WlzMorphologyOps.html#ga64cbe05a0e81cafea6fc0eb7fbfd06c1", null ],
+    [ "WlzDistAllNearest", "group__WlzMorphologyOps.html#ga8b41cd0a2e0438b38aad4c2277fd7061", null ],
     [ "WlzDistanceTransform", "group__WlzMorphologyOps.html#ga0df7796714d75a1a68ad508e252c51ec", null ],
     [ "WlzDomainNearby3D", "group__WlzMorphologyOps.html#gad41a2b9b1deea7289887102fbcf9d78b", null ],
     [ "WlzDomainNearby", "group__WlzMorphologyOps.html#ga36f9304f3de18aeef5b364798173e963", null ],

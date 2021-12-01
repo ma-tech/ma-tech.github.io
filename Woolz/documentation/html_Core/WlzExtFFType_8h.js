@@ -148,6 +148,7 @@ var WlzExtFFType_8h =
       [ "WLZEFF_FORMAT_STL", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda79cb26a72dc5b2a932d24ec28f57a8be", null ],
       [ "WLZEFF_FORMAT_PVL", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda975ad72c577e19925081b2a4afba52f2", null ],
       [ "WLZEFF_FORMAT_NRRD", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda58fe09cd52f20259a0615bf681e2ef3c", null ],
+      [ "WLZEFF_FORMAT_JSON", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda99c6781e80a27414c7ebb36cde0d4bb5", null ],
       [ "WLZEFF_FORMAT_COUNT", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda6cbe8b3753d2273148b0db181368c0da", null ]
     ] ],
     [ "_WlzEffIcsToken", "WlzExtFFType_8h.html#acafd603507ed9fd5062a43d10313d35a", [

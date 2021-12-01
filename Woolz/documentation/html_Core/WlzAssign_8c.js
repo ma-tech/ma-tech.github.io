@@ -1,6 +1,7 @@
 var WlzAssign_8c =
 [
     [ "WlzAssignObject", "group__WlzAllocation.html#ga8dbc100eabd344dd981dee2c563980af", null ],
+    [ "WlzAssignCompoundArray", "group__WlzAllocation.html#ga245aba6398f5d7eeaa810d21058bc1bd", null ],
     [ "WlzAssignDomain", "group__WlzAllocation.html#ga9c60bdcb1b0fe2341a1328e387af07f7", null ],
     [ "WlzAssignValues", "group__WlzAllocation.html#gadc98d6e1f25b5ac7413076f31ecebcbd", null ],
     [ "WlzAssignProperty", "group__WlzAllocation.html#ga7cbb65c63937e348112f6dba757762b5", null ],

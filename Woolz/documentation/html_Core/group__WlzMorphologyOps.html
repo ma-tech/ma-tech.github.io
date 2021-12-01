@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,9 @@ $(document).ready(function(){initNavTree('group__WlzMorphologyOps.html','');});
 Files</h2></td></tr>
 <tr class="memitem:libWlz_2WlzDilation_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="libWlz_2WlzDilation_8c.html">WlzDilation.c</a></td></tr>
 <tr class="memdesc:libWlz_2WlzDilation_8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions for dilating objects with spatial domains. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:WlzDistAllNearest_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="WlzDistAllNearest_8c.html">WlzDistAllNearest.c</a></td></tr>
+<tr class="memdesc:WlzDistAllNearest_8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions to compute nearest points in a reference domain at all points in a foreground domain. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:WlzDistTransform_8c"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="WlzDistTransform_8c.html">WlzDistTransform.c</a></td></tr>
 <tr class="memdesc:WlzDistTransform_8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance transform functions which calculate the distance of every pixel/voxel in a foreground object from a reference object. <br /></td></tr>
@@ -137,6 +140,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga64cbe05a0e81cafea6fc0eb7fbfd06c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzMorphologyOps.html#ga64cbe05a0e81cafea6fc0eb7fbfd06c1">WlzDilation</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *obj, <a class="el" href="WlzType_8h.html#a275d8fb7199ea333f0c66edb20127503">WlzConnectType</a> connectivity, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga64cbe05a0e81cafea6fc0eb7fbfd06c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dilate the given object using the given connectivity type. Since the dilated object is bigger than the original, the size of the valuetable may be smaller than the dilated object. User has to take fully responsibility for using grey value of dilated object.  <a href="#ga64cbe05a0e81cafea6fc0eb7fbfd06c1">More...</a><br /></td></tr>
 <tr class="separator:ga64cbe05a0e81cafea6fc0eb7fbfd06c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b41cd0a2e0438b38aad4c2277fd7061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ac66d0291a993148ad8fad43e7966e7de">WlzCompoundArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzMorphologyOps.html#ga8b41cd0a2e0438b38aad4c2277fd7061">WlzDistAllNearest</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *gForObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *gRefObj, <a class="el" href="WlzType_8h.html#a373bd6347228437c24062fa7b7ad7a7f">WlzDistanceType</a> dFn, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> **dstDstObj, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
+<tr class="memdesc:ga8b41cd0a2e0438b38aad4c2277fd7061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the nearest points in a reference domain at all points in a foreground domain and (optionally) the distance of the reference domain points from their nearest points within the reference domain. The returned compound array object has integer reference point coordinates with column (x), line (y) and for 3D objects plane (z) having indices 0, 1 and 2 respectively. Distances are correct for the given distance function and are not normalised to remove over estimates with respect to constrained Euclidean distance. The intersection of the foreground and reference object is be used to ensure that the reference object is within the foreground object.  <a href="#ga8b41cd0a2e0438b38aad4c2277fd7061">More...</a><br /></td></tr>
+<tr class="separator:ga8b41cd0a2e0438b38aad4c2277fd7061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0df7796714d75a1a68ad508e252c51ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzMorphologyOps.html#ga0df7796714d75a1a68ad508e252c51ec">WlzDistanceTransform</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *forObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *refObj, <a class="el" href="WlzType_8h.html#a373bd6347228437c24062fa7b7ad7a7f">WlzDistanceType</a> dFn, double dParam, double dMax, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga0df7796714d75a1a68ad508e252c51ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the distance of every pixel/voxel in the foreground object from the reference object.  <a href="#ga0df7796714d75a1a68ad508e252c51ec">More...</a><br /></td></tr>
 <tr class="separator:ga0df7796714d75a1a68ad508e252c51ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,6 +266,67 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="union__WlzValues.html#acc42335c78a3ae766b84f0c1c61cccc0">_WlzValues::core</a>, <a class="el" href="union__WlzDomain.html#a896195bd0df8e694ddf616d9bcec63db">_WlzDomain::core</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af18fb5ac58f25a0464b73e13f8ebc22f">WLZ_2D_DOMAINOBJ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a6f4a609eb33f4bebcb5a4a0fa8e43c21">WLZ_3D_DOMAINOBJ</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, and <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a2a2ba15ad1ba5029f09f92fcd682e7a6">WLZ_ERR_OBJECT_NULL</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="group__WlzMorphologyOps.html#ga0df7796714d75a1a68ad508e252c51ec">WlzDistanceTransform()</a>, <a class="el" href="group__WlzThreshold.html#ga6146963fbf80d1051d76963f13e699e9">WlzHyThreshold()</a>, <a class="el" href="group__WlzBinaryOps.html#gab4db2140d26f32c213a2d02d5009879f">WlzLabel3D()</a>, and <a class="el" href="group__WlzMorphologyOps.html#gac5fd37d1ac8ca48460cdb018017a8aa2">WlzMakeStdStructElement()</a>.</p>
+
+</div>
+</div>
+<a id="ga8b41cd0a2e0438b38aad4c2277fd7061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b41cd0a2e0438b38aad4c2277fd7061">&#9670;&nbsp;</a></span>WlzDistAllNearest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="WlzType_8h.html#ac66d0291a993148ad8fad43e7966e7de">WlzCompoundArray</a>* WlzDistAllNearest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td>
+          <td class="paramname"><em>gForObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td>
+          <td class="paramname"><em>gRefObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="WlzType_8h.html#a373bd6347228437c24062fa7b7ad7a7f">WlzDistanceType</a>&#160;</td>
+          <td class="paramname"><em>dFn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> **&#160;</td>
+          <td class="paramname"><em>dstDstObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *&#160;</td>
+          <td class="paramname"><em>dstErr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the nearest points in a reference domain at all points in a foreground domain and (optionally) the distance of the reference domain points from their nearest points within the reference domain. The returned compound array object has integer reference point coordinates with column (x), line (y) and for 3D objects plane (z) having indices 0, 1 and 2 respectively. Distances are correct for the given distance function and are not normalised to remove over estimates with respect to constrained Euclidean distance. The intersection of the foreground and reference object is be used to ensure that the reference object is within the foreground object. </p>
+<dl class="section return"><dt>Returns</dt><dd>A Woolz compound array object or NULL on error.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gForObj</td><td>Given foreground object. </td></tr>
+    <tr><td class="paramname">gRefObj</td><td>Given reference object. </td></tr>
+    <tr><td class="paramname">dFn</td><td>Distance function which must be appropriate to the dimension of the foreground and reference objects. </td></tr>
+    <tr><td class="paramname">dstDstObj</td><td>Destination distance object pointer for the (float) distance values, may be NULL. </td></tr>
+    <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="union__WlzDomain.html#a896195bd0df8e694ddf616d9bcec63db">_WlzDomain::core</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="union__WlzGreyV.html#a2bd64d78d6cb44c5586da22bf20d6dc1">_WlzGreyV::inv</a>, <a class="el" href="struct__WlzPixelV.html#af4db8b840140d416c13f7f4c8d7f1aba">_WlzPixelV::type</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="struct__WlzPixelV.html#a9fae2dc4e0c7a8cda979ef87f2b2c436">_WlzPixelV::v</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721cac4aeb56bd9b8e1a8fc88fc270d5ebc01">WLZ_0_CONNECTED</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca0ba4b3f31d6b3a8ebc6280a4c6d8ba19">WLZ_18_CONNECTED</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a2fea6a6e5339981520725dd874ca17bf">WLZ_18_DISTANCE</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721caea060e0a35488ead0a03b73190ab841b">WLZ_26_CONNECTED</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a4a5af70ef98f3ffeb4dee59a95b86cd0">WLZ_26_DISTANCE</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36af18fb5ac58f25a0464b73e13f8ebc22f">WLZ_2D_DOMAINOBJ</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a6f4a609eb33f4bebcb5a4a0fa8e43c21">WLZ_3D_DOMAINOBJ</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca585beb40d5454c95c1d3c59e6a5ad624">WLZ_4_CONNECTED</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a5123553de54d04c2c52e9ccf9acbc728">WLZ_4_DISTANCE</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721ca6ca63075dc120c00121319ee72843266">WLZ_6_CONNECTED</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a30d04a6f81a09141c91935e0abbf8751">WLZ_6_DISTANCE</a>, <a class="el" href="WlzType_8h.html#gac62dc9359c0540dd8509306910c9721cacedab84f8a05f1fb3ef0787d4eee5756">WLZ_8_CONNECTED</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1adf76304e8afecd444b97a387c09b65f8">WLZ_8_DISTANCE</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36a3a370fe31598cd18e6bab7025f45d70b">WLZ_COMPOUND_ARR_1</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa7ab0517827f0e9d16d5a124acc78a79">WLZ_ERR_DOMAIN_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a2a2ba15ad1ba5029f09f92fcd682e7a6">WLZ_ERR_OBJECT_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a7b19fdefb7d2725016c61cf1641895e1">WLZ_ERR_OBJECT_TYPE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a725bd6247e0fb0766e60c80ce145961c">WLZ_ERR_PARAM_DATA</a>, <a class="el" href="WlzType_8h.html#ga3fa66c817599e71e9c85a0da37a0a553a366a4d2ffb06fafbb3b81b5f2a0d251a">WLZ_GREY_INT</a>, <a class="el" href="WlzType_8h.html#ga627d7be8475fffe2963cfb518d364354a2a3cfcd466340f0a849e565a312c336b">WLZ_GREY_TAB_RAGR</a>, <a class="el" href="WlzType_8h.html#ga452ce7a974ca2cbd58ed14ef3396b6a1a5f09ea157fa57e3bf0ba4f43ea7c6459">WLZ_OCTAGONAL_DISTANCE</a>, <a class="el" href="group__WlzValuesUtils.html#ga46db38f68132f134f255d4c2091ee4c9">WlzGreyValueTableType()</a>, <a class="el" href="group__WlzBinaryOps.html#ga392e0897f6e891c869f03a73824d9f8e">WlzIntersect2()</a>, <a class="el" href="group__WlzAllocation.html#gab27b9c2692079d865c87e4bf21f9c56c">WlzMakeCompoundArray()</a>, and <a class="el" href="group__WlzAllocation.html#gad0468b0024c63f57b42cbcf04600f0b0">WlzMakeMain()</a>.</p>
 
 </div>
 </div>

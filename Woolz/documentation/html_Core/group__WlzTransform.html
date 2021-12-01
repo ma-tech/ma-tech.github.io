@@ -33,7 +33,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Woolz Image Processing
-   &#160;<span id="projectnumber">Version 1.8.0</span>
+   &#160;<span id="projectnumber">Version 1.8.3</span>
    </div>
   </td>
  </tr>
@@ -1015,20 +1015,20 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3c24df88edd68f8f8100d7ccab1dc2f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga3c24df88edd68f8f8100d7ccab1dc2f8">WlzProj3DToSection</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *gvnObj, int nMask, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> **maskObj, <a class="el" href="WlzType_8h.html#af57d0ebc86c6baeadaf8201236735146">WlzThreeDViewStruct</a> *prjView, int nPlnTr, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> **plnTrObj, <a class="el" href="WlzType_8h.html#af57d0ebc86c6baeadaf8201236735146">WlzThreeDViewStruct</a> *secView, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga3c24df88edd68f8f8100d7ccab1dc2f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects the given 3D doimain onto a section using a given projection, set of mask domains and set of within section transforms and a section view.  <a href="#ga3c24df88edd68f8f8100d7ccab1dc2f8">More...</a><br /></td></tr>
 <tr class="separator:ga3c24df88edd68f8f8100d7ccab1dc2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1113c02ac9b7c85b045957c716aaacf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga1113c02ac9b7c85b045957c716aaacf7">WlzRegICPObjsGrd</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *tObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *sObj, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, double ctrLo, double ctrHi, double ctrWth, int *dstConv, int *dstItr, int maxItr, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:ga1113c02ac9b7c85b045957c716aaacf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the two given objects using the iterative closest point algorithm. Maximal gradient contours and gradients are extracted from the two given domain objects with values. An affine transform is computed, which when applied to the source object takes it into register with the target object.  <a href="#ga1113c02ac9b7c85b045957c716aaacf7">More...</a><br /></td></tr>
-<tr class="separator:ga1113c02ac9b7c85b045957c716aaacf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9b17e54537784364538a79e54cfb38b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6">WlzRegICPObjs</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *tObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *sObj, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, int *dstConv, int *dstItr, int maxItr, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:ga9b17e54537784364538a79e54cfb38b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the two given objects using the iterative closest point algorithm. An affine transform is computed, which when applied to the source object takes it into register with the target object.  <a href="#ga9b17e54537784364538a79e54cfb38b6">More...</a><br /></td></tr>
-<tr class="separator:ga9b17e54537784364538a79e54cfb38b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga393fdb3c63e0cf3ea55cba4bb85a4ef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">WlzRegICPObjsGrd</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *tObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *sObj, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, double ctrLo, double ctrHi, double ctrWth, int *dstConv, int *dstItr, int maxItr, int noNrm, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
+<tr class="memdesc:ga393fdb3c63e0cf3ea55cba4bb85a4ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the two given objects using the iterative closest point algorithm. Maximal gradient contours and gradients are extracted from the two given domain objects with values. An affine transform is computed, which when applied to the source object takes it into register with the target object.  <a href="#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">More...</a><br /></td></tr>
+<tr class="separator:ga393fdb3c63e0cf3ea55cba4bb85a4ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3c3aaf418e868d7165855051b7fb485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485">WlzRegICPObjs</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *tObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *sObj, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, int *dstConv, int *dstItr, int maxItr, int noNrm, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
+<tr class="memdesc:gaf3c3aaf418e868d7165855051b7fb485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the two given objects using the iterative closest point algorithm. An affine transform is computed, which when applied to the source object takes it into register with the target object.  <a href="#gaf3c3aaf418e868d7165855051b7fb485">More...</a><br /></td></tr>
+<tr class="separator:gaf3c3aaf418e868d7165855051b7fb485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1efd86e335baa5404f46a44e19d67d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga1efd86e335baa5404f46a44e19d67d53">WlzRegICPObjWSD2D</a> (<a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *tObj, <a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *sObj, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, double xMin, double xMax, double xStep, double yMin, double yMax, double yStep, double rMin, double rMax, double rStep, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:ga1efd86e335baa5404f46a44e19d67d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations.  <a href="#ga1efd86e335baa5404f46a44e19d67d53">More...</a><br /></td></tr>
+<tr class="memdesc:ga1efd86e335baa5404f46a44e19d67d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations.  <a href="#ga1efd86e335baa5404f46a44e19d67d53">More...</a><br /></td></tr>
 <tr class="separator:ga1efd86e335baa5404f46a44e19d67d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadf651d102bc60dbe35f7a0f7f3c8fd0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#gadf651d102bc60dbe35f7a0f7f3c8fd0e">WlzRegICPVertices</a> (<a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tNr, int tCnt, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sNr, int sCnt, <a class="el" href="WlzType_8h.html#aac5fa594bbb63e968888069bfc6c1124">WlzVertexType</a> vType, int sgnNrm, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, int *dstConv, int *dstItr, int maxItr, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:gadf651d102bc60dbe35f7a0f7f3c8fd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the two given sets of vertices using the iterative closest point algorithm. An affine transform is computed, which when applied to the source vertices takes it into register with the target vertices. The vertices and their normals are known to be either WlzDVertex2 or WlzDVertex3.  <a href="#gadf651d102bc60dbe35f7a0f7f3c8fd0e">More...</a><br /></td></tr>
 <tr class="separator:gadf651d102bc60dbe35f7a0f7f3c8fd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3896e2bc7f731545df57f8e03a388c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#ab1349aa39565c0c259e930e56b16c17a">WlzObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga3896e2bc7f731545df57f8e03a388c7c">WlzRegICPVerticesWSD2D</a> (<a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tNr, int tCnt, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sNr, int sCnt, <a class="el" href="WlzType_8h.html#aac5fa594bbb63e968888069bfc6c1124">WlzVertexType</a> vType, int sgnNrm, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, double xMin, double xMax, double xStep, double yMin, double yMax, double yStep, double rMin, double rMax, double rStep, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
-<tr class="memdesc:ga3896e2bc7f731545df57f8e03a388c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations.  <a href="#ga3896e2bc7f731545df57f8e03a388c7c">More...</a><br /></td></tr>
+<tr class="memdesc:ga3896e2bc7f731545df57f8e03a388c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations.  <a href="#ga3896e2bc7f731545df57f8e03a388c7c">More...</a><br /></td></tr>
 <tr class="separator:ga3896e2bc7f731545df57f8e03a388c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga70b867ed5c14a50437c2deeb1352aef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__WlzTransform.html#ga70b867ed5c14a50437c2deeb1352aef2">WlzRegICPTreeAndVertices</a> (<a class="el" href="AlcType_8h.html#ad5f8b5991ab4cecf4b3011f4a56dc44f">AlcKDTTree</a> *tree, <a class="el" href="WlzType_8h.html#ac9677221250ed6a2c3ad7bdcfca007a7">WlzTransformType</a> trType, <a class="el" href="WlzType_8h.html#aac5fa594bbb63e968888069bfc6c1124">WlzVertexType</a> vType, int sgnNrm, int nT, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tNr, int nS, int *sIdx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sVx, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sNr, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> tVxBuf, <a class="el" href="WlzType_8h.html#aee40d87c99596115c1d5108588077031">WlzVertexP</a> sVxBuf, double *wgtBuf, int maxItr, <a class="el" href="WlzType_8h.html#af6611d47481e7f587ae25c0b06058383">WlzAffineTransform</a> *initTr, int *dstConv, <a class="el" href="group__WlzTransform.html#gaff69b00efa863f8237fc8010a1316db4">WlzRegICPUsrWgtFn</a> usrWgtFn, void *usrWgtData, double delta, double minDistWgt, <a class="el" href="WlzError_8h.html#accff28019afa8da97a4990e1c0890ed7">WlzErrorNum</a> *dstErr)</td></tr>
 <tr class="memdesc:ga70b867ed5c14a50437c2deeb1352aef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers the given vertices using the already built kD-tree and the given buffers. This function will attempt to find a rigid body registration before attempting a general affine registration.  <a href="#ga70b867ed5c14a50437c2deeb1352aef2">More...</a><br /></td></tr>
@@ -7666,7 +7666,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 </div><div class="memdoc">
 
 <p>Computes the product of the given affine and conforming mesh transforms in place, ie the mesh transform has it's displacements overwritten. </p>
-<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">            Given a conforming mesh transform \form#155 and an
+<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">            Given a conforming mesh transform \form#156 and an
             affine transform \form#62. The product
 </pre> \(\mathbf{P}\) can be evaluated as: <p class="formulaDsp">
 \[ \begin{array}{ll} \mathbf{P} = \mathbf{A}\mathbf{M}, &amp; o = 0 \\ \mathbf{P} = \mathbf{M}\mathbf{A}, &amp; o = 1 \end{array} \]
@@ -9022,8 +9022,8 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 </div><div class="memdoc">
 
 <p>Computes the product of the given affine and mesh transforms in place, ie the mesh transform has it's displacements overwritten. </p>
-<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">            Given a mesh transform \form#155 and an affine
-            transform \form#62. The product \form#156
+<dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">            Given a mesh transform \form#156 and an affine
+            transform \form#62. The product \form#157
             can be evaluated as:
 </pre> <p class="formulaDsp">
 \[ \begin{array}{ll} \mathbf{P} = \mathbf{A}\mathbf{M}, &amp; o = 0 \\ \mathbf{P} = \mathbf{M}\mathbf{A}, &amp; o = 1 \end{array} \]
@@ -11239,8 +11239,8 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 
 </div>
 </div>
-<a id="ga1113c02ac9b7c85b045957c716aaacf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1113c02ac9b7c85b045957c716aaacf7">&#9670;&nbsp;</a></span>WlzRegICPObjsGrd()</h2>
+<a id="ga393fdb3c63e0cf3ea55cba4bb85a4ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">&#9670;&nbsp;</a></span>WlzRegICPObjsGrd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11308,6 +11308,12 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>noNrm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>delta</em>, </td>
         </tr>
@@ -11345,6 +11351,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
     <tr><td class="paramname">dstConv</td><td>Destination ptr for the convergence flag (non zero on convergence), may be NULL. </td></tr>
     <tr><td class="paramname">dstItr</td><td>Destination ptr for the number of iterations, may be NULL. </td></tr>
     <tr><td class="paramname">maxItr</td><td>Maximum number of iterations, if &lt;= 0 then infinite iterations are allowed. </td></tr>
+    <tr><td class="paramname">noNrm</td><td>Don't weight using normals if non-zero. </td></tr>
     <tr><td class="paramname">delta</td><td>Tolerance for mean value of registration metric. </td></tr>
     <tr><td class="paramname">minDistWgt</td><td>Minimum distance weighting. </td></tr>
     <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
@@ -11356,8 +11363,8 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 
 </div>
 </div>
-<a id="ga9b17e54537784364538a79e54cfb38b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b17e54537784364538a79e54cfb38b6">&#9670;&nbsp;</a></span>WlzRegICPObjs()</h2>
+<a id="gaf3c3aaf418e868d7165855051b7fb485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf3c3aaf418e868d7165855051b7fb485">&#9670;&nbsp;</a></span>WlzRegICPObjs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -11407,6 +11414,12 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>noNrm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>delta</em>, </td>
         </tr>
@@ -11441,6 +11454,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
     <tr><td class="paramname">dstConv</td><td>Destination ptr for the convergence flag (non zero on convergence), may be NULL. </td></tr>
     <tr><td class="paramname">dstItr</td><td>Destination ptr for the number of iterations, may be NULL. </td></tr>
     <tr><td class="paramname">maxItr</td><td>Maximum number of iterations, if &lt;= 0 then infinite iterations are allowed. </td></tr>
+    <tr><td class="paramname">noNrm</td><td>Don't weight using normals if non-zero. </td></tr>
     <tr><td class="paramname">delta</td><td>Tolerance for mean value of registration metric. </td></tr>
     <tr><td class="paramname">minDistWgt</td><td>Minimum distance weighting. </td></tr>
     <tr><td class="paramname">dstErr</td><td>Destination error pointer, may be NULL. </td></tr>
@@ -11448,7 +11462,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="union__WlzDomain.html#aa648d360b814c0c0c3bf8825869e3dbb">_WlzDomain::ctr</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="struct__WlzContour.html#a20cbbc0d6e728496b4c3be77032c5fe1">_WlzContour::model</a>, <a class="el" href="struct__WlzGMModel.html#a18ff1c69bd19f2b13c33d253c749a90e">_WlzGMModel::type</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aad54487d10fe4650e520ee69195f9a12">WLZ_CONTOUR</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a2a2ba15ad1ba5029f09f92fcd682e7a6">WLZ_ERR_OBJECT_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a6abafc541b8e9ac1efccc23239c831b0">WLZ_ERR_PARAM_TYPE</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a9e50596557e6b793675bd8b1b3d7ba3f">WLZ_GMMOD_2N</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a83a63f0991f5b9d239e9a720be97cf1d">WLZ_GMMOD_3N</a>, and <a class="el" href="group__WlzFeatures.html#gaee1baab84a4aadb514e48de55ee27c03">WlzVerticesFromObj()</a>.</p>
+<p class="reference">References <a class="el" href="union__WlzDomain.html#aa648d360b814c0c0c3bf8825869e3dbb">_WlzDomain::ctr</a>, <a class="el" href="struct__WlzObject.html#a956af6df28adce2cc249f116c5d01e9a">_WlzObject::domain</a>, <a class="el" href="struct__WlzContour.html#a20cbbc0d6e728496b4c3be77032c5fe1">_WlzContour::model</a>, <a class="el" href="struct__WlzGMModel.html#a18ff1c69bd19f2b13c33d253c749a90e">_WlzGMModel::type</a>, <a class="el" href="struct__WlzObject.html#a59839f0602baa33aec62470a3036f06f">_WlzObject::type</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="WlzType_8h.html#ga72750e155d8197e84cea681e08625c36aad54487d10fe4650e520ee69195f9a12">WLZ_CONTOUR</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a2a2ba15ad1ba5029f09f92fcd682e7a6">WLZ_ERR_OBJECT_NULL</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4a6abafc541b8e9ac1efccc23239c831b0">WLZ_ERR_PARAM_TYPE</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a9bac02246faa23d3b5f920fd5183b3f6">WLZ_GMMOD_2D</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a9e50596557e6b793675bd8b1b3d7ba3f">WLZ_GMMOD_2N</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a1026b4758bae0623dcec58e78c3da306">WLZ_GMMOD_3D</a>, <a class="el" href="WlzType_8h.html#gad7d912ee71614c948d406edd22f11305a83a63f0991f5b9d239e9a720be97cf1d">WLZ_GMMOD_3N</a>, and <a class="el" href="group__WlzFeatures.html#gaee1baab84a4aadb514e48de55ee27c03">WlzVerticesFromObj()</a>.</p>
 
 </div>
 </div>
@@ -11550,7 +11564,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
       </table>
 </div><div class="memdoc">
 
-<p>Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations. </p>
+<p>Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations. </p>
 <dl class="section return"><dt>Returns</dt><dd>3D Woolz domain object.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -11712,7 +11726,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 
 <p class="reference">References <a class="el" href="group__AlcAlloc.html#ga588bedeb521cd8de95c6e0a65aa5c339">AlcMalloc()</a>, <a class="el" href="struct__WlzRegICPWSp.html#a0f2b10b4aada48636e0a0ce4b51ac681">_WlzRegICPWSp::curMetric</a>, <a class="el" href="struct__WlzRegICPWSp.html#a9ca758e5951005490039e857d1cc2a34">_WlzRegICPWSp::curTr</a>, <a class="el" href="union__WlzVertexP.html#a35132a1f2be6de93100d8172e205b4b0">_WlzVertexP::d2</a>, <a class="el" href="union__WlzVertexP.html#ac00c99cf9dfff102829f282385781f48">_WlzVertexP::d3</a>, <a class="el" href="struct__WlzRegICPWSp.html#a68ef8d29e76c71cb32e5d61eb0da457b">_WlzRegICPWSp::delta</a>, <a class="el" href="struct__WlzRegICPWSp.html#a3e23333c85a370ca54252d2820697802">_WlzRegICPWSp::dist</a>, <a class="el" href="struct__WlzRegICPWSp.html#abdccd9027dbf280aeca4a952e515cda8">_WlzRegICPWSp::gSNr</a>, <a class="el" href="struct__WlzRegICPWSp.html#aa4ccef5edec2185a223dd298b6340e99">_WlzRegICPWSp::gSVx</a>, <a class="el" href="struct__WlzRegICPWSp.html#a39e5892735ffcf21b2c2d34bfc29ff9b">_WlzRegICPWSp::gTNr</a>, <a class="el" href="struct__WlzRegICPWSp.html#a4855df28d4b55b66f7fab95ce010a129">_WlzRegICPWSp::gTVx</a>, <a class="el" href="struct__WlzRegICPWSp.html#abdb87ccc8429d146a6e2c863c6e76082">_WlzRegICPWSp::itr</a>, <a class="el" href="struct__WlzRegICPWSp.html#a6462c44462ca07f18673058e2c5a8e42">_WlzRegICPWSp::maxDist</a>, <a class="el" href="struct__WlzRegICPWSp.html#a5e3339d07d1e8799eb023136ef3eea27">_WlzRegICPWSp::nMatch</a>, <a class="el" href="struct__WlzRegICPWSp.html#ac5069a789df09c00c2f3dd53f9e461b3">_WlzRegICPWSp::nNTVx</a>, <a class="el" href="struct__WlzRegICPWSp.html#a0e1e51897b747d9716b03d83f86365e0">_WlzRegICPWSp::nS</a>, <a class="el" href="struct__WlzRegICPWSp.html#a1fa434eb9add42420c2706a28b6e3108">_WlzRegICPWSp::nT</a>, <a class="el" href="struct__WlzRegICPWSp.html#aad5cb29cc80930108a4074a8d2fb14e3">_WlzRegICPWSp::prvMetric</a>, <a class="el" href="struct__WlzRegICPWSp.html#ad6e42db5c77894f36c61671f635c4920">_WlzRegICPWSp::prvTr</a>, <a class="el" href="struct__WlzRegICPWSp.html#a7d51f378d3cbeafa0a22e575a03f9f03">_WlzRegICPWSp::sgnNrm</a>, <a class="el" href="struct__WlzRegICPWSp.html#a262990df00d2a44b03e5100ca9b90c9d">_WlzRegICPWSp::sNN</a>, <a class="el" href="struct__WlzRegICPWSp.html#ae043867628f7c7565ed6382334912149">_WlzRegICPWSp::tSNr</a>, <a class="el" href="struct__WlzRegICPWSp.html#a2f8303f81d8f4d7b5927e1f56e08fa14">_WlzRegICPWSp::tSVx</a>, <a class="el" href="struct__WlzRegICPWSp.html#a9942f942664055d054b02755dce47fbe">_WlzRegICPWSp::tTree</a>, <a class="el" href="union__WlzVertexP.html#a85ff21e0fa54d4231bc861412689e5c7">_WlzVertexP::v</a>, <a class="el" href="struct__WlzRegICPWSp.html#a2c53cc33157f6f7e6dcd6cadeb8d1e45">_WlzRegICPWSp::vType</a>, <a class="el" href="struct__WlzRegICPWSp.html#a5c0d8b0f0a18fa60b1ba06fb49dd9fe4">_WlzRegICPWSp::wgt</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4af1f0deec30a46705f4e3225b0ee1fe2b">WLZ_ERR_MEM_ALLOC</a>, <a class="el" href="WlzError_8h.html#ga3b29b91e18b64203e4833073c282e7f4aa85e902ff66ba6e9ca542bc3a0c55b7a">WLZ_ERR_NONE</a>, <a class="el" href="WlzMacro_8h.html#a6d9fbc06d8bd6d3269491414c5ceadd8">WLZ_MAX</a>, <a class="el" href="WlzMacro_8h.html#aa6d1ac02b6f9031917fb82bb37a9aacd">WLZ_MIN</a>, <a class="el" href="WlzType_8h.html#gac4c41ac9fd5ef5696471195b0d96ce0ea34f93967a238ce0ded077541b97311ec">WLZ_TRANSFORM_2D_AFFINE</a>, <a class="el" href="WlzType_8h.html#gac4c41ac9fd5ef5696471195b0d96ce0eadc3f1094d0d823ed5ab08c1e951c4f0f">WLZ_TRANSFORM_3D_AFFINE</a>, <a class="el" href="WlzType_8h.html#ga8773ab756ebba7730492225889d3c445ae533d4339e8bd9959173521308a40856">WLZ_VERTEX_D2</a>, <a class="el" href="group__WlzTransform.html#ga2b75dd10bbc75567ee2e09ae3e7c88d7">WlzAffineTransformCopy()</a>, and <a class="el" href="group__WlzTransform.html#ga2556307db21e786576923d1ccb00d6d0">WlzMakeAffineTransform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="group__WlzTransform.html#ga1113c02ac9b7c85b045957c716aaacf7">WlzRegICPObjsGrd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="group__WlzTransform.html#ga393fdb3c63e0cf3ea55cba4bb85a4ef2">WlzRegICPObjsGrd()</a>.</p>
 
 </div>
 </div>
@@ -11850,7 +11864,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
       </table>
 </div><div class="memdoc">
 
-<p>Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#ga9b17e54537784364538a79e54cfb38b6" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations. </p>
+<p>Computes a 3D domain object in which the double precission values are the weighted sums of distances as used by <a class="el" href="group__WlzTransform.html#gaf3c3aaf418e868d7165855051b7fb485" title="Registers the two given objects using the iterative closest point algorithm. An affine transform is c...">WlzRegICPObjs()</a>. Thehese values are computed for the given range of translations and rotations. </p>
 <dl class="section return"><dt>Returns</dt><dd>3D Woolz domain object.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -12500,7 +12514,7 @@ Compute the translation vector \(\mathbf{t}\) and rotation matrix \(\mathbf{R}\)
 <dl class="section return"><dt>Returns</dt><dd>Woolz error code. <pre class="fragment">    The algorithm used is:
       -# Get vertices from target and source object.
               -# Select those target vertices such that for any pair of
-         target vertices \form#572 and
+         target vertices \form#573 and
 </pre> \(\mathbf{v_j}\) the separation distance \(|\mathbf{v_i} - \mathbf{v_j}| &lt; d_t \forall i,j\)<ol type="1">
 <li>For each source vertex find the closest target vertex and add those source vertices for which \(|\mathbf{v_{ti}} - \mathbf{v_{si}}| \leq d_c\) to a list of correspondences.</li>
 <li>Reject all correspondences for which \(|\mathbf{v_i} - \mathbf{v_j}| &lt; d_s \forall i,j\), where \(\mathbf{v_i}\) and \(\mathbf{v_j}\) are the corresponding source vertices, keeping those with the minimum target-source separation by preference.</li>

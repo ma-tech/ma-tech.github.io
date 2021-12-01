@@ -12,6 +12,7 @@ var group__WlzExtFF =
     [ "WlzExtFFIcs.c", "WlzExtFFIcs_8c.html", null ],
     [ "WlzExtFFIPL.c", "WlzExtFFIPL_8c.html", null ],
     [ "WlzExtFFJpeg.c", "WlzExtFFJpeg_8c.html", null ],
+    [ "WlzExtFFJSON.c", "WlzExtFFJSON_8c.html", null ],
     [ "WlzExtFFMesh.c", "WlzExtFFMesh_8c.html", null ],
     [ "WlzExtFFNifti.c", "WlzExtFFNifti_8c.html", null ],
     [ "WlzExtFFNodeEle.c", "WlzExtFFNodeEle_8c.html", null ],
@@ -149,6 +150,7 @@ var group__WlzExtFF =
       [ "WLZEFF_FORMAT_STL", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda79cb26a72dc5b2a932d24ec28f57a8be", null ],
       [ "WLZEFF_FORMAT_PVL", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda975ad72c577e19925081b2a4afba52f2", null ],
       [ "WLZEFF_FORMAT_NRRD", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda58fe09cd52f20259a0615bf681e2ef3c", null ],
+      [ "WLZEFF_FORMAT_JSON", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda99c6781e80a27414c7ebb36cde0d4bb5", null ],
       [ "WLZEFF_FORMAT_COUNT", "WlzExtFFType_8h.html#ga42e95b93fc874982b5c376f9b1be92fda6cbe8b3753d2273148b0db181368c0da", null ]
     ] ],
     [ "_WlzEffAmToken", "group__WlzExtFF.html#ga8eebc28781dbc7454c204ea89abf1b86", [
@@ -261,6 +263,8 @@ var group__WlzExtFF =
     [ "WlzEffHeadWriteIPL", "group__WlzExtFF.html#ga472d42e972ab08a9cb0e1bb670fcb39e", null ],
     [ "WlzEffReadObjJpeg", "group__WlzExtFF.html#ga6374d64c6d30547adfb0d310787bd9a1", null ],
     [ "WlzEffWriteObjJpeg", "group__WlzExtFF.html#ga774596d6568a6aa2795c1809a049fa46", null ],
+    [ "WlzEffReadObjJsn", "group__WlzExtFF.html#gaad00ccade5cff3bb78e4b0c0f3d3bbca", null ],
+    [ "WlzEffWriteObjJsn", "group__WlzExtFF.html#gadc32863d1b25e254fb6bc246aa75ab66", null ],
     [ "WlzEffReadObjMesh", "group__WlzExtFF.html#gaaabf121ee63ec63ade984ef06b61b3fd", null ],
     [ "WlzEffWriteObjMesh", "group__WlzExtFF.html#gadcbfe4c96af3f9abb9cb36bef8483141", null ],
     [ "WlzEffReadObjNifti", "group__WlzExtFF.html#ga60cba8b127a3064d9fc20ca412304954", null ],
