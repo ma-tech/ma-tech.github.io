@@ -13643,10 +13643,10 @@ const ShaderLib = {
 
 		uniforms: mergeUniforms( [
 			UniformsLib.common,
-//			UniformsLib.specularmap,
-//			UniformsLib.envmap,
+			UniformsLib.specularmap,
+			UniformsLib.envmap,
 			UniformsLib.aomap,
-//			UniformsLib.lightmap,
+			UniformsLib.lightmap,
 			UniformsLib.fog
 		] ),
 

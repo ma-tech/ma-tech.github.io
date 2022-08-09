@@ -18,6 +18,8 @@
 
 import * as THREE from './three.module.js';
 
+/* globals console */
+
 class MAVTKLoader extends THREE.Loader {
   constructor(manager) {
     super(manager);
@@ -138,7 +140,7 @@ class MAVTKLoader extends THREE.Loader {
 	if((result = pattern.exec(data)) !== null) {
 	  if(result[1] === 'POLYGONS') {
 	    n_polys = parseInt(result[2]);
-	    var n_poly_points = parseInt(result[3]);
+	    let n_poly_points = parseInt(result[3]);
 	    n_dpp = n_poly_points / n_polys;
 	  } else {
 	    result = null;
@@ -152,7 +154,7 @@ class MAVTKLoader extends THREE.Loader {
 	if(n_polys > 0) {
 	  if(n_dpp === 4) {
 	    // 3 <uint> <uint> <uint>
-	    var reg_index = pattern.lastIndex;
+	    let reg_index = pattern.lastIndex;
 	    pattern = /3[\s]+([\d]+)[\s]+([\d]+)[\s]+([\d]+)/g;
 	    pattern.lastIndex = reg_index;
 	    for(idx = 0; idx < n_polys; ++idx) {
@@ -167,7 +169,7 @@ class MAVTKLoader extends THREE.Loader {
 	    }
 	  } else if(n_dpp === 5) {
 	    // 4 <uint> <uint> <uint> <uint>
-	    var reg_index = pattern.lastIndex;
+	    let reg_index = pattern.lastIndex;
 	    pattern = /4[\s]+([\d]+)[\s]+([\d]+)[\s]+([\d]+)[\s]+([\d]+)/g;
 	    pattern.lastIndex = reg_index;
 	    for(idx = 0; idx < n_polys; ++idx) {
@@ -194,7 +196,7 @@ class MAVTKLoader extends THREE.Loader {
 	    if((result[1] === 'POINT_DATA') && (Number(result[2]) == n_points)) {
 	      // SCALARS name <type>
 	      ++line;
-	      var reg_index = pattern.lastIndex;
+	      let reg_index = pattern.lastIndex;
 	      pattern = /(SCALARS)[\s]+([\S]+)[\s]+([\S]+)/g;
 	      pattern.lastIndex = reg_index;
 	      if(((result = pattern.exec(data)) === null) ||
@@ -219,7 +221,7 @@ class MAVTKLoader extends THREE.Loader {
 		    if((result = pattern.exec(data)) === null) {
 		      break;
 		    } else {
-		      var a = (point_type === 'C')?
+		      let a = (point_type === 'C')?
 			parseInt(result[1]) / 255.0:
 			parseFloat(result[1]);
 		      if(a < 0.0) {
@@ -228,7 +230,7 @@ class MAVTKLoader extends THREE.Loader {
 			a = 1.0;
 		      }
 		      colors.push(a, a, a);
-		      var aa = ((a * a) + 0.1) / 1.1;
+		      let aa = ((a * a) + 0.1) / 1.1;
 		      opacities.push(a);
 		      sizes.push(aa);
 		    }
